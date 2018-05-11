@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LDLN030G33R
+D LDO Voltage Regulators 300 mA ultra-low noise LDO with Power Good and Soft Start
+$ENDCMP
+#
+$CMP STM32F767VIT6
+D LQFP-100
+$ENDCMP
+#
+#End Doc Library
