@@ -164,52 +164,6 @@ Wire Wire Line
 Wire Wire Line
 	2400 2600 2100 2600
 Connection ~ 2100 2600
-Wire Wire Line
-	1600 3050 1800 3050
-Wire Wire Line
-	1600 3100 1600 3050
-Connection ~ 1600 3050
-Wire Wire Line
-	1450 3050 1600 3050
-Wire Wire Line
-	1600 3400 1600 3500
-Connection ~ 2100 3500
-Wire Wire Line
-	1600 3500 2100 3500
-$Comp
-L Device:R R?
-U 1 1 5B1B03D2
-P 1600 3250
-F 0 "R?" H 1670 3296 50  0000 L CNN
-F 1 "100K" H 1670 3205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1530 3250 50  0001 C CNN
-F 3 "~" H 1600 3250 50  0001 C CNN
-	1    1600 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1600 1400 1800 1400
-Wire Wire Line
-	1450 1400 1600 1400
-Connection ~ 1600 1400
-Wire Wire Line
-	1600 1450 1600 1400
-Connection ~ 2100 1850
-Wire Wire Line
-	1600 1850 2100 1850
-Wire Wire Line
-	1600 1750 1600 1850
-$Comp
-L Device:R R?
-U 1 1 5B1A82F4
-P 1600 1600
-F 0 "R?" H 1670 1646 50  0000 L CNN
-F 1 "100K" H 1670 1555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1530 1600 50  0001 C CNN
-F 3 "~" H 1600 1600 50  0001 C CNN
-	1    1600 1600
-	1    0    0    -1  
-$EndComp
 $Comp
 L remram-custom:BUK9840-55 Q?
 U 1 1 5B1FB146
@@ -227,7 +181,7 @@ U 1 1 5B1FB287
 P 4200 1400
 F 0 "R?" V 3993 1400 50  0000 C CNN
 F 1 "100" V 4084 1400 50  0000 C CNN
-F 2 "" V 4130 1400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4130 1400 50  0001 C CNN
 F 3 "~" H 4200 1400 50  0001 C CNN
 	1    4200 1400
 	0    1    1    0   
@@ -236,26 +190,6 @@ Text HLabel 3950 1400 0    50   Input ~ 0
 PWM_FAN1
 Wire Wire Line
 	3950 1400 4050 1400
-Wire Wire Line
-	4450 1750 4450 1850
-$Comp
-L Device:R R?
-U 1 1 5B1FCA24
-P 4450 1600
-F 0 "R?" H 4520 1646 50  0000 L CNN
-F 1 "100K" H 4520 1555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4380 1600 50  0001 C CNN
-F 3 "~" H 4450 1600 50  0001 C CNN
-	1    4450 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4350 1400 4450 1400
-Wire Wire Line
-	4450 1450 4450 1400
-Connection ~ 4450 1400
-Wire Wire Line
-	4450 1400 4550 1400
 $Comp
 L power:GNDPWR #PWR?
 U 1 1 5B1FD93D
@@ -267,9 +201,6 @@ F 3 "" H 4850 1800 50  0001 C CNN
 	1    4850 1850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4450 1850 4850 1850
-Connection ~ 4850 1850
 Text HLabel 5150 950  2    50   Output ~ 0
 FAN1_OUT
 Text HLabel 4250 950  0    50   Output ~ 0
@@ -313,7 +244,7 @@ U 1 1 5B2008D0
 P 4150 3100
 F 0 "R?" V 3943 3100 50  0000 C CNN
 F 1 "100" V 4034 3100 50  0000 C CNN
-F 2 "" V 4080 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4080 3100 50  0001 C CNN
 F 3 "~" H 4150 3100 50  0001 C CNN
 	1    4150 3100
 	0    1    1    0   
@@ -322,26 +253,6 @@ Text HLabel 3900 3100 0    50   Input ~ 0
 PWM_FAN1
 Wire Wire Line
 	3900 3100 4000 3100
-Wire Wire Line
-	4400 3450 4400 3550
-$Comp
-L Device:R R?
-U 1 1 5B2008DA
-P 4400 3300
-F 0 "R?" H 4470 3346 50  0000 L CNN
-F 1 "100K" H 4470 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 3300 50  0001 C CNN
-F 3 "~" H 4400 3300 50  0001 C CNN
-	1    4400 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4300 3100 4400 3100
-Wire Wire Line
-	4400 3150 4400 3100
-Connection ~ 4400 3100
-Wire Wire Line
-	4400 3100 4500 3100
 $Comp
 L power:GNDPWR #PWR?
 U 1 1 5B2008E5
@@ -353,9 +264,6 @@ F 3 "" H 4800 3500 50  0001 C CNN
 	1    4800 3550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4400 3550 4800 3550
-Connection ~ 4800 3550
 Text HLabel 5100 2650 2    50   Output ~ 0
 FAN2_OUT
 Text HLabel 4200 2650 0    50   Output ~ 0
@@ -398,4 +306,12 @@ Wire Notes Line
 	3400 3750 3400 650 
 Wire Notes Line
 	3400 650  5650 650 
+Wire Wire Line
+	4350 1400 4550 1400
+Wire Wire Line
+	4300 3100 4500 3100
+Wire Wire Line
+	1450 1400 1800 1400
+Wire Wire Line
+	1450 3050 1800 3050
 $EndSCHEMATC
