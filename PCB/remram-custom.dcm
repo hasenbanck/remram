@@ -1,11 +1,24 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BUK9840-55
+D N-channel TrenchMOS logic level FET
+K N-Channel MOSFET Logic-Level
+F https://www.mouser.de/datasheet/2/916/BUK9840-55-1320170.pdf
+$ENDCMP
+#
 $CMP LDLN030G33R
 D LDO Voltage Regulators 300 mA ultra-low noise LDO with Power Good and Soft Start
 $ENDCMP
 #
-$CMP STM32F767VIT6
+$CMP PSMN1R8-40YLC,115
+D N-CHANNEL, MOSFET, LFPAK, SOT669
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/PSMN1R8-40YLC.pdf
+$ENDCMP
+#
+$CMP STM32F765VIT6
 D LQFP-100
+F http://www.st.com/resource/en/reference_manual/dm00224583.pdf
 $ENDCMP
 #
 $CMP TPS54308
