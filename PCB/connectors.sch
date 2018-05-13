@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 4 9
 Title "Connectors"
 Date ""
 Rev ""
@@ -458,10 +458,6 @@ Wire Notes Line
 	600  4000 4800 4000
 Text Notes 1750 2450 0    50   ~ 0
 Endstops
-Text HLabel 2200 2600 0    50   Output ~ 0
-X_MAX
-Text HLabel 1000 2600 0    50   Output ~ 0
-X_MIN
 $Comp
 L power:GND #PWR?
 U 1 1 5B171AAF
@@ -512,10 +508,6 @@ F 3 "~" H 2400 2700 50  0001 C CNN
 	1    2400 2700
 	1    0    0    -1  
 $EndComp
-Text HLabel 2200 3000 0    50   Output ~ 0
-Y_MAX
-Text HLabel 1000 3000 0    50   Output ~ 0
-Y_MIN
 $Comp
 L power:GND #PWR?
 U 1 1 5B171ACF
@@ -564,10 +556,6 @@ F 3 "~" H 2400 3100 50  0001 C CNN
 	1    2400 3100
 	1    0    0    -1  
 $EndComp
-Text HLabel 2200 3400 0    50   Output ~ 0
-Z_MAX
-Text HLabel 1000 3400 0    50   Output ~ 0
-Z_MIN
 $Comp
 L power:GND #PWR?
 U 1 1 5B171AED
@@ -952,13 +940,13 @@ MCU_MISO
 Text HLabel 9650 2000 0    50   Output ~ 0
 MCU_MOSI
 Text HLabel 9650 2100 0    50   Output ~ 0
-MCU_SSM1
+MCU_SSX
 Text HLabel 9650 2200 0    50   Output ~ 0
-MCU_SSM2
+MCU_SSY
 Text HLabel 9650 2300 0    50   Output ~ 0
-MCU_SSM3
+MCU_SSZ
 Text HLabel 9650 2400 0    50   Output ~ 0
-MCU_SSM4
+MCU_SSE
 Text HLabel 9650 2500 0    50   Output ~ 0
 MCU_SSSD
 $Comp
@@ -1305,13 +1293,13 @@ MISO
 Text HLabel 10450 1800 2    50   Input ~ 0
 SCK
 Text HLabel 10450 2100 2    50   Input ~ 0
-SSM1
+SSX
 Text HLabel 10450 2200 2    50   Input ~ 0
-SSM2
+SSY
 Text HLabel 10450 2300 2    50   Input ~ 0
-SSM3
+SSZ
 Text HLabel 10450 2400 2    50   Input ~ 0
-SSM4
+SSE
 Text Label 10450 2500 0    50   ~ 0
 SSSD
 Text Label 7350 3950 0    50   ~ 0
@@ -1378,72 +1366,6 @@ Text Label 4650 1200 0    50   ~ 0
 SSSD
 Text HLabel 4150 1100 0    50   Output ~ 0
 MISO
-$Comp
-L Mechanical:Mounting_Hole_PAD MK?
-U 1 1 5B1F12A4
-P 6950 5600
-F 0 "MK?" H 7050 5651 50  0000 L CNN
-F 1 "Mounting_Hole_PAD" H 7050 5560 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5.3mm_M5_ISO14580_Pad" H 6950 5600 50  0001 C CNN
-F 3 "" H 6950 5600 50  0001 C CNN
-	1    6950 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:Mounting_Hole_PAD MK?
-U 1 1 5B1F12AB
-P 8150 5600
-F 0 "MK?" H 8250 5651 50  0000 L CNN
-F 1 "Mounting_Hole_PAD" H 8250 5560 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5.3mm_M5_ISO14580_Pad" H 8150 5600 50  0001 C CNN
-F 3 "" H 8150 5600 50  0001 C CNN
-	1    8150 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:Mounting_Hole_PAD MK?
-U 1 1 5B1F12B2
-P 9200 5600
-F 0 "MK?" H 9300 5651 50  0000 L CNN
-F 1 "Mounting_Hole_PAD" H 9300 5560 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5.3mm_M5_ISO14580_Pad" H 9200 5600 50  0001 C CNN
-F 3 "" H 9200 5600 50  0001 C CNN
-	1    9200 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:Mounting_Hole_PAD MK?
-U 1 1 5B1F12B9
-P 10200 5600
-F 0 "MK?" H 10300 5651 50  0000 L CNN
-F 1 "Mounting_Hole_PAD" H 10300 5560 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5.3mm_M5_ISO14580_Pad" H 10200 5600 50  0001 C CNN
-F 3 "" H 10200 5600 50  0001 C CNN
-	1    10200 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDPWR #PWR?
-U 1 1 5B1F12C0
-P 8800 5700
-F 0 "#PWR?" H 8800 5500 50  0001 C CNN
-F 1 "GNDPWR" H 8800 5550 50  0000 C CNN
-F 2 "" H 8800 5650 50  0001 C CNN
-F 3 "" H 8800 5650 50  0001 C CNN
-	1    8800 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10200 5700 9200 5700
-Connection ~ 8150 5700
-Wire Wire Line
-	8150 5700 6950 5700
-Connection ~ 8800 5700
-Wire Wire Line
-	8800 5700 8150 5700
-Connection ~ 9200 5700
-Wire Wire Line
-	9200 5700 8800 5700
 Wire Wire Line
 	1250 4600 2000 4600
 Wire Wire Line
@@ -1582,17 +1504,6 @@ F 3 "~" H 6100 6150 50  0001 C CNN
 	1    5900 6150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Specialized:Test_Point TP?
-U 1 1 5B0144BF
-P 5900 5550
-F 0 "TP?" H 5958 5670 50  0000 L CNN
-F 1 "FAN1-" H 5958 5579 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6100 5550 50  0001 C CNN
-F 3 "~" H 6100 5550 50  0001 C CNN
-	1    5900 5550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5650 5650 5650 5550
 Wire Wire Line
@@ -1625,4 +1536,38 @@ Wire Notes Line
 	6650 5350 6650 6600
 Wire Notes Line
 	5150 5350 5150 6600
+$Comp
+L Connector_Specialized:Test_Point TP?
+U 1 1 5B068C7B
+P 5900 5550
+F 0 "TP?" H 5958 5670 50  0000 L CNN
+F 1 "FAN1-" H 5958 5579 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6100 5550 50  0001 C CNN
+F 3 "~" H 6100 5550 50  0001 C CNN
+	1    5900 5550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4650 1500
+NoConn ~ 4150 1500
+NoConn ~ 10450 4550
+NoConn ~ 10450 4650
+NoConn ~ 9650 4650
+NoConn ~ 9650 4550
+NoConn ~ 7350 4650
+NoConn ~ 6550 4650
+NoConn ~ 5550 7350
+NoConn ~ 6050 7350
+NoConn ~ 6050 7250
+Text Label 1000 2600 2    50   ~ 0
+X_MAX
+Text Label 1000 3000 2    50   ~ 0
+Y_MAX
+Text Label 1000 3400 2    50   ~ 0
+Z_MAX
+Text Label 2200 2600 2    50   ~ 0
+X_MIN
+Text Label 2200 3000 2    50   ~ 0
+Y_MIN
+Text Label 2200 3400 2    50   ~ 0
+Z_MIN
 $EndSCHEMATC

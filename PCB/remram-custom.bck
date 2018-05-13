@@ -1,9 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP BUK9840-55
-D 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92
+D N-channel TrenchMOS logic level FET
 K N-Channel MOSFET Logic-Level
-F https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf
+F https://www.mouser.de/datasheet/2/916/BUK9840-55-1320170.pdf
 $ENDCMP
 #
 $CMP LDLN030G33R
@@ -19,6 +19,11 @@ $ENDCMP
 $CMP STM32F765VIT6
 D LQFP-100
 F http://www.st.com/resource/en/reference_manual/dm00224583.pdf
+$ENDCMP
+#
+$CMP TMC2130-TA
+D Stepper Driver
+F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2130_datasheet.pdf
 $ENDCMP
 #
 $CMP TPS54308

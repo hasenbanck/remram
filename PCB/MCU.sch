@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 9
 Title "MCU"
 Date ""
 Rev ""
@@ -449,46 +449,44 @@ Connection ~ 4750 2850
 $Comp
 L Switch:SW_Push SW?
 U 1 1 5AF60A7F
-P 3900 3650
-F 0 "SW?" H 3900 3935 50  0000 C CNN
-F 1 "PTS645VL39-2" H 3900 3844 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS" H 3900 3850 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/60/-1131575.pdf" H 3900 3850 50  0001 C CNN
-	1    3900 3650
+P 3350 3650
+F 0 "SW?" H 3350 3935 50  0000 C CNN
+F 1 "PTS645VL39-2" H 3350 3844 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS" H 3350 3850 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/60/-1131575.pdf" H 3350 3850 50  0001 C CNN
+	1    3350 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5AF616AA
-P 3450 3650
-F 0 "#PWR?" H 3450 3400 50  0001 C CNN
-F 1 "GND" H 3455 3477 50  0000 C CNN
-F 2 "" H 3450 3650 50  0001 C CNN
-F 3 "" H 3450 3650 50  0001 C CNN
-	1    3450 3650
+P 2900 3650
+F 0 "#PWR?" H 2900 3400 50  0001 C CNN
+F 1 "GND" H 2905 3477 50  0000 C CNN
+F 2 "" H 2900 3650 50  0001 C CNN
+F 3 "" H 2900 3650 50  0001 C CNN
+	1    2900 3650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3450 3650 3700 3650
+	2900 3650 3150 3650
 $Comp
 L Device:C C?
 U 1 1 5AF62329
-P 3900 4000
-F 0 "C?" V 4152 4000 50  0000 C CNN
-F 1 "100nF" V 4061 4000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3938 3850 50  0001 C CNN
-F 3 "~" H 3900 4000 50  0001 C CNN
-	1    3900 4000
+P 3350 4000
+F 0 "C?" V 3602 4000 50  0000 C CNN
+F 1 "100nF" V 3511 4000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3388 3850 50  0001 C CNN
+F 3 "~" H 3350 4000 50  0001 C CNN
+	1    3350 4000
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4050 4000 4250 4000
+	3500 4000 3700 4000
 Wire Wire Line
-	4250 3650 4100 3650
+	2900 3650 2900 4000
 Wire Wire Line
-	3450 3650 3450 4000
-Wire Wire Line
-	3450 4000 3750 4000
+	2900 4000 3200 4000
 $Comp
 L power:GND #PWR?
 U 1 1 5AF66D47
@@ -534,8 +532,6 @@ Connection ~ 5200 4250
 Wire Wire Line
 	4850 4350 5200 4350
 Connection ~ 5200 4350
-Text Label 6500 3650 2    50   ~ 0
-nRESET
 Text HLabel 6650 3750 0    50   Input ~ 0
 THERM_1
 Text HLabel 6650 3850 0    50   Input ~ 0
@@ -547,13 +543,10 @@ MCU_SDA
 Text Label 7850 1950 1    50   ~ 0
 MCU_SCL
 Text HLabel 9050 5150 3    50   Output ~ 0
-M3_STEP
+Z_STEP
 Text HLabel 9150 5150 3    50   Output ~ 0
-M4_STEP
-Connection ~ 3450 3650
-Wire Wire Line
-	4250 3650 4250 4000
-Connection ~ 4250 3650
+E_STEP
+Connection ~ 2900 3650
 $Comp
 L remram-custom:STM32F765VIT6 U?
 U 1 1 5AD0AB9A
@@ -803,35 +796,35 @@ MCU_DD+
 Text Label 9850 2850 0    50   ~ 0
 MCU_DD-
 Text HLabel 9150 1950 1    50   Output ~ 0
-M1_EN
+X_EN
 Text HLabel 9250 1950 1    50   Output ~ 0
-M1_DIR
+X_DIR
 Text HLabel 9050 1950 1    50   Input ~ 0
-M1_DIAG
+X_DIAG
 Text HLabel 9350 1950 1    50   Output ~ 0
-M1_STEP
+X_STEP
 Text HLabel 8150 1950 1    50   Output ~ 0
-M2_STEP
+Y_STEP
 Text HLabel 8350 1950 1    50   Output ~ 0
-M2_EN
+Y_EN
 Text HLabel 8250 1950 1    50   Output ~ 0
-M2_DIR
+Y_DIR
 Text HLabel 8450 1950 1    50   Input ~ 0
-M2_DIAG
+Y_DIAG
 Text HLabel 8550 5150 3    50   Output ~ 0
-M3_EN
+Z_EN
 Text HLabel 8650 5150 3    50   Output ~ 0
-M3_DIR
+Z_DIR
 Text HLabel 8450 5150 3    50   Input ~ 0
-M3_DIAG
+Z_DIAG
 Text GLabel 9850 2350 2    50   Input ~ 0
 VDD3V3
 Text HLabel 8850 5150 3    50   Output ~ 0
-M4_EN
+E_EN
 Text HLabel 8950 5150 3    50   Output ~ 0
-M4_DIR
+E_DIR
 Text HLabel 8750 5150 3    50   Input ~ 0
-M4_DIAG
+E_DIAG
 Wire Wire Line
 	7050 5150 7050 5250
 Wire Wire Line
@@ -864,8 +857,6 @@ Connection ~ 5600 4350
 Wire Wire Line
 	5600 4250 6650 4250
 Connection ~ 5600 4250
-Wire Wire Line
-	4250 3650 6650 3650
 Wire Wire Line
 	7650 850  7650 1950
 $Comp
@@ -1087,13 +1078,13 @@ MCU_MISO
 Text HLabel 7550 5150 3    50   Output ~ 0
 MCU_MOSI
 Text HLabel 7650 5150 3    50   Output ~ 0
-MCU_SSM1
+MCU_SSX
 Text HLabel 7750 5150 3    50   Output ~ 0
-MCU_SSM2
+MCU_SSY
 Text HLabel 7850 5150 3    50   Output ~ 0
-MCU_SSM3
+MCU_SSZ
 Text HLabel 7950 5150 3    50   Output ~ 0
-MCU_SSM4
+MCU_SSE
 Text HLabel 8050 5150 3    50   Output ~ 0
 MCU_SSSD
 Text HLabel 8250 5150 3    50   BiDi ~ 0
@@ -1154,4 +1145,41 @@ Text HLabel 6650 4550 0    50   Output ~ 0
 PWM_HEAT
 Wire Wire Line
 	5150 3450 6650 3450
+NoConn ~ 6650 2350
+NoConn ~ 6650 2450
+NoConn ~ 6650 2550
+NoConn ~ 6650 2650
+NoConn ~ 6650 2750
+NoConn ~ 6650 2950
+NoConn ~ 6650 3050
+NoConn ~ 6650 3150
+NoConn ~ 6650 4050
+NoConn ~ 7250 5150
+NoConn ~ 8950 1950
+NoConn ~ 8850 1950
+NoConn ~ 8750 1950
+NoConn ~ 8650 1950
+NoConn ~ 8550 1950
+NoConn ~ 8050 1950
+NoConn ~ 7950 1950
+NoConn ~ 7550 1950
+NoConn ~ 7450 1950
+NoConn ~ 7350 1950
+NoConn ~ 7250 1950
+Text HLabel 3700 3150 0    50   Input ~ 0
+nRESET
+Wire Wire Line
+	4250 3650 6650 3650
+Wire Wire Line
+	3700 3150 4250 3150
+Wire Wire Line
+	4250 3150 4250 3650
+Wire Wire Line
+	3550 3650 3700 3650
+Connection ~ 4250 3650
+Wire Wire Line
+	3700 4000 3700 3650
+Connection ~ 3700 3650
+Wire Wire Line
+	3700 3650 4250 3650
 $EndSCHEMATC

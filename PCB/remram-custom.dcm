@@ -21,6 +21,11 @@ D LQFP-100
 F http://www.st.com/resource/en/reference_manual/dm00224583.pdf
 $ENDCMP
 #
+$CMP TMC2130-TA
+D Stepper Driver
+F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2130_datasheet.pdf
+$ENDCMP
+#
 $CMP TPS54308
 D 3A, variable buck converter
 $ENDCMP

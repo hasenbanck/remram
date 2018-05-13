@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 9
 Title "Power"
 Date ""
 Rev ""
@@ -887,7 +887,7 @@ F 3 "~" H 1000 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 2100 6150 2    50   Input ~ 0
-VDD_HEAT
+VDD_HEATER
 Text HLabel 2100 6450 2    50   Output ~ 0
 HEAT_OUT
 $Comp
@@ -964,8 +964,75 @@ Wire Notes Line
 	700  2400 4950 2400
 Text Notes 3200 2350 2    50   ~ 0
 3V3 Power Supply
-Text GLabel 1250 1000 0    50   Input ~ 0
-PWR_IN
-Text GLabel 5550 4150 2    50   Output ~ 0
-PWR_IN
+$Comp
+L Mechanical:Mounting_Hole_PAD MK?
+U 1 1 5B0578B3
+P 2250 7250
+F 0 "MK?" H 2350 7301 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" H 2350 7210 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.3mm_M5_ISO14580_Pad" H 2250 7250 50  0001 C CNN
+F 3 "" H 2250 7250 50  0001 C CNN
+	1    2250 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole_PAD MK?
+U 1 1 5B0578BA
+P 3450 7250
+F 0 "MK?" H 3550 7301 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" H 3550 7210 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.3mm_M5_ISO14580_Pad" H 3450 7250 50  0001 C CNN
+F 3 "" H 3450 7250 50  0001 C CNN
+	1    3450 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole_PAD MK?
+U 1 1 5B0578C1
+P 4500 7250
+F 0 "MK?" H 4600 7301 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" H 4600 7210 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.3mm_M5_ISO14580_Pad" H 4500 7250 50  0001 C CNN
+F 3 "" H 4500 7250 50  0001 C CNN
+	1    4500 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole_PAD MK?
+U 1 1 5B0578C8
+P 5500 7250
+F 0 "MK?" H 5600 7301 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" H 5600 7210 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.3mm_M5_ISO14580_Pad" H 5500 7250 50  0001 C CNN
+F 3 "" H 5500 7250 50  0001 C CNN
+	1    5500 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5B0578CF
+P 4100 7350
+F 0 "#PWR?" H 4100 7150 50  0001 C CNN
+F 1 "GNDPWR" H 4100 7200 50  0000 C CNN
+F 2 "" H 4100 7300 50  0001 C CNN
+F 3 "" H 4100 7300 50  0001 C CNN
+	1    4100 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 7350 4500 7350
+Connection ~ 3450 7350
+Wire Wire Line
+	3450 7350 2250 7350
+Connection ~ 4100 7350
+Wire Wire Line
+	4100 7350 3450 7350
+Connection ~ 4500 7350
+Wire Wire Line
+	4500 7350 4100 7350
+NoConn ~ 2700 1300
+Text HLabel 5550 4150 2    50   Input ~ 0
+VDD_PWR
+Text HLabel 1250 1000 0    50   Input ~ 0
+VDD_PWR
 $EndSCHEMATC

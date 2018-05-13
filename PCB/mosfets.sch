@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 9
 Title "MOSFET"
 Date ""
 Rev ""
@@ -239,7 +239,7 @@ F 3 "~" H 4150 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text HLabel 3900 3050 0    50   Input ~ 0
-PWM_FAN1
+PWM_FAN2
 Wire Wire Line
 	3900 3050 4000 3050
 $Comp
