@@ -106,23 +106,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/tps54308.pdf" H 3250 1150 50  0001 C CNN
 	1    3250 1150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1250 1000 1550 1000
-$Comp
-L Device:C C23
-U 1 1 5AF61016
-P 1550 1150
-F 0 "C23" H 1665 1196 50  0000 L CNN
-F 1 "100uF" H 1665 1105 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 1588 1000 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/293/e-uvz-1219460.pdf" H 1550 1150 50  0001 C CNN
-F 4 "UVZ1V101MED" H 1550 1150 50  0001 C CNN "Mfr. No"
-	1    1550 1150
-	1    0    0    -1  
-$EndComp
-Connection ~ 1550 1000
-Wire Wire Line
-	1550 1000 2050 1000
 $Comp
 L Device:C C24
 U 1 1 5AF61095
@@ -512,7 +495,6 @@ Wire Wire Line
 	1550 1600 1550 1300
 Wire Wire Line
 	1550 1300 2050 1300
-Connection ~ 1550 1300
 $Comp
 L power:GNDPWR #PWR047
 U 1 1 5AF8D3AD
@@ -623,7 +605,7 @@ P 5000 4850
 F 0 "C27" H 5118 4896 50  0000 L CNN
 F 1 "100uF" H 5118 4805 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5038 4700 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Wurth-Electronics/860010573007?qs=sGAEpiMZZMvwFf0viD3Y3aZipiehufnXDo3pM9Qdgp1gvK74JBMa%252bg%3d%3d" H 5000 4850 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/293/e-uvz-1219460.pdf" H 5000 4850 50  0001 C CNN
 	1    5000 4850
 	1    0    0    -1  
 $EndComp
@@ -705,7 +687,7 @@ P 5450 5450
 F 0 "C32" H 5565 5496 50  0000 L CNN
 F 1 "100nF" H 5565 5405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1812_4532Metric" H 5488 5300 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Wurth-Electronics/885012210025?qs=sGAEpiMZZMs0AnBnWHyRQEGbLOF2VP1iAfG0rM5y1N6W8Ylp3ErKJw%3d%3d" H 5450 5450 50  0001 C CNN
+F 3 "" H 5450 5450 50  0001 C CNN
 	1    5450 5450
 	1    0    0    -1  
 $EndComp
@@ -763,7 +745,7 @@ P 5450 4850
 F 0 "C31" H 5565 4896 50  0000 L CNN
 F 1 "100nF" H 5565 4805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1812_4532Metric" H 5488 4700 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Wurth-Electronics/885012210025?qs=sGAEpiMZZMs0AnBnWHyRQEGbLOF2VP1iAfG0rM5y1N6W8Ylp3ErKJw%3d%3d" H 5450 4850 50  0001 C CNN
+F 3 "" H 5450 4850 50  0001 C CNN
 	1    5450 4850
 	1    0    0    -1  
 $EndComp
@@ -774,7 +756,7 @@ P 5450 4300
 F 0 "C30" H 5565 4346 50  0000 L CNN
 F 1 "100nF" H 5565 4255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1812_4532Metric" H 5488 4150 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Wurth-Electronics/885012210025?qs=sGAEpiMZZMs0AnBnWHyRQEGbLOF2VP1iAfG0rM5y1N6W8Ylp3ErKJw%3d%3d" H 5450 4300 50  0001 C CNN
+F 3 "" H 5450 4300 50  0001 C CNN
 	1    5450 4300
 	1    0    0    -1  
 $EndComp
@@ -799,7 +781,7 @@ P 5000 5450
 F 0 "C28" H 5118 5496 50  0000 L CNN
 F 1 "100uF" H 5118 5405 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5038 5300 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Wurth-Electronics/860010573007?qs=sGAEpiMZZMvwFf0viD3Y3aZipiehufnXDo3pM9Qdgp1gvK74JBMa%252bg%3d%3d" H 5000 5450 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/293/e-uvz-1219460.pdf" H 5000 5450 50  0001 C CNN
 	1    5000 5450
 	1    0    0    -1  
 $EndComp
@@ -1035,4 +1017,20 @@ F 3 "" H 6350 1150 50  0001 C CNN
 	1    6350 1150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1250 1000 1550 1000
+$Comp
+L Device:CP C23
+U 1 1 5AFA3BBA
+P 1550 1150
+F 0 "C23" H 1668 1196 50  0000 L CNN
+F 1 "100uF" H 1668 1105 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 1588 1000 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/293/e-uvz-1219460.pdf" H 1550 1150 50  0001 C CNN
+	1    1550 1150
+	1    0    0    -1  
+$EndComp
+Connection ~ 1550 1000
+Wire Wire Line
+	1550 1000 2050 1000
 $EndSCHEMATC
