@@ -74,7 +74,7 @@ U 1 1 5B171985
 P 3400 4450
 F 0 "TP?" H 3458 4570 50  0000 L CNN
 F 1 "THERM_1" H 3458 4479 50  0000 L CNN
-F 2 "" H 3600 4450 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3600 4450 50  0001 C CNN
 F 3 "~" H 3600 4450 50  0001 C CNN
 	1    3400 4450
 	1    0    0    -1  
@@ -85,31 +85,9 @@ U 1 1 5B17198C
 P 2000 4350
 F 0 "D?" V 1954 4429 50  0000 L CNN
 F 1 "BAT54GWJ" V 2045 4429 50  0000 L CNN
-F 2 "" H 2000 4350 50  0001 C CNN
-F 3 "~" H 2000 4350 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2000 4350 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 2000 4350 50  0001 C CNN
 	1    2000 4350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D?
-U 1 1 5B171993
-P 2000 4850
-F 0 "D?" V 1954 4929 50  0000 L CNN
-F 1 "BAT54GWJ" V 2045 4929 50  0000 L CNN
-F 2 "" H 2000 4850 50  0001 C CNN
-F 3 "~" H 2000 4850 50  0001 C CNN
-	1    2000 4850
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5B17199A
-P 1600 4600
-F 0 "R?" V 1393 4600 50  0000 C CNN
-F 1 "2k37" V 1484 4600 50  0000 C CNN
-F 2 "" V 1530 4600 50  0001 C CNN
-F 3 "~" H 1600 4600 50  0001 C CNN
-	1    1600 4600
 	0    1    1    0   
 $EndComp
 $Comp
@@ -118,7 +96,7 @@ U 1 1 5B1719A1
 P 2600 4600
 F 0 "R?" V 2393 4600 50  0000 C CNN
 F 1 "2k37" V 2484 4600 50  0000 C CNN
-F 2 "" V 2530 4600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2530 4600 50  0001 C CNN
 F 3 "~" H 2600 4600 50  0001 C CNN
 	1    2600 4600
 	0    1    1    0   
@@ -129,7 +107,7 @@ U 1 1 5B1719A8
 P 3050 4350
 F 0 "R?" H 3120 4396 50  0000 L CNN
 F 1 "4.7k" H 3120 4305 50  0000 L CNN
-F 2 "4.7k" V 2980 4350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2980 4350 50  0001 C CNN
 F 3 "~" H 3050 4350 50  0001 C CNN
 	1    3050 4350
 	1    0    0    -1  
@@ -170,12 +148,12 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5B1719C1
-P 4150 4500
-F 0 "J?" H 4229 4492 50  0000 L CNN
-F 1 "70543-0001" H 4229 4401 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4150 4500 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKPzBRyOySofHgnbNURyOy7MwFkp4%3d" H 4150 4500 50  0001 C CNN
-	1    4150 4500
+P 4150 4600
+F 0 "J?" H 4229 4592 50  0000 L CNN
+F 1 "70543-0001" H 4229 4501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4150 4600 50  0001 C CNN
+F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKPzBRyOySofHgnbNURyOy7MwFkp4%3d" H 4150 4600 50  0001 C CNN
+	1    4150 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -184,16 +162,14 @@ Connection ~ 3050 4600
 $Comp
 L power:GND #PWR?
 U 1 1 5B1719CA
-P 3900 4500
-F 0 "#PWR?" H 3900 4250 50  0001 C CNN
-F 1 "GND" H 3905 4327 50  0000 C CNN
-F 2 "" H 3900 4500 50  0001 C CNN
-F 3 "" H 3900 4500 50  0001 C CNN
-	1    3900 4500
-	-1   0    0    1   
+P 3950 4700
+F 0 "#PWR?" H 3950 4450 50  0001 C CNN
+F 1 "GND" H 3955 4527 50  0000 C CNN
+F 2 "" H 3950 4700 50  0001 C CNN
+F 3 "" H 3950 4700 50  0001 C CNN
+	1    3950 4700
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3900 4500 3950 4500
 Wire Wire Line
 	3400 4450 3400 4600
 Connection ~ 3400 4600
@@ -204,16 +180,12 @@ L Device:C C?
 U 1 1 5B1719D4
 P 1250 4750
 F 0 "C?" H 1365 4796 50  0000 L CNN
-F 1 "C" H 1365 4705 50  0000 L CNN
+F 1 "100nF" H 1365 4705 50  0000 L CNN
 F 2 "" H 1288 4600 50  0001 C CNN
 F 3 "~" H 1250 4750 50  0001 C CNN
 	1    1250 4750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1250 4600 1450 4600
-Wire Wire Line
-	1750 4600 2000 4600
 Wire Wire Line
 	1000 4600 1250 4600
 Connection ~ 1250 4600
@@ -236,51 +208,18 @@ U 1 1 5B1719E6
 P 3400 5650
 F 0 "TP?" H 3458 5770 50  0000 L CNN
 F 1 "THERM_2" H 3458 5679 50  0000 L CNN
-F 2 "" H 3600 5650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3600 5650 50  0001 C CNN
 F 3 "~" H 3600 5650 50  0001 C CNN
 	1    3400 5650
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Schottky D?
-U 1 1 5B1719ED
-P 2000 5550
-F 0 "D?" V 1954 5629 50  0000 L CNN
-F 1 "BAT54GWJ" V 2045 5629 50  0000 L CNN
-F 2 "" H 2000 5550 50  0001 C CNN
-F 3 "~" H 2000 5550 50  0001 C CNN
-	1    2000 5550
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D?
-U 1 1 5B1719F4
-P 2000 6050
-F 0 "D?" V 1954 6129 50  0000 L CNN
-F 1 "BAT54GWJ" V 2045 6129 50  0000 L CNN
-F 2 "" H 2000 6050 50  0001 C CNN
-F 3 "~" H 2000 6050 50  0001 C CNN
-	1    2000 6050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5B1719FB
-P 1600 5800
-F 0 "R?" V 1393 5800 50  0000 C CNN
-F 1 "2k37" V 1484 5800 50  0000 C CNN
-F 2 "" V 1530 5800 50  0001 C CNN
-F 3 "~" H 1600 5800 50  0001 C CNN
-	1    1600 5800
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5B171A02
 P 2600 5800
 F 0 "R?" V 2393 5800 50  0000 C CNN
-F 1 "2k37" V 2484 5800 50  0000 C CNN
-F 2 "" V 2530 5800 50  0001 C CNN
+F 1 "4.7k" V 2484 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2530 5800 50  0001 C CNN
 F 3 "~" H 2600 5800 50  0001 C CNN
 	1    2600 5800
 	0    1    1    0   
@@ -291,7 +230,7 @@ U 1 1 5B171A09
 P 3050 5550
 F 0 "R?" H 3120 5596 50  0000 L CNN
 F 1 "4.7k" H 3120 5505 50  0000 L CNN
-F 2 "4.7k" V 2980 5550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2980 5550 50  0001 C CNN
 F 3 "~" H 3050 5550 50  0001 C CNN
 	1    3050 5550
 	1    0    0    -1  
@@ -332,12 +271,12 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5B171A22
-P 4150 5700
-F 0 "J?" H 4229 5692 50  0000 L CNN
-F 1 "70543-0001" H 4229 5601 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4150 5700 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKPzBRyOySofHgnbNURyOy7MwFkp4%3d" H 4150 5700 50  0001 C CNN
-	1    4150 5700
+P 4150 5800
+F 0 "J?" H 4229 5792 50  0000 L CNN
+F 1 "70543-0001" H 4229 5701 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4150 5800 50  0001 C CNN
+F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKPzBRyOySofHgnbNURyOy7MwFkp4%3d" H 4150 5800 50  0001 C CNN
+	1    4150 5800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -346,16 +285,14 @@ Connection ~ 3050 5800
 $Comp
 L power:GND #PWR?
 U 1 1 5B171A2B
-P 3900 5700
-F 0 "#PWR?" H 3900 5450 50  0001 C CNN
-F 1 "GND" H 3905 5527 50  0000 C CNN
-F 2 "" H 3900 5700 50  0001 C CNN
-F 3 "" H 3900 5700 50  0001 C CNN
-	1    3900 5700
-	-1   0    0    1   
+P 3950 5900
+F 0 "#PWR?" H 3950 5650 50  0001 C CNN
+F 1 "GND" H 3955 5727 50  0000 C CNN
+F 2 "" H 3950 5900 50  0001 C CNN
+F 3 "" H 3950 5900 50  0001 C CNN
+	1    3950 5900
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3900 5700 3950 5700
 Wire Wire Line
 	3400 5650 3400 5800
 Connection ~ 3400 5800
@@ -366,16 +303,12 @@ L Device:C C?
 U 1 1 5B171A35
 P 1250 5950
 F 0 "C?" H 1365 5996 50  0000 L CNN
-F 1 "C" H 1365 5905 50  0000 L CNN
+F 1 "100nF" H 1365 5905 50  0000 L CNN
 F 2 "" H 1288 5800 50  0001 C CNN
 F 3 "~" H 1250 5950 50  0001 C CNN
 	1    1250 5950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1250 5800 1450 5800
-Wire Wire Line
-	1750 5800 2000 5800
 Wire Wire Line
 	1000 5800 1250 5800
 Connection ~ 1250 5800
@@ -398,51 +331,18 @@ U 1 1 5B171A47
 P 3400 6850
 F 0 "TP?" H 3458 6970 50  0000 L CNN
 F 1 "THERM_3" H 3458 6879 50  0000 L CNN
-F 2 "" H 3600 6850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3600 6850 50  0001 C CNN
 F 3 "~" H 3600 6850 50  0001 C CNN
 	1    3400 6850
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Schottky D?
-U 1 1 5B171A4E
-P 2000 6750
-F 0 "D?" V 1954 6829 50  0000 L CNN
-F 1 "BAT54GWJ" V 2045 6829 50  0000 L CNN
-F 2 "" H 2000 6750 50  0001 C CNN
-F 3 "~" H 2000 6750 50  0001 C CNN
-	1    2000 6750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D?
-U 1 1 5B171A55
-P 2000 7250
-F 0 "D?" V 1954 7329 50  0000 L CNN
-F 1 "BAT54GWJ" V 2045 7329 50  0000 L CNN
-F 2 "" H 2000 7250 50  0001 C CNN
-F 3 "~" H 2000 7250 50  0001 C CNN
-	1    2000 7250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5B171A5C
-P 1600 7000
-F 0 "R?" V 1393 7000 50  0000 C CNN
-F 1 "2k37" V 1484 7000 50  0000 C CNN
-F 2 "" V 1530 7000 50  0001 C CNN
-F 3 "~" H 1600 7000 50  0001 C CNN
-	1    1600 7000
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5B171A63
 P 2600 7000
 F 0 "R?" V 2393 7000 50  0000 C CNN
-F 1 "2k37" V 2484 7000 50  0000 C CNN
-F 2 "" V 2530 7000 50  0001 C CNN
+F 1 "4.7k" V 2484 7000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2530 7000 50  0001 C CNN
 F 3 "~" H 2600 7000 50  0001 C CNN
 	1    2600 7000
 	0    1    1    0   
@@ -453,7 +353,7 @@ U 1 1 5B171A6A
 P 3050 6750
 F 0 "R?" H 3120 6796 50  0000 L CNN
 F 1 "4.7k" H 3120 6705 50  0000 L CNN
-F 2 "4.7k" V 2980 6750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2980 6750 50  0001 C CNN
 F 3 "~" H 3050 6750 50  0001 C CNN
 	1    3050 6750
 	1    0    0    -1  
@@ -494,12 +394,12 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5B171A83
-P 4150 6900
-F 0 "J?" H 4229 6892 50  0000 L CNN
-F 1 "70543-0001" H 4229 6801 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4150 6900 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKPzBRyOySofHgnbNURyOy7MwFkp4%3d" H 4150 6900 50  0001 C CNN
-	1    4150 6900
+P 4150 7000
+F 0 "J?" H 4229 6992 50  0000 L CNN
+F 1 "70543-0001" H 4229 6901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4150 7000 50  0001 C CNN
+F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKPzBRyOySofHgnbNURyOy7MwFkp4%3d" H 4150 7000 50  0001 C CNN
+	1    4150 7000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -508,16 +408,14 @@ Connection ~ 3050 7000
 $Comp
 L power:GND #PWR?
 U 1 1 5B171A8C
-P 3900 6900
-F 0 "#PWR?" H 3900 6650 50  0001 C CNN
-F 1 "GND" H 3905 6727 50  0000 C CNN
-F 2 "" H 3900 6900 50  0001 C CNN
-F 3 "" H 3900 6900 50  0001 C CNN
-	1    3900 6900
-	-1   0    0    1   
+P 3950 7100
+F 0 "#PWR?" H 3950 6850 50  0001 C CNN
+F 1 "GND" H 3955 6927 50  0000 C CNN
+F 2 "" H 3950 7100 50  0001 C CNN
+F 3 "" H 3950 7100 50  0001 C CNN
+	1    3950 7100
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3900 6900 3950 6900
 Wire Wire Line
 	3400 6850 3400 7000
 Connection ~ 3400 7000
@@ -528,16 +426,12 @@ L Device:C C?
 U 1 1 5B171A96
 P 1250 7150
 F 0 "C?" H 1365 7196 50  0000 L CNN
-F 1 "C" H 1365 7105 50  0000 L CNN
+F 1 "100nF" H 1365 7105 50  0000 L CNN
 F 2 "" H 1288 7000 50  0001 C CNN
 F 3 "~" H 1250 7150 50  0001 C CNN
 	1    1250 7150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1250 7000 1450 7000
-Wire Wire Line
-	1750 7000 2000 7000
 Wire Wire Line
 	1000 7000 1250 7000
 Connection ~ 1250 7000
@@ -727,56 +621,56 @@ Wire Notes Line
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J?
 U 1 1 5B17C4BC
-P 5750 7050
-F 0 "J?" H 5800 7500 50  0000 C CNN
-F 1 "62201021121" H 5800 7400 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 5750 7050 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/445/6220xx21121-542317.pdf" H 5750 7050 50  0001 C CNN
-	1    5750 7050
+P 5750 7250
+F 0 "J?" H 5800 7700 50  0000 C CNN
+F 1 "62201021121" H 5800 7600 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 5750 7250 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/445/6220xx21121-542317.pdf" H 5750 7250 50  0001 C CNN
+	1    5750 7250
 	1    0    0    -1  
 $EndComp
-Text Notes 5800 6500 0    50   ~ 0
+Text Notes 5800 6700 0    50   ~ 0
 SWD
 $Comp
 L power:GND #PWR?
 U 1 1 5B17C4C4
-P 5400 7250
-F 0 "#PWR?" H 5400 7000 50  0001 C CNN
-F 1 "GND" H 5405 7077 50  0000 C CNN
-F 2 "" H 5400 7250 50  0001 C CNN
-F 3 "" H 5400 7250 50  0001 C CNN
-	1    5400 7250
+P 5400 7450
+F 0 "#PWR?" H 5400 7200 50  0001 C CNN
+F 1 "GND" H 5405 7277 50  0000 C CNN
+F 2 "" H 5400 7450 50  0001 C CNN
+F 3 "" H 5400 7450 50  0001 C CNN
+	1    5400 7450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5550 7250 5400 7250
+	5550 7450 5400 7450
 Wire Wire Line
-	5400 7250 5400 7050
+	5400 7450 5400 7250
 Wire Wire Line
-	5400 7050 5550 7050
+	5400 7250 5550 7250
+Connection ~ 5400 7450
+Wire Wire Line
+	5400 7250 5400 7150
+Wire Wire Line
+	5400 7150 5550 7150
 Connection ~ 5400 7250
-Wire Wire Line
-	5400 7050 5400 6950
-Wire Wire Line
-	5400 6950 5550 6950
-Connection ~ 5400 7050
-Text GLabel 5550 6850 0    50   Input ~ 0
+Text GLabel 5550 7050 0    50   Input ~ 0
 VDD3V3
 Wire Wire Line
-	6050 6850 6300 6850
+	6050 7050 6300 7050
 Wire Wire Line
-	6300 6950 6050 6950
+	6300 7150 6050 7150
 Wire Wire Line
-	6050 7250 6300 7250
+	6050 7450 6300 7450
 Wire Notes Line
-	6650 6550 6650 7500
+	6650 6750 6650 7700
 Wire Notes Line
-	5150 7500 5150 6550
-Text HLabel 6300 7250 2    50   Input ~ 0
+	5150 7700 5150 6750
+Text HLabel 6300 7450 2    50   Input ~ 0
 nRESET
-Text HLabel 6300 6950 2    50   Input ~ 0
+Text HLabel 6300 7150 2    50   Input ~ 0
 SWDIO
-Text HLabel 6300 6850 2    50   Input ~ 0
+Text HLabel 6300 7050 2    50   Input ~ 0
 SWCLK
 Text Notes 1250 3800 0    50   ~ 0
 ESD protected by level shifter
@@ -789,9 +683,9 @@ ESD protected by level shifter
 Text Notes 2100 2050 0    50   ~ 0
 ESD protected by level shifter
 Wire Notes Line
-	5150 7500 6650 7500
+	5150 7700 6650 7700
 Wire Notes Line
-	5150 6550 6650 6550
+	5150 6750 6650 6750
 Text HLabel 1450 1100 2    50   Input ~ 0
 VBUS
 $Comp
@@ -1487,67 +1381,248 @@ MISO
 $Comp
 L Mechanical:Mounting_Hole_PAD MK?
 U 1 1 5B1F12A4
-P 7100 6200
-F 0 "MK?" H 7200 6251 50  0000 L CNN
-F 1 "Mounting_Hole_PAD" H 7200 6160 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5.3mm_M5_ISO14580_Pad" H 7100 6200 50  0001 C CNN
-F 3 "" H 7100 6200 50  0001 C CNN
-	1    7100 6200
+P 6950 5600
+F 0 "MK?" H 7050 5651 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" H 7050 5560 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.3mm_M5_ISO14580_Pad" H 6950 5600 50  0001 C CNN
+F 3 "" H 6950 5600 50  0001 C CNN
+	1    6950 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Mounting_Hole_PAD MK?
 U 1 1 5B1F12AB
-P 8300 6200
-F 0 "MK?" H 8400 6251 50  0000 L CNN
-F 1 "Mounting_Hole_PAD" H 8400 6160 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5.3mm_M5_ISO14580_Pad" H 8300 6200 50  0001 C CNN
-F 3 "" H 8300 6200 50  0001 C CNN
-	1    8300 6200
+P 8150 5600
+F 0 "MK?" H 8250 5651 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" H 8250 5560 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.3mm_M5_ISO14580_Pad" H 8150 5600 50  0001 C CNN
+F 3 "" H 8150 5600 50  0001 C CNN
+	1    8150 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Mounting_Hole_PAD MK?
 U 1 1 5B1F12B2
-P 9350 6200
-F 0 "MK?" H 9450 6251 50  0000 L CNN
-F 1 "Mounting_Hole_PAD" H 9450 6160 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5.3mm_M5_ISO14580_Pad" H 9350 6200 50  0001 C CNN
-F 3 "" H 9350 6200 50  0001 C CNN
-	1    9350 6200
+P 9200 5600
+F 0 "MK?" H 9300 5651 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" H 9300 5560 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.3mm_M5_ISO14580_Pad" H 9200 5600 50  0001 C CNN
+F 3 "" H 9200 5600 50  0001 C CNN
+	1    9200 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Mounting_Hole_PAD MK?
 U 1 1 5B1F12B9
-P 10350 6200
-F 0 "MK?" H 10450 6251 50  0000 L CNN
-F 1 "Mounting_Hole_PAD" H 10450 6160 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5.3mm_M5_ISO14580_Pad" H 10350 6200 50  0001 C CNN
-F 3 "" H 10350 6200 50  0001 C CNN
-	1    10350 6200
+P 10200 5600
+F 0 "MK?" H 10300 5651 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" H 10300 5560 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.3mm_M5_ISO14580_Pad" H 10200 5600 50  0001 C CNN
+F 3 "" H 10200 5600 50  0001 C CNN
+	1    10200 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDPWR #PWR?
 U 1 1 5B1F12C0
-P 8950 6300
-F 0 "#PWR?" H 8950 6100 50  0001 C CNN
-F 1 "GNDPWR" H 8950 6150 50  0000 C CNN
-F 2 "" H 8950 6250 50  0001 C CNN
-F 3 "" H 8950 6250 50  0001 C CNN
-	1    8950 6300
+P 8800 5700
+F 0 "#PWR?" H 8800 5500 50  0001 C CNN
+F 1 "GNDPWR" H 8800 5550 50  0000 C CNN
+F 2 "" H 8800 5650 50  0001 C CNN
+F 3 "" H 8800 5650 50  0001 C CNN
+	1    8800 5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10350 6300 9350 6300
-Connection ~ 8300 6300
+	10200 5700 9200 5700
+Connection ~ 8150 5700
 Wire Wire Line
-	8300 6300 7100 6300
-Connection ~ 8950 6300
+	8150 5700 6950 5700
+Connection ~ 8800 5700
 Wire Wire Line
-	8950 6300 8300 6300
-Connection ~ 9350 6300
+	8800 5700 8150 5700
+Connection ~ 9200 5700
 Wire Wire Line
-	9350 6300 8950 6300
+	9200 5700 8800 5700
+Wire Wire Line
+	1250 4600 2000 4600
+Wire Wire Line
+	1250 5800 2000 5800
+Wire Wire Line
+	1250 7000 2000 7000
+$Comp
+L Device:D_Schottky D?
+U 1 1 5AFA7311
+P 2000 4850
+F 0 "D?" V 1954 4929 50  0000 L CNN
+F 1 "BAT54GWJ" V 2045 4929 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 2000 4850 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 2000 4850 50  0001 C CNN
+	1    2000 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5AFA961C
+P 2000 5550
+F 0 "D?" V 1954 5629 50  0000 L CNN
+F 1 "BAT54GWJ" V 2045 5629 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 2000 5550 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 2000 5550 50  0001 C CNN
+	1    2000 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5AFAB94C
+P 2000 6000
+F 0 "D?" V 1954 6079 50  0000 L CNN
+F 1 "BAT54GWJ" V 2045 6079 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 2000 6000 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 2000 6000 50  0001 C CNN
+	1    2000 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5AFADC4D
+P 2000 6750
+F 0 "D?" V 1954 6829 50  0000 L CNN
+F 1 "BAT54GWJ" V 2045 6829 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 2000 6750 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 2000 6750 50  0001 C CNN
+	1    2000 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5AFAFF57
+P 2000 7200
+F 0 "D?" V 1954 7279 50  0000 L CNN
+F 1 "BAT54GWJ" V 2045 7279 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 2000 7200 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 2000 7200 50  0001 C CNN
+	1    2000 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5AFC19C7
+P 6050 5650
+F 0 "J?" H 6129 5642 50  0000 L CNN
+F 1 "70543-0001" H 6129 5551 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6050 5650 50  0001 C CNN
+F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKPzBRyOySofHgnbNURyOy7MwFkp4%3d" H 6050 5650 50  0001 C CNN
+	1    6050 5650
+	1    0    0    -1  
+$EndComp
+Text Notes 5800 5300 0    50   ~ 0
+FANS
+Text HLabel 5600 5750 0    50   Input ~ 0
+FAN1_OUT
+Text GLabel 5600 5650 0    50   Input ~ 0
+PWR_IN
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5AFDD4E7
+P 6050 6300
+F 0 "J?" H 6129 6292 50  0000 L CNN
+F 1 "70543-0001" H 6129 6201 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6050 6300 50  0001 C CNN
+F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKPzBRyOySofHgnbNURyOy7MwFkp4%3d" H 6050 6300 50  0001 C CNN
+	1    6050 6300
+	1    0    0    -1  
+$EndComp
+Text HLabel 5600 6400 0    50   Input ~ 0
+FAN2_OUT
+Text GLabel 5600 6300 0    50   Input ~ 0
+PWR_IN
+Wire Notes Line
+	6650 6600 5150 6600
+Wire Notes Line
+	5150 5350 6650 5350
+$Comp
+L Connector_Specialized:Test_Point TP?
+U 1 1 5AFF4AC9
+P 5500 5550
+F 0 "TP?" H 5558 5670 50  0000 L CNN
+F 1 "FAN1+" H 5558 5579 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5700 5550 50  0001 C CNN
+F 3 "~" H 5700 5550 50  0001 C CNN
+	1    5500 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Specialized:Test_Point TP?
+U 1 1 5AFFF980
+P 5500 6150
+F 0 "TP?" H 5558 6270 50  0000 L CNN
+F 1 "FAN2+" H 5558 6179 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5700 6150 50  0001 C CNN
+F 3 "~" H 5700 6150 50  0001 C CNN
+	1    5500 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 5650 5650 5650
+Wire Wire Line
+	5600 5750 5800 5750
+Wire Wire Line
+	5600 6300 5650 6300
+Wire Wire Line
+	5600 6400 5800 6400
+$Comp
+L Connector_Specialized:Test_Point TP?
+U 1 1 5B00F821
+P 5900 6150
+F 0 "TP?" H 5958 6270 50  0000 L CNN
+F 1 "FAN2-" H 5958 6179 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6100 6150 50  0001 C CNN
+F 3 "~" H 6100 6150 50  0001 C CNN
+	1    5900 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Specialized:Test_Point TP?
+U 1 1 5B0144BF
+P 5900 5550
+F 0 "TP?" H 5958 5670 50  0000 L CNN
+F 1 "FAN1-" H 5958 5579 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6100 5550 50  0001 C CNN
+F 3 "~" H 6100 5550 50  0001 C CNN
+	1    5900 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 5650 5650 5550
+Wire Wire Line
+	5650 5550 5500 5550
+Connection ~ 5650 5650
+Wire Wire Line
+	5650 5650 5850 5650
+Wire Wire Line
+	5900 5550 5800 5550
+Wire Wire Line
+	5800 5550 5800 5750
+Connection ~ 5800 5750
+Wire Wire Line
+	5800 5750 5850 5750
+Wire Wire Line
+	5500 6150 5650 6150
+Wire Wire Line
+	5650 6150 5650 6300
+Connection ~ 5650 6300
+Wire Wire Line
+	5650 6300 5850 6300
+Wire Wire Line
+	5900 6150 5800 6150
+Wire Wire Line
+	5800 6150 5800 6400
+Connection ~ 5800 6400
+Wire Wire Line
+	5800 6400 5850 6400
+Wire Notes Line
+	6650 5350 6650 6600
+Wire Notes Line
+	5150 5350 5150 6600
 $EndSCHEMATC

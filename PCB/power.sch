@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 5
+Sheet 3 5
 Title "Power"
 Date ""
 Rev ""
@@ -288,8 +288,8 @@ L Connector_Specialized:Test_Point TP?
 U 1 1 5AF719F4
 P 1900 4400
 F 0 "TP?" H 1958 4520 50  0000 L CNN
-F 1 "GND_PWR_IN" H 1958 4429 50  0000 L CNN
-F 2 "" H 2100 4400 50  0001 C CNN
+F 1 "GND_PWR" H 1958 4429 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2100 4400 50  0001 C CNN
 F 3 "~" H 2100 4400 50  0001 C CNN
 	1    1900 4400
 	1    0    0    -1  
@@ -302,8 +302,8 @@ L Connector_Specialized:Test_Point TP?
 U 1 1 5AF719FF
 P 1900 4100
 F 0 "TP?" H 1958 4220 50  0000 L CNN
-F 1 "VDD_PWR_IN" H 1958 4129 50  0000 L CNN
-F 2 "" H 2100 4100 50  0001 C CNN
+F 1 "VDD_PWR" H 1958 4129 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2100 4100 50  0001 C CNN
 F 3 "~" H 2100 4100 50  0001 C CNN
 	1    1900 4100
 	1    0    0    -1  
@@ -315,8 +315,8 @@ L Connector_Specialized:Test_Point TP?
 U 1 1 5AF71A0F
 P 1900 5000
 F 0 "TP?" H 1958 5120 50  0000 L CNN
-F 1 "GND_BED_IN" H 1958 5029 50  0000 L CNN
-F 2 "" H 2100 5000 50  0001 C CNN
+F 1 "GND_BED" H 1958 5029 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2100 5000 50  0001 C CNN
 F 3 "~" H 2100 5000 50  0001 C CNN
 	1    1900 5000
 	1    0    0    -1  
@@ -329,8 +329,8 @@ L Connector_Specialized:Test_Point TP?
 U 1 1 5AF71A1A
 P 1900 4700
 F 0 "TP?" H 1958 4820 50  0000 L CNN
-F 1 "VDD_BED_IN" H 1958 4729 50  0000 L CNN
-F 2 "" H 2100 4700 50  0001 C CNN
+F 1 "VDD_BED" H 1958 4729 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2100 4700 50  0001 C CNN
 F 3 "~" H 2100 4700 50  0001 C CNN
 	1    1900 4700
 	1    0    0    -1  
@@ -345,8 +345,8 @@ L Connector_Specialized:Test_Point TP?
 U 1 1 5AF71A25
 P 1650 6400
 F 0 "TP?" H 1708 6520 50  0000 L CNN
-F 1 "BED-" H 1708 6429 50  0000 L CNN
-F 2 "" H 1850 6400 50  0001 C CNN
+F 1 "HEATER-" H 1708 6429 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1850 6400 50  0001 C CNN
 F 3 "~" H 1850 6400 50  0001 C CNN
 	1    1650 6400
 	1    0    0    -1  
@@ -359,7 +359,7 @@ U 1 1 5AF71A2E
 P 1900 5300
 F 0 "TP?" H 1958 5420 50  0000 L CNN
 F 1 "BED+" H 1958 5329 50  0000 L CNN
-F 2 "" H 2100 5300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2100 5300 50  0001 C CNN
 F 3 "~" H 2100 5300 50  0001 C CNN
 	1    1900 5300
 	1    0    0    -1  
@@ -402,7 +402,7 @@ U 1 1 5B12B288
 P 6650 1150
 F 0 "TP?" H 6750 1300 50  0000 L CNN
 F 1 "VDD5V" H 6750 1200 50  0000 L CNN
-F 2 "" H 6850 1150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6850 1150 50  0001 C CNN
 F 3 "~" H 6850 1150 50  0001 C CNN
 	1    6650 1150
 	1    0    0    -1  
@@ -418,7 +418,7 @@ U 1 1 5B12E486
 P 3850 2750
 F 0 "TP?" H 3950 2900 50  0000 L CNN
 F 1 "VDD3V3" H 3950 2800 50  0000 L CNN
-F 2 "" H 4050 2750 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4050 2750 50  0001 C CNN
 F 3 "~" H 4050 2750 50  0001 C CNN
 	1    3850 2750
 	1    0    0    -1  
@@ -871,10 +871,6 @@ Text HLabel 5600 5300 2    50   Output ~ 0
 VDD_BED
 Text HLabel 5600 4700 2    50   Output ~ 0
 VDD_HEATER
-Text HLabel 5550 4150 2    50   Output ~ 0
-VDD_PWR
-Text HLabel 1250 1000 0    50   Input ~ 0
-VDD_PWR
 Text HLabel 2500 5350 2    50   Input ~ 0
 VDD_BED
 Text HLabel 2500 5650 2    50   Output ~ 0
@@ -899,8 +895,8 @@ L Connector_Specialized:Test_Point TP?
 U 1 1 5B1B93AE
 P 1650 6100
 F 0 "TP?" H 1708 6220 50  0000 L CNN
-F 1 "BED+" H 1708 6129 50  0000 L CNN
-F 2 "" H 1850 6100 50  0001 C CNN
+F 1 "HEATER+" H 1708 6129 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1850 6100 50  0001 C CNN
 F 3 "~" H 1850 6100 50  0001 C CNN
 	1    1650 6100
 	1    0    0    -1  
@@ -910,8 +906,8 @@ L Connector_Specialized:Test_Point TP?
 U 1 1 5B1BD224
 P 1900 5600
 F 0 "TP?" H 1958 5720 50  0000 L CNN
-F 1 "BED+" H 1958 5629 50  0000 L CNN
-F 2 "" H 2100 5600 50  0001 C CNN
+F 1 "BED-" H 1958 5629 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2100 5600 50  0001 C CNN
 F 3 "~" H 2100 5600 50  0001 C CNN
 	1    1900 5600
 	1    0    0    -1  
@@ -968,4 +964,8 @@ Wire Notes Line
 	700  2400 4950 2400
 Text Notes 3200 2350 2    50   ~ 0
 3V3 Power Supply
+Text GLabel 1250 1000 0    50   Input ~ 0
+PWR_IN
+Text GLabel 5550 4150 2    50   Output ~ 0
+PWR_IN
 $EndSCHEMATC

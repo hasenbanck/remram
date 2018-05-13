@@ -205,17 +205,6 @@ Text HLabel 5150 950  2    50   Output ~ 0
 FAN1_OUT
 Text HLabel 4250 950  0    50   Output ~ 0
 VDD_PWR
-$Comp
-L Device:D_Schottky D?
-U 1 1 5B1FEED7
-P 4500 950
-F 0 "D?" H 4500 1166 50  0000 C CNN
-F 1 "SK310A-TP" H 4500 1075 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 4500 950 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Micro-Commercial-Components-MCC/SK310A-TP?qs=O2qRfqcg9D9SKx4%252bV6P4XQ%3D%3D" H 4500 950 50  0001 C CNN
-	1    4500 950 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4250 950  4350 950 
 Wire Wire Line
@@ -268,17 +257,6 @@ Text HLabel 5150 2600 2    50   Output ~ 0
 FAN2_OUT
 Text HLabel 4250 2600 0    50   Output ~ 0
 VDD_PWR
-$Comp
-L Device:D_Schottky D?
-U 1 1 5B2008EF
-P 4500 2600
-F 0 "D?" H 4500 2816 50  0000 C CNN
-F 1 "SK310A-TP" H 4500 2725 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 4500 2600 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Micro-Commercial-Components-MCC/SK310A-TP?qs=O2qRfqcg9D9SKx4%252bV6P4XQ%3D%3D" H 4500 2600 50  0001 C CNN
-	1    4500 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4250 2600 4350 2600
 Wire Wire Line
@@ -390,4 +368,26 @@ Wire Wire Line
 Wire Wire Line
 	4850 3500 4800 3500
 Connection ~ 4850 3500
+$Comp
+L Device:D_Schottky D?
+U 1 1 5AFB8598
+P 4500 950
+F 0 "D?" H 4450 1150 50  0000 L CNN
+F 1 "BAT54GWJ" H 4350 1050 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4500 950 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 4500 950 50  0001 C CNN
+	1    4500 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5AFBAFD7
+P 4500 2600
+F 0 "D?" H 4450 2800 50  0000 L CNN
+F 1 "BAT54GWJ" H 4350 2700 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4500 2600 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 4500 2600 50  0001 C CNN
+	1    4500 2600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
