@@ -309,7 +309,7 @@ U 1 1 5B18079E
 P 9700 1150
 F 0 "J5" H 9779 1142 50  0000 L CNN
 F 1 "70543-0003" H 9779 1051 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9700 1150 50  0001 C CNN
+F 2 "custom-footprints:70543-0003" H 9700 1150 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Molex/70543-0003?qs=sGAEpiMZZMs%252bGHln7q6pm%252bS0pk2Wo0XxCD3CKlCQrmU%3d" H 9700 1150 50  0001 C CNN
 	1    9700 1150
 	1    0    0    -1  

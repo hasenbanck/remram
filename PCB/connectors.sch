@@ -19,9 +19,9 @@ L Connector_Specialized:USB_B J7
 U 1 1 5B16E55B
 P 1150 1300
 F 0 "J7" H 1205 1767 50  0000 C CNN
-F 1 "USB_B" H 1205 1676 50  0000 C CNN
-F 2 "Connector_USB:USB_B_TE_5787834_Vertical" H 1300 1250 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/TE-Connectivity/5787834-1?qs=sGAEpiMZZMulM8LPOQ%252bykzAp4yt8IxVbCJriWtalJzg%3d" H 1300 1250 50  0001 C CNN
+F 1 "67068-8000" H 1205 1676 50  0000 C CNN
+F 2 "custom-footprints:67068-8000" H 1300 1250 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/276/0670688000_IO_CONNECTORS-172066.pdf" H 1300 1250 50  0001 C CNN
 	1    1150 1300
 	1    0    0    -1  
 $EndComp
@@ -38,9 +38,9 @@ L Connector_Generic:Conn_02x05_Odd_Even J14
 U 1 1 5B16F6B4
 P 2700 1300
 F 0 "J14" H 2750 1717 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 2750 1626 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2700 1300 50  0001 C CNN
-F 3 "~" H 2700 1300 50  0001 C CNN
+F 1 "61201021621" H 2750 1626 50  0000 C CNN
+F 2 "custom-footprints:Box_Header_2x05x2.54mm_Straight" H 2700 1300 50  0001 C CNN
+F 3 "https://www.mouser.de/ProductDetail/Wurth-Electronics/61201021621?qs=%2fha2pyFadugkhyfdWLPRIwz9kroMfF%252bXZWEETFcVSqiQRaqHzEC2RQ%3d%3d" H 2700 1300 50  0001 C CNN
 	1    2700 1300
 	1    0    0    -1  
 $EndComp
@@ -49,9 +49,9 @@ L Connector_Generic:Conn_02x05_Odd_Even J19
 U 1 1 5B16F736
 P 4350 1300
 F 0 "J19" H 4400 1717 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 4400 1626 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 4350 1300 50  0001 C CNN
-F 3 "~" H 4350 1300 50  0001 C CNN
+F 1 "61201021621" H 4400 1626 50  0000 C CNN
+F 2 "custom-footprints:Box_Header_2x05x2.54mm_Straight" H 4350 1300 50  0001 C CNN
+F 3 "https://www.mouser.de/ProductDetail/Wurth-Electronics/61201021621?qs=%2fha2pyFadugkhyfdWLPRIwz9kroMfF%252bXZWEETFcVSqiQRaqHzEC2RQ%3d%3d" H 4350 1300 50  0001 C CNN
 	1    4350 1300
 	1    0    0    -1  
 $EndComp
@@ -60,9 +60,9 @@ L Connector_Generic:Conn_02x05_Odd_Even J15
 U 1 1 5B16F775
 P 4000 3050
 F 0 "J15" H 4050 3467 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 4050 3376 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 4000 3050 50  0001 C CNN
-F 3 "~" H 4000 3050 50  0001 C CNN
+F 1 "61201021621" H 4050 3376 50  0000 C CNN
+F 2 "custom-footprints:Box_Header_2x05x2.54mm_Straight" H 4000 3050 50  0001 C CNN
+F 3 "https://www.mouser.de/ProductDetail/Wurth-Electronics/61201021621?qs=%2fha2pyFadugkhyfdWLPRIwz9kroMfF%252bXZWEETFcVSqiQRaqHzEC2RQ%3d%3d" H 4000 3050 50  0001 C CNN
 	1    4000 3050
 	1    0    0    -1  
 $EndComp
@@ -151,7 +151,7 @@ U 1 1 5B1719C1
 P 4150 4600
 F 0 "J16" H 4229 4592 50  0000 L CNN
 F 1 "70543-0001" H 4229 4501 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4150 4600 50  0001 C CNN
+F 2 "custom-footprints:70543-0001" H 4150 4600 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKPzBRyOySofHgnbNURyOy7MwFkp4%3d" H 4150 4600 50  0001 C CNN
 	1    4150 4600
 	1    0    0    -1  
@@ -272,7 +272,7 @@ U 1 1 5B171A22
 P 4150 5800
 F 0 "J17" H 4229 5792 50  0000 L CNN
 F 1 "70543-0001" H 4229 5701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4150 5800 50  0001 C CNN
+F 2 "custom-footprints:70543-0001" H 4150 5800 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKPzBRyOySofHgnbNURyOy7MwFkp4%3d" H 4150 5800 50  0001 C CNN
 	1    4150 5800
 	1    0    0    -1  
@@ -393,7 +393,7 @@ U 1 1 5B171A83
 P 4150 7000
 F 0 "J18" H 4229 6992 50  0000 L CNN
 F 1 "70543-0001" H 4229 6901 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4150 7000 50  0001 C CNN
+F 2 "custom-footprints:70543-0001" H 4150 7000 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKPzBRyOySofHgnbNURyOy7MwFkp4%3d" H 4150 7000 50  0001 C CNN
 	1    4150 7000
 	1    0    0    -1  
@@ -475,7 +475,7 @@ U 1 1 5B171AB8
 P 1200 2700
 F 0 "J8" H 1279 2742 50  0000 L CNN
 F 1 "70543-0002" H 1279 2651 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1200 2700 50  0001 C CNN
+F 2 "custom-footprints:70543-0002" H 1200 2700 50  0001 C CNN
 F 3 "~" H 1200 2700 50  0001 C CNN
 	1    1200 2700
 	1    0    0    -1  
@@ -499,7 +499,7 @@ U 1 1 5B171AC6
 P 2400 2700
 F 0 "J11" H 2479 2742 50  0000 L CNN
 F 1 "70543-0002" H 2479 2651 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2400 2700 50  0001 C CNN
+F 2 "custom-footprints:70543-0002" H 2400 2700 50  0001 C CNN
 F 3 "~" H 2400 2700 50  0001 C CNN
 	1    2400 2700
 	1    0    0    -1  
@@ -523,7 +523,7 @@ U 1 1 5B171AD6
 P 1200 3100
 F 0 "J9" H 1279 3142 50  0000 L CNN
 F 1 "70543-0002" H 1279 3051 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1200 3100 50  0001 C CNN
+F 2 "custom-footprints:70543-0002" H 1200 3100 50  0001 C CNN
 F 3 "~" H 1200 3100 50  0001 C CNN
 	1    1200 3100
 	1    0    0    -1  
@@ -547,7 +547,7 @@ U 1 1 5B171AE4
 P 2400 3100
 F 0 "J12" H 2479 3142 50  0000 L CNN
 F 1 "70543-0002" H 2479 3051 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2400 3100 50  0001 C CNN
+F 2 "custom-footprints:70543-0002" H 2400 3100 50  0001 C CNN
 F 3 "~" H 2400 3100 50  0001 C CNN
 	1    2400 3100
 	1    0    0    -1  
@@ -571,7 +571,7 @@ U 1 1 5B171AF4
 P 1200 3500
 F 0 "J10" H 1279 3542 50  0000 L CNN
 F 1 "70543-0002" H 1279 3451 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1200 3500 50  0001 C CNN
+F 2 "custom-footprints:70543-0002" H 1200 3500 50  0001 C CNN
 F 3 "~" H 1200 3500 50  0001 C CNN
 	1    1200 3500
 	1    0    0    -1  
@@ -595,7 +595,7 @@ U 1 1 5B171B02
 P 2400 3500
 F 0 "J13" H 2479 3542 50  0000 L CNN
 F 1 "70543-0002" H 2479 3451 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2400 3500 50  0001 C CNN
+F 2 "custom-footprints:70543-0002" H 2400 3500 50  0001 C CNN
 F 3 "~" H 2400 3500 50  0001 C CNN
 	1    2400 3500
 	1    0    0    -1  
@@ -1418,7 +1418,7 @@ U 1 1 5AFC19C7
 P 6050 5650
 F 0 "J21" H 6129 5642 50  0000 L CNN
 F 1 "70543-0001" H 6129 5551 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6050 5650 50  0001 C CNN
+F 2 "custom-footprints:70543-0001" H 6050 5650 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKPzBRyOySofHgnbNURyOy7MwFkp4%3d" H 6050 5650 50  0001 C CNN
 	1    6050 5650
 	1    0    0    -1  
@@ -1428,14 +1428,14 @@ FANS
 Text HLabel 5600 5750 0    50   Input ~ 0
 FAN1_OUT
 Text GLabel 5600 5650 0    50   Input ~ 0
-PWR_IN
+VDD_PWR
 $Comp
 L Connector_Generic:Conn_01x02 J22
 U 1 1 5AFDD4E7
 P 6050 6300
 F 0 "J22" H 6129 6292 50  0000 L CNN
 F 1 "70543-0001" H 6129 6201 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6050 6300 50  0001 C CNN
+F 2 "custom-footprints:70543-0001" H 6050 6300 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKPzBRyOySofHgnbNURyOy7MwFkp4%3d" H 6050 6300 50  0001 C CNN
 	1    6050 6300
 	1    0    0    -1  
@@ -1443,7 +1443,7 @@ $EndComp
 Text HLabel 5600 6400 0    50   Input ~ 0
 FAN2_OUT
 Text GLabel 5600 6300 0    50   Input ~ 0
-PWR_IN
+VDD_PWR
 Wire Notes Line
 	6650 6600 5150 6600
 Wire Notes Line

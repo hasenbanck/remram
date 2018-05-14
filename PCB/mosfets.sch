@@ -54,7 +54,7 @@ U 1 1 5B1A764D
 P 2000 1400
 F 0 "Q1" H 2387 1396 50  0000 L CNN
 F 1 "PSMN1R8-40YLC,115" H 2387 1305 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-669_LFPAK_ThermalVias-1" H 2200 1325 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-669_LFPAK_ThermalVias-2" H 2200 1325 50  0001 L CIN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PSMN1R8-40YLC.pdf" V 2000 1400 50  0001 L CNN
 	1    2000 1400
 	1    0    0    -1  
@@ -123,7 +123,7 @@ U 1 1 5B1B03C5
 P 2000 3050
 F 0 "Q2" H 2387 3046 50  0000 L CNN
 F 1 "PSMN1R8-40YLC,115" H 2387 2955 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-669_LFPAK_ThermalVias-1" H 2200 2975 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-669_LFPAK_ThermalVias-2" H 2200 2975 50  0001 L CIN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PSMN1R8-40YLC.pdf" V 2000 3050 50  0001 L CNN
 	1    2000 3050
 	1    0    0    -1  
@@ -203,8 +203,6 @@ F 3 "" H 4850 1800 50  0001 C CNN
 $EndComp
 Text HLabel 5150 950  2    50   Output ~ 0
 FAN1_OUT
-Text HLabel 4250 950  0    50   Output ~ 0
-VDD_PWR
 Wire Wire Line
 	4250 950  4350 950 
 Wire Wire Line
@@ -255,8 +253,6 @@ F 3 "" H 4850 3450 50  0001 C CNN
 $EndComp
 Text HLabel 5150 2600 2    50   Output ~ 0
 FAN2_OUT
-Text HLabel 4250 2600 0    50   Output ~ 0
-VDD_PWR
 Wire Wire Line
 	4250 2600 4350 2600
 Wire Wire Line
@@ -393,4 +389,8 @@ Wire Wire Line
 Connection ~ 1600 3050
 Wire Wire Line
 	1600 3050 1800 3050
+Text GLabel 4250 950  0    50   Input ~ 0
+VDD_PWR
+Text GLabel 4250 2600 0    50   Input ~ 0
+VDD_PWR
 $EndSCHEMATC

@@ -15,41 +15,28 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Switch:SW_SPDT SW2
-U 1 1 5AD0AF5B
-P 7450 850
-F 0 "SW2" H 7450 550 50  0000 R CNN
-F 1 "EG1224" H 7500 650 50  0000 R CNN
-F 2 "Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled" H 7450 850 50  0001 C CNN
-F 3 "" H 7450 850 50  0001 C CNN
-	1    7450 850 
-	-1   0    0    1   
+L Device:R R10
+U 1 1 5AD0B119
+P 7300 650
+F 0 "R10" V 7200 600 50  0000 L CNN
+F 1 "10k" V 7100 600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7230 650 50  0001 C CNN
+F 3 "~" H 7300 650 50  0001 C CNN
+	1    7300 650 
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R11
-U 1 1 5AD0B119
-P 7100 950
-F 0 "R11" V 7000 950 50  0000 L CNN
-F 1 "10k" V 6900 900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7030 950 50  0001 C CNN
-F 3 "~" H 7100 950 50  0001 C CNN
-	1    7100 950 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R10
 U 1 1 5AD0B198
-P 7100 750
-F 0 "R10" V 7300 750 50  0000 L CNN
-F 1 "10k" V 7200 700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7030 750 50  0001 C CNN
-F 3 "~" H 7100 750 50  0001 C CNN
-	1    7100 750 
-	0    -1   -1   0   
+P 8050 650
+F 0 "R11" V 8150 550 50  0000 L CNN
+F 1 "10k" V 8250 550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7980 650 50  0001 C CNN
+F 3 "~" H 8050 650 50  0001 C CNN
+	1    8050 650 
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6950 750  6800 750 
-Text GLabel 6800 750  0    50   Input ~ 0
+Text GLabel 8200 650  2    50   Input ~ 0
 VDD3V3
 Text GLabel 6650 2850 0    50   Input ~ 0
 VDD3V3
@@ -192,17 +179,6 @@ Wire Wire Line
 Connection ~ 3000 7150
 Wire Wire Line
 	3000 7150 3450 7150
-$Comp
-L power:GNDD #PWR01
-U 1 1 5AD0A041
-P 950 7450
-F 0 "#PWR01" H 950 7200 50  0001 C CNN
-F 1 "GNDD" V 954 7340 50  0000 R CNN
-F 2 "" H 950 7450 50  0001 C CNN
-F 3 "" H 950 7450 50  0001 C CNN
-	1    950  7450
-	0    1    1    0   
-$EndComp
 Connection ~ 1200 7450
 Wire Wire Line
 	1200 7450 950  7450
@@ -270,10 +246,10 @@ F 3 "~" H 3900 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR019
+L power:GND #PWR018
 U 1 1 5AF57331
 P 7050 5250
-F 0 "#PWR019" H 7050 5000 50  0001 C CNN
+F 0 "#PWR018" H 7050 5000 50  0001 C CNN
 F 1 "GND" H 7055 5077 50  0000 C CNN
 F 2 "" H 7050 5250 50  0001 C CNN
 F 3 "" H 7050 5250 50  0001 C CNN
@@ -488,23 +464,23 @@ Wire Wire Line
 Wire Wire Line
 	2900 4000 3200 4000
 $Comp
-L power:GND #PWR018
+L power:GND #PWR019
 U 1 1 5AF66D47
-P 6950 950
-F 0 "#PWR018" H 6950 700 50  0001 C CNN
-F 1 "GND" H 6955 777 50  0000 C CNN
-F 2 "" H 6950 950 50  0001 C CNN
-F 3 "" H 6950 950 50  0001 C CNN
-	1    6950 950 
+P 7150 650
+F 0 "#PWR019" H 7150 400 50  0001 C CNN
+F 1 "GND" H 7155 477 50  0000 C CNN
+F 2 "" H 7150 650 50  0001 C CNN
+F 3 "" H 7150 650 50  0001 C CNN
+	1    7150 650 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	9250 5150 9250 5700
 $Comp
-L Device:Ferrite_Bead_Small L1
+L Device:Ferrite_Bead_Small FB1
 U 1 1 5AF6D789
 P 4650 4250
-F 0 "L1" V 4413 4250 50  0000 C CNN
+F 0 "FB1" V 4413 4250 50  0000 C CNN
 F 1 "MPZ1608S221A" V 4504 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4580 4250 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/400/eads_commercial_power_mpz1608_en-923650.pdf" H 4650 4250 50  0001 C CNN
@@ -512,10 +488,10 @@ F 3 "https://www.mouser.de/datasheet/2/400/eads_commercial_power_mpz1608_en-9236
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L2
+L Device:Ferrite_Bead_Small FB2
 U 1 1 5AF6DF9B
 P 4750 4350
-F 0 "L2" V 4900 4300 50  0000 C CNN
+F 0 "FB2" V 4900 4300 50  0000 C CNN
 F 1 "MPZ1608S221A" V 5000 4300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 4350 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/400/eads_commercial_power_mpz1608_en-923650.pdf" H 4750 4350 50  0001 C CNN
@@ -553,7 +529,7 @@ U 1 1 5AD0AB9A
 P 8250 3550
 F 0 "U3" H 8250 3550 50  0000 L CNN
 F 1 "STM32F765VIT6" H 8000 3450 50  0000 L CNN
-F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 8250 3550 50  0001 C CNN
+F 2 "custom-footprints:TQFP-100_14x14mm_P0.5mm" H 8250 3550 50  0001 C CNN
 F 3 "http://www.st.com/en/microcontrollers/stm32f765vi.html" H 8250 3550 50  0001 C CNN
 	1    8250 3550
 	1    0    0    -1  
@@ -851,8 +827,6 @@ Wire Wire Line
 	9600 5700 9550 5700
 Connection ~ 5600 4350
 Connection ~ 5600 4250
-Wire Wire Line
-	7650 850  7650 1950
 $Comp
 L Connector_Specialized:Test_Point TP1
 U 1 1 5B134698
@@ -1182,4 +1156,36 @@ Wire Wire Line
 	5600 4250 6650 4250
 Wire Wire Line
 	5600 4350 6650 4350
+Wire Wire Line
+	7650 1200 7650 1950
+$Comp
+L Switch:SW_SPDT SW2
+U 1 1 5AFBAB59
+P 7650 1000
+F 0 "SW2" V 7696 812 50  0000 R CNN
+F 1 "OS102011MA1QN1" V 7605 812 50  0000 R CNN
+F 2 "custom-footprints:SW_CuK_OS102011MA1QN1_SPDT_Angled" H 7650 1000 50  0001 C CNN
+F 3 "" H 7650 1000 50  0001 C CNN
+	1    7650 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 650  7550 650 
+Wire Wire Line
+	7550 650  7550 800 
+Wire Wire Line
+	7900 650  7750 650 
+Wire Wire Line
+	7750 650  7750 800 
+$Comp
+L power:GND #PWR0151
+U 1 1 5AFDE2A1
+P 950 7450
+F 0 "#PWR0151" H 950 7200 50  0001 C CNN
+F 1 "GND" H 955 7277 50  0000 C CNN
+F 2 "" H 950 7450 50  0001 C CNN
+F 3 "" H 950 7450 50  0001 C CNN
+	1    950  7450
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
