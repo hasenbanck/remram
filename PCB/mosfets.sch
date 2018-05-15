@@ -54,7 +54,7 @@ U 1 1 5B1A764D
 P 2000 1400
 F 0 "Q1" H 2387 1396 50  0000 L CNN
 F 1 "PSMN1R8-40YLC,115" H 2387 1305 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-669_LFPAK_ThermalVias-2" H 2200 1325 50  0001 L CIN
+F 2 "custom-footprints:SOT-669_LFPAK_ThermalVias-1" H 2200 1325 50  0001 L CIN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PSMN1R8-40YLC.pdf" V 2000 1400 50  0001 L CNN
 	1    2000 1400
 	1    0    0    -1  
@@ -123,7 +123,7 @@ U 1 1 5B1B03C5
 P 2000 3050
 F 0 "Q3" H 2387 3046 50  0000 L CNN
 F 1 "PSMN1R8-40YLC,115" H 2387 2955 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-669_LFPAK_ThermalVias-2" H 2200 2975 50  0001 L CIN
+F 2 "custom-footprints:SOT-669_LFPAK_ThermalVias-1" H 2200 2975 50  0001 L CIN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PSMN1R8-40YLC.pdf" V 2000 3050 50  0001 L CNN
 	1    2000 3050
 	1    0    0    -1  
