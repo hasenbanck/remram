@@ -1,13 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AP2112K-3.3TRG1
+D 600mA CMOS LDO REGULATOR WITH ENABLE
+$ENDCMP
+#
 $CMP BUK9840-55
 D N-channel TrenchMOS logic level FET
 K N-Channel MOSFET Logic-Level
 F https://www.mouser.de/datasheet/2/916/BUK9840-55-1320170.pdf
-$ENDCMP
-#
-$CMP LDLN030G33R
-D LDO Voltage Regulators 300 mA ultra-low noise LDO with Power Good and Soft Start
 $ENDCMP
 #
 $CMP PSMN1R8-40YLC,115
