@@ -528,9 +528,9 @@ F 3 "http://www.st.com/en/microcontrollers/stm32f765vi.html" H 6500 3650 50  000
 	1    6500 3650
 	1    0    0    -1  
 $EndComp
-Text HLabel 4900 4750 0    50   Output ~ 0
+Text HLabel 4900 4550 0    50   Output ~ 0
 PWM_FAN1
-Text HLabel 4900 4850 0    50   Output ~ 0
+Text HLabel 4900 4750 0    50   Output ~ 0
 PWM_FAN2
 Text Notes 1850 600  0    50   ~ 0
 USB Isolation
@@ -763,11 +763,11 @@ Text Label 8100 2850 0    50   ~ 0
 DD+
 Text Label 8100 2950 0    50   ~ 0
 DD-
-Text HLabel 7400 2050 1    50   Output ~ 0
+Text HLabel 7300 2050 1    50   Output ~ 0
 X_EN
 Text HLabel 7500 2050 1    50   Output ~ 0
 X_DIR
-Text HLabel 7300 2050 1    50   Input ~ 0
+Text HLabel 7400 2050 1    50   Input ~ 0
 X_DIAG
 Text HLabel 7600 2050 1    50   Output ~ 0
 X_STEP
@@ -779,19 +779,19 @@ Text HLabel 6500 2050 1    50   Output ~ 0
 Y_DIR
 Text HLabel 6700 2050 1    50   Input ~ 0
 Y_DIAG
-Text HLabel 6800 5250 3    50   Output ~ 0
+Text HLabel 7200 5250 3    50   Output ~ 0
 Z_EN
-Text HLabel 6900 5250 3    50   Output ~ 0
+Text HLabel 7000 5250 3    50   Output ~ 0
 Z_DIR
-Text HLabel 6700 5250 3    50   Input ~ 0
+Text HLabel 7100 5250 3    50   Input ~ 0
 Z_DIAG
 Text GLabel 8100 2450 2    50   Input ~ 0
 VDD3V3
-Text HLabel 7100 5250 3    50   Output ~ 0
+Text HLabel 6800 5250 3    50   Output ~ 0
 E_EN
-Text HLabel 7200 5250 3    50   Output ~ 0
+Text HLabel 6700 5250 3    50   Output ~ 0
 E_DIR
-Text HLabel 7000 5250 3    50   Input ~ 0
+Text HLabel 6900 5250 3    50   Input ~ 0
 E_DIAG
 Wire Wire Line
 	5300 5250 5300 5350
@@ -880,13 +880,13 @@ Text HLabel 5700 5250 3    50   Input ~ 0
 MISO
 Text HLabel 5800 5250 3    50   Output ~ 0
 MOSI
-Text HLabel 5900 5250 3    50   Output ~ 0
-SS_X
-Text HLabel 6000 5250 3    50   Output ~ 0
-SS_Y
-Text HLabel 6100 5250 3    50   Output ~ 0
-SS_Z
 Text HLabel 6200 5250 3    50   Output ~ 0
+SS_X
+Text HLabel 6100 5250 3    50   Output ~ 0
+SS_Y
+Text HLabel 6000 5250 3    50   Output ~ 0
+SS_Z
+Text HLabel 5900 5250 3    50   Output ~ 0
 SS_E
 Text HLabel 6300 5250 3    50   Output ~ 0
 SS_SD
@@ -906,13 +906,13 @@ Text HLabel 8100 3550 2    50   BiDi ~ 0
 LCD_D5
 Text HLabel 8100 3450 2    50   BiDi ~ 0
 LCD_D4
-Text HLabel 8100 3850 2    50   BiDi ~ 0
+Text HLabel 7000 2050 1    50   BiDi ~ 0
 LCD_RS
-Text HLabel 8100 3950 2    50   BiDi ~ 0
+Text HLabel 7100 2050 1    50   BiDi ~ 0
 LCD_EN
 Text HLabel 8100 4250 2    50   BiDi ~ 0
 BTN_EN2
-Text HLabel 8100 4050 2    50   BiDi ~ 0
+Text HLabel 6800 2050 1    50   BiDi ~ 0
 BTN_ENC
 Text HLabel 8100 4150 2    50   BiDi ~ 0
 BTN_EN1
@@ -930,9 +930,9 @@ Text HLabel 8100 4450 2    50   Input ~ 0
 Z_MIN
 Text HLabel 8100 4350 2    50   Input ~ 0
 Z_MAX
-Text HLabel 4900 4550 0    50   Output ~ 0
-PWM_BED
 Text HLabel 4900 4650 0    50   Output ~ 0
+PWM_BED
+Text HLabel 4900 4850 0    50   Output ~ 0
 PWM_HEAT
 Wire Wire Line
 	3400 3550 4900 3550
@@ -947,10 +947,10 @@ NoConn ~ 4900 3250
 NoConn ~ 4900 4150
 NoConn ~ 5500 5250
 NoConn ~ 7200 2050
-NoConn ~ 7100 2050
-NoConn ~ 7000 2050
-NoConn ~ 6900 2050
-NoConn ~ 6800 2050
+NoConn ~ 8100 3950
+NoConn ~ 8100 3850
+NoConn ~ 6600 5250
+NoConn ~ 8100 4050
 NoConn ~ 6300 2050
 NoConn ~ 6200 2050
 NoConn ~ 5800 2050
@@ -1047,7 +1047,7 @@ Wire Wire Line
 	7000 750  7350 750 
 Wire Wire Line
 	7000 1500 7500 1500
-Text HLabel 6600 5250 3    50   BiDi ~ 0
+Text HLabel 6900 2050 1    50   BiDi ~ 0
 LCD_BEEPER
 NoConn ~ 8100 3050
 $EndSCHEMATC
