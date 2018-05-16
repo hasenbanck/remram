@@ -146,10 +146,10 @@ Connection ~ 2000 4100
 Wire Wire Line
 	3050 4600 3050 4500
 $Comp
-L Connector_Generic:Conn_01x02 J17
+L Connector_Generic:Conn_01x02 J18
 U 1 1 5B1719C1
 P 4150 4600
-F 0 "J17" H 4229 4592 50  0000 L CNN
+F 0 "J18" H 4229 4592 50  0000 L CNN
 F 1 "70543-0001" H 4229 4501 50  0000 L CNN
 F 2 "custom-footprints:70543-0001" H 4150 4600 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKPzBRyOySofHgnbNURyOy7MwFkp4%3d" H 4150 4600 50  0001 C CNN
@@ -267,10 +267,10 @@ Connection ~ 2000 5300
 Wire Wire Line
 	3050 5800 3050 5700
 $Comp
-L Connector_Generic:Conn_01x02 J18
+L Connector_Generic:Conn_01x02 J19
 U 1 1 5B171A22
 P 4150 5800
-F 0 "J18" H 4229 5792 50  0000 L CNN
+F 0 "J19" H 4229 5792 50  0000 L CNN
 F 1 "70543-0001" H 4229 5701 50  0000 L CNN
 F 2 "custom-footprints:70543-0001" H 4150 5800 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKPzBRyOySofHgnbNURyOy7MwFkp4%3d" H 4150 5800 50  0001 C CNN
@@ -388,10 +388,10 @@ Connection ~ 2000 6500
 Wire Wire Line
 	3050 7000 3050 6900
 $Comp
-L Connector_Generic:Conn_01x02 J19
+L Connector_Generic:Conn_01x02 J20
 U 1 1 5B171A83
 P 4150 7000
-F 0 "J19" H 4229 6992 50  0000 L CNN
+F 0 "J20" H 4229 6992 50  0000 L CNN
 F 1 "70543-0001" H 4229 6901 50  0000 L CNN
 F 2 "custom-footprints:70543-0001" H 4150 7000 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKPzBRyOySofHgnbNURyOy7MwFkp4%3d" H 4150 7000 50  0001 C CNN
@@ -603,65 +603,65 @@ $EndComp
 Wire Notes Line
 	7650 2100 5150 2100
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J16
+L Connector_Generic:Conn_02x05_Odd_Even J17
 U 1 1 5B17C4BC
-P 1200 2700
-F 0 "J16" H 1250 3150 50  0000 C CNN
-F 1 "62201021121" H 1250 3050 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 1200 2700 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/445/6220xx21121-542317.pdf" H 1200 2700 50  0001 C CNN
-	1    1200 2700
+P 1200 2750
+F 0 "J17" H 1250 3200 50  0000 C CNN
+F 1 "62201021121" H 1250 3100 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 1200 2750 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/445/6220xx21121-542317.pdf" H 1200 2750 50  0001 C CNN
+	1    1200 2750
 	1    0    0    -1  
 $EndComp
-Text Notes 1250 2150 0    50   ~ 0
+Text Notes 1250 2200 0    50   ~ 0
 SWD
 $Comp
 L power:GND #PWR072
 U 1 1 5B17C4C4
-P 850 2900
-F 0 "#PWR072" H 850 2650 50  0001 C CNN
-F 1 "GND" H 855 2727 50  0000 C CNN
-F 2 "" H 850 2900 50  0001 C CNN
-F 3 "" H 850 2900 50  0001 C CNN
-	1    850  2900
+P 850 2950
+F 0 "#PWR072" H 850 2700 50  0001 C CNN
+F 1 "GND" H 855 2777 50  0000 C CNN
+F 2 "" H 850 2950 50  0001 C CNN
+F 3 "" H 850 2950 50  0001 C CNN
+	1    850  2950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1000 2900 850  2900
+	1000 2950 850  2950
 Wire Wire Line
-	850  2900 850  2700
+	850  2950 850  2750
 Wire Wire Line
-	850  2700 1000 2700
-Connection ~ 850  2900
+	850  2750 1000 2750
+Connection ~ 850  2950
 Wire Wire Line
-	850  2700 850  2600
+	850  2750 850  2650
 Wire Wire Line
-	850  2600 1000 2600
-Connection ~ 850  2700
-Text GLabel 1000 2500 0    50   Input ~ 0
+	850  2650 1000 2650
+Connection ~ 850  2750
+Text GLabel 1000 2550 0    50   Input ~ 0
 VDD3V3
 Wire Wire Line
-	1500 2500 1750 2500
+	1500 2550 1750 2550
 Wire Wire Line
-	1750 2600 1500 2600
+	1750 2650 1500 2650
 Wire Wire Line
-	1500 2900 1750 2900
+	1500 2950 1750 2950
 Wire Notes Line
-	2100 2200 2100 3150
+	2100 2250 2100 3200
 Wire Notes Line
-	600  3150 600  2200
-Text HLabel 1750 2900 2    50   Input ~ 0
+	600  3200 600  2250
+Text HLabel 1750 2950 2    50   Input ~ 0
 nRESET
-Text HLabel 1750 2600 2    50   Input ~ 0
+Text HLabel 1750 2650 2    50   Input ~ 0
 SWDIO
-Text HLabel 1750 2500 2    50   Input ~ 0
+Text HLabel 1750 2550 2    50   Input ~ 0
 SWCLK
 Text Notes 650  2050 0    50   ~ 0
 ESD protected by USB isolator
 Wire Notes Line
-	600  3150 2100 3150
+	600  3200 2100 3200
 Wire Notes Line
-	600  2200 2100 2200
+	600  2250 2100 2250
 Text HLabel 1450 1100 2    50   Input ~ 0
 VBUS
 $Comp
@@ -981,9 +981,9 @@ F 3 "~" H 10350 950 50  0001 C CNN
 $EndComp
 NoConn ~ 4650 1500
 NoConn ~ 4150 1500
-NoConn ~ 1000 2800
-NoConn ~ 1500 2800
-NoConn ~ 1500 2700
+NoConn ~ 1000 2850
+NoConn ~ 1500 2850
+NoConn ~ 1500 2750
 Wire Wire Line
 	2000 5850 2000 5800
 Wire Wire Line
@@ -994,4 +994,41 @@ Wire Notes Line
 	9400 750  9400 2100
 Text GLabel 8800 1600 2    50   Input ~ 0
 VDD5V
+Wire Notes Line
+	2250 2250 2250 3200
+Wire Notes Line
+	4150 3200 4150 2250
+Text Notes 2650 2200 0    50   ~ 0
+Z-Axis second connector
+$Comp
+L Connector_Generic:Conn_01x04 J16
+U 1 1 5AFD917C
+P 3500 2650
+F 0 "J16" H 3579 2642 50  0000 L CNN
+F 1 "70543-0003" H 3579 2551 50  0000 L CNN
+F 2 "custom-footprints:70543-0003" H 3500 2650 50  0001 C CNN
+F 3 "https://www.mouser.de/ProductDetail/Molex/70543-0003?qs=sGAEpiMZZMs%252bGHln7q6pm%252bS0pk2Wo0XxCD3CKlCQrmU%3d" H 3500 2650 50  0001 C CNN
+	1    3500 2650
+	1    0    0    -1  
+$EndComp
+Text HLabel 2600 2550 0    50   Input ~ 0
+Z_OA1
+Text HLabel 2600 2650 0    50   Input ~ 0
+Z_OA2
+Text HLabel 2600 2850 0    50   Input ~ 0
+Z_OB2
+Text HLabel 2600 2750 0    50   Input ~ 0
+Z_OB1
+Wire Notes Line
+	2250 2250 4150 2250
+Wire Notes Line
+	2250 3200 4150 3200
+Wire Wire Line
+	2600 2550 3300 2550
+Wire Wire Line
+	2600 2650 3300 2650
+Wire Wire Line
+	2600 2750 3300 2750
+Wire Wire Line
+	2600 2850 3300 2850
 $EndSCHEMATC
