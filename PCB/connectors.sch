@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L remram-rescue:USB_B-Connector_Specialized J4
+L remram-rescue:USB_B-Connector_Specialized J7
 U 1 1 5B16E55B
 P 1150 1300
-F 0 "J4" H 1205 1767 50  0000 C CNN
+F 0 "J7" H 1205 1767 50  0000 C CNN
 F 1 "67068-8000" H 1205 1676 50  0000 C CNN
 F 2 "custom-footprints:67068-8000" H 1300 1250 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/276/0670688000_IO_CONNECTORS-172066.pdf" H 1300 1250 50  0001 C CNN
@@ -28,51 +28,40 @@ $EndComp
 Text Notes 1300 700  2    50   ~ 0
 USB
 Text Notes 2850 700  2    50   ~ 0
-EXT-LCD
+EXT1
 Text Notes 4450 700  2    50   ~ 0
-EXT-SD
+EXT2
 Text Notes 8800 700  2    50   ~ 0
-EXT-SPI-L2C
+EXT3
 $Comp
-L remram-rescue:Conn_02x05_Odd_Even-Connector_Generic J6
+L remram-rescue:Conn_02x05_Odd_Even-Connector_Generic J8
 U 1 1 5B16F6B4
 P 2700 1300
-F 0 "J6" H 2750 1717 50  0000 C CNN
-F 1 "61201021621" H 2750 1626 50  0000 C CNN
+F 0 "J8" H 2750 1717 50  0000 C CNN
+F 1 "Conn_02x05" H 2750 1626 50  0000 C CNN
 F 2 "custom-footprints:Box_Header_2x05x2.54mm_Straight" H 2700 1300 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Wurth-Electronics/61201021621?qs=%2fha2pyFadugkhyfdWLPRIwz9kroMfF%252bXZWEETFcVSqiQRaqHzEC2RQ%3d%3d" H 2700 1300 50  0001 C CNN
+F 3 "" H 2700 1300 50  0001 C CNN
 	1    2700 1300
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:Conn_02x05_Odd_Even-Connector_Generic J11
+L remram-rescue:Conn_02x05_Odd_Even-Connector_Generic J9
 U 1 1 5B16F736
 P 4350 1300
-F 0 "J11" H 4400 1717 50  0000 C CNN
-F 1 "61201021621" H 4400 1626 50  0000 C CNN
+F 0 "J9" H 4400 1717 50  0000 C CNN
+F 1 "Conn_02x05" H 4400 1626 50  0000 C CNN
 F 2 "custom-footprints:Box_Header_2x05x2.54mm_Straight" H 4350 1300 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Wurth-Electronics/61201021621?qs=%2fha2pyFadugkhyfdWLPRIwz9kroMfF%252bXZWEETFcVSqiQRaqHzEC2RQ%3d%3d" H 4350 1300 50  0001 C CNN
+F 3 "" H 4350 1300 50  0001 C CNN
 	1    4350 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L remram-rescue:Conn_02x05_Odd_Even-Connector_Generic J18
-U 1 1 5B16F775
-P 8500 1400
-F 0 "J18" H 8550 1817 50  0000 C CNN
-F 1 "61201021621" H 8550 1726 50  0000 C CNN
-F 2 "custom-footprints:Box_Header_2x05x2.54mm_Straight" H 8500 1400 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Wurth-Electronics/61201021621?qs=%2fha2pyFadugkhyfdWLPRIwz9kroMfF%252bXZWEETFcVSqiQRaqHzEC2RQ%3d%3d" H 8500 1400 50  0001 C CNN
-	1    8500 1400
 	1    0    0    -1  
 $EndComp
 Text HLabel 1000 4600 0    50   Output ~ 0
 THERM_1
 $Comp
-L remram-rescue:Test_Point-Connector_Specialized TP15
+L remram-rescue:Test_Point-Connector_Specialized TP19
 U 1 1 5B171985
 P 3400 4450
-F 0 "TP15" H 3458 4570 50  0000 L CNN
+F 0 "TP19" H 3458 4570 50  0000 L CNN
 F 1 "THERM_1" H 3458 4479 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3600 4450 50  0001 C CNN
 F 3 "~" H 3600 4450 50  0001 C CNN
@@ -91,10 +80,10 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 2000 4350 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R23
+L remram-rescue:R-Device R24
 U 1 1 5B1719A1
 P 2600 4600
-F 0 "R23" V 2393 4600 50  0000 C CNN
+F 0 "R24" V 2393 4600 50  0000 C CNN
 F 1 "4.7k" V 2484 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2530 4600 50  0001 C CNN
 F 3 "~" H 2600 4600 50  0001 C CNN
@@ -102,10 +91,10 @@ F 3 "~" H 2600 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R26
+L remram-rescue:R-Device R23
 U 1 1 5B1719A8
 P 3050 4350
-F 0 "R26" H 3120 4396 50  0000 L CNN
+F 0 "R23" H 3120 4396 50  0000 L CNN
 F 1 "4.7k" H 3120 4305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2980 4350 50  0001 C CNN
 F 3 "~" H 3050 4350 50  0001 C CNN
@@ -115,10 +104,10 @@ $EndComp
 Wire Wire Line
 	3050 4600 2750 4600
 $Comp
-L power:GND #PWR068
+L power:GND #PWR076
 U 1 1 5B1719B0
 P 2000 5000
-F 0 "#PWR068" H 2000 4750 50  0001 C CNN
+F 0 "#PWR076" H 2000 4750 50  0001 C CNN
 F 1 "GND" H 2005 4827 50  0000 C CNN
 F 2 "" H 2000 5000 50  0001 C CNN
 F 3 "" H 2000 5000 50  0001 C CNN
@@ -146,10 +135,10 @@ Connection ~ 2000 4100
 Wire Wire Line
 	3050 4600 3050 4500
 $Comp
-L remram-rescue:Conn_01x02-Connector_Generic J8
+L remram-rescue:Conn_01x02-Connector_Generic J18
 U 1 1 5B1719C1
 P 4150 4600
-F 0 "J8" H 4229 4592 50  0000 L CNN
+F 0 "J18" H 4229 4592 50  0000 L CNN
 F 1 "70543-0001" H 4229 4501 50  0000 L CNN
 F 2 "custom-footprints:70543-0001" H 4150 4600 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKPzBRyOySofHgnbNURyOy7MwFkp4%3d" H 4150 4600 50  0001 C CNN
@@ -160,10 +149,10 @@ Wire Wire Line
 	3950 4600 3400 4600
 Connection ~ 3050 4600
 $Comp
-L power:GND #PWR072
+L power:GND #PWR074
 U 1 1 5B1719CA
 P 3950 4700
-F 0 "#PWR072" H 3950 4450 50  0001 C CNN
+F 0 "#PWR074" H 3950 4450 50  0001 C CNN
 F 1 "GND" H 3955 4527 50  0000 C CNN
 F 2 "" H 3950 4700 50  0001 C CNN
 F 3 "" H 3950 4700 50  0001 C CNN
@@ -190,10 +179,10 @@ Wire Wire Line
 	1000 4600 1250 4600
 Connection ~ 1250 4600
 $Comp
-L power:GND #PWR065
+L power:GND #PWR075
 U 1 1 5B1719DF
 P 1250 4900
-F 0 "#PWR065" H 1250 4650 50  0001 C CNN
+F 0 "#PWR075" H 1250 4650 50  0001 C CNN
 F 1 "GND" H 1255 4727 50  0000 C CNN
 F 2 "" H 1250 4900 50  0001 C CNN
 F 3 "" H 1250 4900 50  0001 C CNN
@@ -203,10 +192,10 @@ $EndComp
 Text HLabel 1000 5800 0    50   Output ~ 0
 THERM_2
 $Comp
-L remram-rescue:Test_Point-Connector_Specialized TP16
+L remram-rescue:Test_Point-Connector_Specialized TP20
 U 1 1 5B1719E6
 P 3400 5650
-F 0 "TP16" H 3458 5770 50  0000 L CNN
+F 0 "TP20" H 3458 5770 50  0000 L CNN
 F 1 "THERM_2" H 3458 5679 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3600 5650 50  0001 C CNN
 F 3 "~" H 3600 5650 50  0001 C CNN
@@ -214,10 +203,10 @@ F 3 "~" H 3600 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:R-Device R24
+L remram-rescue:R-Device R26
 U 1 1 5B171A02
 P 2600 5800
-F 0 "R24" V 2393 5800 50  0000 C CNN
+F 0 "R26" V 2393 5800 50  0000 C CNN
 F 1 "4.7k" V 2484 5800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2530 5800 50  0001 C CNN
 F 3 "~" H 2600 5800 50  0001 C CNN
@@ -225,10 +214,10 @@ F 3 "~" H 2600 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R27
+L remram-rescue:R-Device R25
 U 1 1 5B171A09
 P 3050 5550
-F 0 "R27" H 3120 5596 50  0000 L CNN
+F 0 "R25" H 3120 5596 50  0000 L CNN
 F 1 "4.7k" H 3120 5505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2980 5550 50  0001 C CNN
 F 3 "~" H 3050 5550 50  0001 C CNN
@@ -238,10 +227,10 @@ $EndComp
 Wire Wire Line
 	3050 5800 2750 5800
 $Comp
-L power:GND #PWR069
+L power:GND #PWR079
 U 1 1 5B171A11
 P 2000 6150
-F 0 "#PWR069" H 2000 5900 50  0001 C CNN
+F 0 "#PWR079" H 2000 5900 50  0001 C CNN
 F 1 "GND" H 2005 5977 50  0000 C CNN
 F 2 "" H 2000 6150 50  0001 C CNN
 F 3 "" H 2000 6150 50  0001 C CNN
@@ -267,10 +256,10 @@ Connection ~ 2000 5300
 Wire Wire Line
 	3050 5800 3050 5700
 $Comp
-L remram-rescue:Conn_01x02-Connector_Generic J9
+L remram-rescue:Conn_01x02-Connector_Generic J19
 U 1 1 5B171A22
 P 4150 5800
-F 0 "J9" H 4229 5792 50  0000 L CNN
+F 0 "J19" H 4229 5792 50  0000 L CNN
 F 1 "70543-0001" H 4229 5701 50  0000 L CNN
 F 2 "custom-footprints:70543-0001" H 4150 5800 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKPzBRyOySofHgnbNURyOy7MwFkp4%3d" H 4150 5800 50  0001 C CNN
@@ -281,10 +270,10 @@ Wire Wire Line
 	3950 5800 3400 5800
 Connection ~ 3050 5800
 $Comp
-L power:GND #PWR073
+L power:GND #PWR077
 U 1 1 5B171A2B
 P 3950 5900
-F 0 "#PWR073" H 3950 5650 50  0001 C CNN
+F 0 "#PWR077" H 3950 5650 50  0001 C CNN
 F 1 "GND" H 3955 5727 50  0000 C CNN
 F 2 "" H 3950 5900 50  0001 C CNN
 F 3 "" H 3950 5900 50  0001 C CNN
@@ -311,10 +300,10 @@ Wire Wire Line
 	1000 5800 1250 5800
 Connection ~ 1250 5800
 $Comp
-L power:GND #PWR066
+L power:GND #PWR078
 U 1 1 5B171A40
 P 1250 6100
-F 0 "#PWR066" H 1250 5850 50  0001 C CNN
+F 0 "#PWR078" H 1250 5850 50  0001 C CNN
 F 1 "GND" H 1255 5927 50  0000 C CNN
 F 2 "" H 1250 6100 50  0001 C CNN
 F 3 "" H 1250 6100 50  0001 C CNN
@@ -324,10 +313,10 @@ $EndComp
 Text HLabel 1000 7000 0    50   Output ~ 0
 THERM_3
 $Comp
-L remram-rescue:Test_Point-Connector_Specialized TP17
+L remram-rescue:Test_Point-Connector_Specialized TP21
 U 1 1 5B171A47
 P 3400 6850
-F 0 "TP17" H 3458 6970 50  0000 L CNN
+F 0 "TP21" H 3458 6970 50  0000 L CNN
 F 1 "THERM_3" H 3458 6879 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3600 6850 50  0001 C CNN
 F 3 "~" H 3600 6850 50  0001 C CNN
@@ -335,10 +324,10 @@ F 3 "~" H 3600 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:R-Device R25
+L remram-rescue:R-Device R28
 U 1 1 5B171A63
 P 2600 7000
-F 0 "R25" V 2393 7000 50  0000 C CNN
+F 0 "R28" V 2393 7000 50  0000 C CNN
 F 1 "4.7k" V 2484 7000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2530 7000 50  0001 C CNN
 F 3 "~" H 2600 7000 50  0001 C CNN
@@ -346,10 +335,10 @@ F 3 "~" H 2600 7000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R28
+L remram-rescue:R-Device R27
 U 1 1 5B171A6A
 P 3050 6750
-F 0 "R28" H 3120 6796 50  0000 L CNN
+F 0 "R27" H 3120 6796 50  0000 L CNN
 F 1 "4.7k" H 3120 6705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2980 6750 50  0001 C CNN
 F 3 "~" H 3050 6750 50  0001 C CNN
@@ -359,10 +348,10 @@ $EndComp
 Wire Wire Line
 	3050 7000 2750 7000
 $Comp
-L power:GND #PWR070
+L power:GND #PWR082
 U 1 1 5B171A72
 P 2000 7350
-F 0 "#PWR070" H 2000 7100 50  0001 C CNN
+F 0 "#PWR082" H 2000 7100 50  0001 C CNN
 F 1 "GND" H 2005 7177 50  0000 C CNN
 F 2 "" H 2000 7350 50  0001 C CNN
 F 3 "" H 2000 7350 50  0001 C CNN
@@ -388,10 +377,10 @@ Connection ~ 2000 6500
 Wire Wire Line
 	3050 7000 3050 6900
 $Comp
-L remram-rescue:Conn_01x02-Connector_Generic J10
+L remram-rescue:Conn_01x02-Connector_Generic J20
 U 1 1 5B171A83
 P 4150 7000
-F 0 "J10" H 4229 6992 50  0000 L CNN
+F 0 "J20" H 4229 6992 50  0000 L CNN
 F 1 "70543-0001" H 4229 6901 50  0000 L CNN
 F 2 "custom-footprints:70543-0001" H 4150 7000 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKPzBRyOySofHgnbNURyOy7MwFkp4%3d" H 4150 7000 50  0001 C CNN
@@ -402,10 +391,10 @@ Wire Wire Line
 	3950 7000 3400 7000
 Connection ~ 3050 7000
 $Comp
-L power:GND #PWR074
+L power:GND #PWR080
 U 1 1 5B171A8C
 P 3950 7100
-F 0 "#PWR074" H 3950 6850 50  0001 C CNN
+F 0 "#PWR080" H 3950 6850 50  0001 C CNN
 F 1 "GND" H 3955 6927 50  0000 C CNN
 F 2 "" H 3950 7100 50  0001 C CNN
 F 3 "" H 3950 7100 50  0001 C CNN
@@ -432,10 +421,10 @@ Wire Wire Line
 	1000 7000 1250 7000
 Connection ~ 1250 7000
 $Comp
-L power:GND #PWR067
+L power:GND #PWR081
 U 1 1 5B171AA1
 P 1250 7300
-F 0 "#PWR067" H 1250 7050 50  0001 C CNN
+F 0 "#PWR081" H 1250 7050 50  0001 C CNN
 F 1 "GND" H 1255 7127 50  0000 C CNN
 F 2 "" H 1250 7300 50  0001 C CNN
 F 3 "" H 1250 7300 50  0001 C CNN
@@ -455,10 +444,10 @@ Wire Notes Line
 Text Notes 6300 700  0    50   ~ 0
 Endstops
 $Comp
-L power:GND #PWR075
+L power:GND #PWR063
 U 1 1 5B171AAF
 P 5550 950
-F 0 "#PWR075" H 5550 700 50  0001 C CNN
+F 0 "#PWR063" H 5550 700 50  0001 C CNN
 F 1 "GND" V 5555 822 50  0000 R CNN
 F 2 "" H 5550 950 50  0001 C CNN
 F 3 "" H 5550 950 50  0001 C CNN
@@ -470,10 +459,10 @@ VDD3V3
 Wire Notes Line
 	5150 750  7650 750 
 $Comp
-L remram-rescue:Conn_01x03-Connector_Generic J12
+L remram-rescue:Conn_01x03-Connector_Generic J4
 U 1 1 5B171AB8
 P 5750 950
-F 0 "J12" H 5829 992 50  0000 L CNN
+F 0 "J4" H 5829 992 50  0000 L CNN
 F 1 "70543-0002" H 5829 901 50  0000 L CNN
 F 2 "custom-footprints:70543-0002" H 5750 950 50  0001 C CNN
 F 3 "~" H 5750 950 50  0001 C CNN
@@ -481,10 +470,10 @@ F 3 "~" H 5750 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR078
+L power:GND #PWR064
 U 1 1 5B171ABF
 P 6750 950
-F 0 "#PWR078" H 6750 700 50  0001 C CNN
+F 0 "#PWR064" H 6750 700 50  0001 C CNN
 F 1 "GND" V 6755 822 50  0000 R CNN
 F 2 "" H 6750 950 50  0001 C CNN
 F 3 "" H 6750 950 50  0001 C CNN
@@ -494,10 +483,10 @@ $EndComp
 Text GLabel 6750 1050 0    50   Input ~ 0
 VDD3V3
 $Comp
-L remram-rescue:Conn_01x03-Connector_Generic J15
+L remram-rescue:Conn_01x03-Connector_Generic J5
 U 1 1 5B171AC6
 P 6950 950
-F 0 "J15" H 7029 992 50  0000 L CNN
+F 0 "J5" H 7029 992 50  0000 L CNN
 F 1 "70543-0002" H 7029 901 50  0000 L CNN
 F 2 "custom-footprints:70543-0002" H 6950 950 50  0001 C CNN
 F 3 "~" H 6950 950 50  0001 C CNN
@@ -505,10 +494,10 @@ F 3 "~" H 6950 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR076
+L power:GND #PWR065
 U 1 1 5B171ACF
 P 5550 1350
-F 0 "#PWR076" H 5550 1100 50  0001 C CNN
+F 0 "#PWR065" H 5550 1100 50  0001 C CNN
 F 1 "GND" V 5555 1222 50  0000 R CNN
 F 2 "" H 5550 1350 50  0001 C CNN
 F 3 "" H 5550 1350 50  0001 C CNN
@@ -518,10 +507,10 @@ $EndComp
 Text GLabel 5550 1450 0    50   Input ~ 0
 VDD3V3
 $Comp
-L remram-rescue:Conn_01x03-Connector_Generic J13
+L remram-rescue:Conn_01x03-Connector_Generic J10
 U 1 1 5B171AD6
 P 5750 1350
-F 0 "J13" H 5829 1392 50  0000 L CNN
+F 0 "J10" H 5829 1392 50  0000 L CNN
 F 1 "70543-0002" H 5829 1301 50  0000 L CNN
 F 2 "custom-footprints:70543-0002" H 5750 1350 50  0001 C CNN
 F 3 "~" H 5750 1350 50  0001 C CNN
@@ -529,10 +518,10 @@ F 3 "~" H 5750 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR079
+L power:GND #PWR066
 U 1 1 5B171ADD
 P 6750 1350
-F 0 "#PWR079" H 6750 1100 50  0001 C CNN
+F 0 "#PWR066" H 6750 1100 50  0001 C CNN
 F 1 "GND" V 6755 1222 50  0000 R CNN
 F 2 "" H 6750 1350 50  0001 C CNN
 F 3 "" H 6750 1350 50  0001 C CNN
@@ -542,10 +531,10 @@ $EndComp
 Text GLabel 6750 1450 0    50   Input ~ 0
 VDD3V3
 $Comp
-L remram-rescue:Conn_01x03-Connector_Generic J16
+L remram-rescue:Conn_01x03-Connector_Generic J11
 U 1 1 5B171AE4
 P 6950 1350
-F 0 "J16" H 7029 1392 50  0000 L CNN
+F 0 "J11" H 7029 1392 50  0000 L CNN
 F 1 "70543-0002" H 7029 1301 50  0000 L CNN
 F 2 "custom-footprints:70543-0002" H 6950 1350 50  0001 C CNN
 F 3 "~" H 6950 1350 50  0001 C CNN
@@ -553,10 +542,10 @@ F 3 "~" H 6950 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR077
+L power:GND #PWR069
 U 1 1 5B171AED
 P 5550 1750
-F 0 "#PWR077" H 5550 1500 50  0001 C CNN
+F 0 "#PWR069" H 5550 1500 50  0001 C CNN
 F 1 "GND" V 5555 1622 50  0000 R CNN
 F 2 "" H 5550 1750 50  0001 C CNN
 F 3 "" H 5550 1750 50  0001 C CNN
@@ -577,10 +566,10 @@ F 3 "~" H 5750 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR080
+L power:GND #PWR070
 U 1 1 5B171AFB
 P 6750 1750
-F 0 "#PWR080" H 6750 1500 50  0001 C CNN
+F 0 "#PWR070" H 6750 1500 50  0001 C CNN
 F 1 "GND" V 6755 1622 50  0000 R CNN
 F 2 "" H 6750 1750 50  0001 C CNN
 F 3 "" H 6750 1750 50  0001 C CNN
@@ -590,10 +579,10 @@ $EndComp
 Text GLabel 6750 1850 0    50   Input ~ 0
 VDD3V3
 $Comp
-L remram-rescue:Conn_01x03-Connector_Generic J17
+L remram-rescue:Conn_01x03-Connector_Generic J15
 U 1 1 5B171B02
 P 6950 1750
-F 0 "J17" H 7029 1792 50  0000 L CNN
+F 0 "J15" H 7029 1792 50  0000 L CNN
 F 1 "70543-0002" H 7029 1701 50  0000 L CNN
 F 2 "custom-footprints:70543-0002" H 6950 1750 50  0001 C CNN
 F 3 "~" H 6950 1750 50  0001 C CNN
@@ -603,10 +592,10 @@ $EndComp
 Wire Notes Line
 	7650 2100 5150 2100
 $Comp
-L remram-rescue:Conn_02x05_Odd_Even-Connector_Generic J5
+L remram-rescue:Conn_02x05_Odd_Even-Connector_Generic J17
 U 1 1 5B17C4BC
 P 1200 2750
-F 0 "J5" H 1250 3200 50  0000 C CNN
+F 0 "J17" H 1250 3200 50  0000 C CNN
 F 1 "62201021121" H 1250 3100 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 1200 2750 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/445/6220xx21121-542317.pdf" H 1200 2750 50  0001 C CNN
@@ -616,10 +605,10 @@ $EndComp
 Text Notes 1250 2200 0    50   ~ 0
 SWD
 $Comp
-L power:GND #PWR063
+L power:GND #PWR073
 U 1 1 5B17C4C4
 P 850 2950
-F 0 "#PWR063" H 850 2700 50  0001 C CNN
+F 0 "#PWR073" H 850 2700 50  0001 C CNN
 F 1 "GND" H 855 2777 50  0000 C CNN
 F 2 "" H 850 2950 50  0001 C CNN
 F 3 "" H 850 2950 50  0001 C CNN
@@ -665,10 +654,10 @@ Wire Notes Line
 Text HLabel 1450 1100 2    50   Input ~ 0
 VBUS
 $Comp
-L power:GNDS #PWR064
+L power:GNDS #PWR068
 U 1 1 5AF8309F
 P 1150 1700
-F 0 "#PWR064" H 1150 1450 50  0001 C CNN
+F 0 "#PWR068" H 1150 1450 50  0001 C CNN
 F 1 "GNDS" H 1155 1527 50  0000 C CNN
 F 2 "" H 1150 1700 50  0001 C CNN
 F 3 "" H 1150 1700 50  0001 C CNN
@@ -693,10 +682,10 @@ Wire Notes Line
 Text GLabel 3000 1500 2    50   Input ~ 0
 VDD5V
 $Comp
-L power:GND #PWR071
+L power:GND #PWR067
 U 1 1 5AFA04BE
 P 2500 1500
-F 0 "#PWR071" H 2500 1250 50  0001 C CNN
+F 0 "#PWR067" H 2500 1250 50  0001 C CNN
 F 1 "GND" V 2505 1372 50  0000 R CNN
 F 2 "" H 2500 1500 50  0001 C CNN
 F 3 "" H 2500 1500 50  0001 C CNN
@@ -753,44 +742,38 @@ Wire Notes Line
 	5100 2100 5100 750 
 Wire Notes Line
 	5100 750  3550 750 
-Wire Notes Line
-	7700 750  7700 2100
-Text GLabel 8800 1500 2    50   Input ~ 0
+Text GLabel 8800 1850 2    50   Input ~ 0
 VDD3V3
 $Comp
-L power:GND #PWR081
+L power:GND #PWR072
 U 1 1 5B067CCF
-P 8300 1600
-F 0 "#PWR081" H 8300 1350 50  0001 C CNN
-F 1 "GND" V 8305 1472 50  0000 R CNN
-F 2 "" H 8300 1600 50  0001 C CNN
-F 3 "" H 8300 1600 50  0001 C CNN
-	1    8300 1600
+P 8300 1950
+F 0 "#PWR072" H 8300 1700 50  0001 C CNN
+F 1 "GND" V 8305 1822 50  0000 R CNN
+F 2 "" H 8300 1950 50  0001 C CNN
+F 3 "" H 8300 1950 50  0001 C CNN
+	1    8300 1950
 	0    1    1    0   
 $EndComp
 Wire Notes Line
-	7700 2100 9350 2100
-Wire Notes Line
 	7700 750  9350 750 
-Wire Notes Line
-	9350 750  9350 2100
-Text HLabel 8300 1200 0    50   Input ~ 0
+Text HLabel 8300 1050 0    50   Input ~ 0
 SCK
-Text HLabel 8300 1300 0    50   Input ~ 0
+Text HLabel 8300 1150 0    50   Input ~ 0
 MISO
-Text HLabel 8800 1200 2    50   Input ~ 0
+Text HLabel 8800 1050 2    50   Input ~ 0
 MOSI
 Text HLabel 2500 1400 0    50   BiDi ~ 0
 LCD_D6
 Text HLabel 3000 1400 2    50   BiDi ~ 0
 LCD_D7
-Text HLabel 8800 1300 2    50   Input ~ 0
+Text HLabel 8800 1150 2    50   Input ~ 0
 EXT_D1
-Text HLabel 8300 1400 0    50   Input ~ 0
+Text HLabel 8300 1250 0    50   Input ~ 0
 EXT_D2
-Text HLabel 8800 1400 2    50   Input ~ 0
+Text HLabel 8300 1450 0    50   Input ~ 0
 SCL
-Text HLabel 8300 1500 0    50   BiDi ~ 0
+Text HLabel 8800 1350 2    50   BiDi ~ 0
 SDA
 Wire Notes Line
 	7650 750  7650 2100
@@ -864,10 +847,10 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 2000 7200 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:Conn_01x02-Connector_Generic J19
+L remram-rescue:Conn_01x02-Connector_Generic J6
 U 1 1 5AFC19C7
 P 10300 1050
-F 0 "J19" H 10379 1042 50  0000 L CNN
+F 0 "J6" H 10379 1042 50  0000 L CNN
 F 1 "70543-0001" H 10379 951 50  0000 L CNN
 F 2 "custom-footprints:70543-0001" H 10300 1050 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKPzBRyOySofHgnbNURyOy7MwFkp4%3d" H 10300 1050 50  0001 C CNN
@@ -881,10 +864,10 @@ FAN1_OUT
 Text GLabel 9850 1050 0    50   Input ~ 0
 VDD_PWR
 $Comp
-L remram-rescue:Conn_01x02-Connector_Generic J20
+L remram-rescue:Conn_01x02-Connector_Generic J13
 U 1 1 5AFDD4E7
 P 10300 1700
-F 0 "J20" H 10379 1692 50  0000 L CNN
+F 0 "J13" H 10379 1692 50  0000 L CNN
 F 1 "70543-0001" H 10379 1601 50  0000 L CNN
 F 2 "custom-footprints:70543-0001" H 10300 1700 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKPzBRyOySofHgnbNURyOy7MwFkp4%3d" H 10300 1700 50  0001 C CNN
@@ -900,10 +883,10 @@ Wire Notes Line
 Wire Notes Line
 	9400 750  10900 750 
 $Comp
-L remram-rescue:Test_Point-Connector_Specialized TP18
+L remram-rescue:Test_Point-Connector_Specialized TP15
 U 1 1 5AFF4AC9
 P 9750 950
-F 0 "TP18" H 9808 1070 50  0000 L CNN
+F 0 "TP15" H 9808 1070 50  0000 L CNN
 F 1 "FAN1+" H 9808 979 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9950 950 50  0001 C CNN
 F 3 "~" H 9950 950 50  0001 C CNN
@@ -911,10 +894,10 @@ F 3 "~" H 9950 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:Test_Point-Connector_Specialized TP19
+L remram-rescue:Test_Point-Connector_Specialized TP17
 U 1 1 5AFFF980
 P 9750 1550
-F 0 "TP19" H 9808 1670 50  0000 L CNN
+F 0 "TP17" H 9808 1670 50  0000 L CNN
 F 1 "FAN2+" H 9808 1579 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9950 1550 50  0001 C CNN
 F 3 "~" H 9950 1550 50  0001 C CNN
@@ -930,10 +913,10 @@ Wire Wire Line
 Wire Wire Line
 	9850 1800 10050 1800
 $Comp
-L remram-rescue:Test_Point-Connector_Specialized TP21
+L remram-rescue:Test_Point-Connector_Specialized TP18
 U 1 1 5B00F821
 P 10150 1550
-F 0 "TP21" H 10208 1670 50  0000 L CNN
+F 0 "TP18" H 10208 1670 50  0000 L CNN
 F 1 "FAN2-" H 10208 1579 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10350 1550 50  0001 C CNN
 F 3 "~" H 10350 1550 50  0001 C CNN
@@ -969,10 +952,10 @@ Connection ~ 10050 1800
 Wire Wire Line
 	10050 1800 10100 1800
 $Comp
-L remram-rescue:Test_Point-Connector_Specialized TP20
+L remram-rescue:Test_Point-Connector_Specialized TP16
 U 1 1 5B068C7B
 P 10150 950
-F 0 "TP20" H 10208 1070 50  0000 L CNN
+F 0 "TP16" H 10208 1070 50  0000 L CNN
 F 1 "FAN1-" H 10208 979 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10350 950 50  0001 C CNN
 F 3 "~" H 10350 950 50  0001 C CNN
@@ -992,7 +975,7 @@ Wire Notes Line
 	10900 750  10900 2100
 Wire Notes Line
 	9400 750  9400 2100
-Text GLabel 8800 1600 2    50   Input ~ 0
+Text GLabel 8800 1950 2    50   Input ~ 0
 VDD5V
 Wire Notes Line
 	2250 2250 2250 3200
@@ -1001,10 +984,10 @@ Wire Notes Line
 Text Notes 2650 2200 0    50   ~ 0
 Z-Axis second connector
 $Comp
-L remram-rescue:Conn_01x04-Connector_Generic J7
+L remram-rescue:Conn_01x04-Connector_Generic J16
 U 1 1 5AFD917C
 P 3500 2650
-F 0 "J7" H 3579 2642 50  0000 L CNN
+F 0 "J16" H 3579 2642 50  0000 L CNN
 F 1 "70543-0003" H 3579 2551 50  0000 L CNN
 F 2 "custom-footprints:70543-0003" H 3500 2650 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Molex/70543-0003?qs=sGAEpiMZZMs%252bGHln7q6pm%252bS0pk2Wo0XxCD3CKlCQrmU%3d" H 3500 2650 50  0001 C CNN
@@ -1031,4 +1014,50 @@ Wire Wire Line
 	2600 2750 3300 2750
 Wire Wire Line
 	2600 2850 3300 2850
+Wire Notes Line
+	9350 2100 7700 2100
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J12
+U 1 1 5B00935A
+P 8500 1450
+F 0 "J12" H 8550 2067 50  0000 C CNN
+F 1 "Conn_02x10" H 8550 1976 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 8500 1450 50  0001 C CNN
+F 3 "~" H 8500 1450 50  0001 C CNN
+	1    8500 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR071
+U 1 1 5B009A39
+P 8300 1850
+F 0 "#PWR071" H 8300 1600 50  0001 C CNN
+F 1 "GND" V 8305 1722 50  0000 R CNN
+F 2 "" H 8300 1850 50  0001 C CNN
+F 3 "" H 8300 1850 50  0001 C CNN
+	1    8300 1850
+	0    1    1    0   
+$EndComp
+Text HLabel 8300 1750 0    50   Input ~ 0
+USART_TX
+Text HLabel 8800 1750 2    50   Input ~ 0
+USART_RX
+Text HLabel 8800 1650 2    50   Input ~ 0
+USART_CK
+Text HLabel 8800 1450 2    50   Input ~ 0
+PWM_EXT1
+Text HLabel 8300 1550 0    50   Input ~ 0
+PWM_EXT2
+Text HLabel 8800 1250 2    50   Input ~ 0
+EXT_D3
+Text HLabel 8300 1350 0    50   Input ~ 0
+EXT_D4
+Text HLabel 8800 1550 2    50   Input ~ 0
+PWM_EXT3
+Text HLabel 8300 1650 0    50   Input ~ 0
+PWM_EXT4
+Wire Notes Line
+	7700 750  7700 2100
+Wire Notes Line
+	9350 750  9350 2100
 $EndSCHEMATC

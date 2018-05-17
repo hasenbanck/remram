@@ -1,4 +1,4 @@
-(module custom-footprints:Box_Header_2x05x2.54mm_Straight (layer F.Cu) (tedit 5AF98737)
+(module custom-footprints:Box_Header_2x05x2.54mm_Straight (layer F.Cu) (tedit 5AFDB407)
   (descr http://www.farnell.com/datasheets/1520732.pdf)
   (tags "connector multicomp MC9A MC9A12")
   (fp_text reference REF** (at -3 -7) (layer F.SilkS)
@@ -58,9 +58,9 @@
   (pad 8 thru_hole circle (at 7.62 -2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 9 thru_hole circle (at 10.16 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 10 thru_hole circle (at 10.16 -2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/packages3d/61201021621.stp
-    (offset (xyz 5.1 1.3 4.65))
+  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x05_P2.54mm_Vertical.step
+    (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 -90))
   )
 )
