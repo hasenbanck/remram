@@ -760,9 +760,9 @@ VDD3V3
 Wire Wire Line
 	2350 1750 2650 1750
 Text Label 8100 2850 0    50   ~ 0
-DD+
+MCU_DD+
 Text Label 8100 2950 0    50   ~ 0
-DD-
+MCU_DD-
 Text HLabel 7300 2050 1    50   Output ~ 0
 X_EN
 Text HLabel 7500 2050 1    50   Output ~ 0
@@ -833,9 +833,9 @@ F 3 "~" H 9050 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 2650 1450 0    50   ~ 0
-DD+
+MCU_DD+
 Text Label 2650 1550 0    50   ~ 0
-DD-
+MCU_DD-
 Text GLabel 2650 1250 2    50   Input ~ 0
 VDD3V3
 Wire Wire Line
