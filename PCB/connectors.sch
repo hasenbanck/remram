@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Specialized:USB_B J7
+L remram-rescue:USB_B-Connector_Specialized J7
 U 1 1 5B16E55B
 P 1150 1300
 F 0 "J7" H 1205 1767 50  0000 C CNN
@@ -34,7 +34,7 @@ EXT-SD
 Text Notes 8800 700  2    50   ~ 0
 EXT-SPI-L2C
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J8
+L remram-rescue:Conn_02x05_Odd_Even-Connector_Generic J8
 U 1 1 5B16F6B4
 P 2700 1300
 F 0 "J8" H 2750 1717 50  0000 C CNN
@@ -45,7 +45,7 @@ F 3 "https://www.mouser.de/ProductDetail/Wurth-Electronics/61201021621?qs=%2fha2
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J9
+L remram-rescue:Conn_02x05_Odd_Even-Connector_Generic J9
 U 1 1 5B16F736
 P 4350 1300
 F 0 "J9" H 4400 1717 50  0000 C CNN
@@ -56,7 +56,7 @@ F 3 "https://www.mouser.de/ProductDetail/Wurth-Electronics/61201021621?qs=%2fha2
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J12
+L remram-rescue:Conn_02x05_Odd_Even-Connector_Generic J12
 U 1 1 5B16F775
 P 8500 1400
 F 0 "J12" H 8550 1817 50  0000 C CNN
@@ -69,7 +69,7 @@ $EndComp
 Text HLabel 1000 4600 0    50   Output ~ 0
 THERM_1
 $Comp
-L Connector_Specialized:Test_Point TP20
+L remram-rescue:Test_Point-Connector_Specialized TP20
 U 1 1 5B171985
 P 3400 4450
 F 0 "TP20" H 3458 4570 50  0000 L CNN
@@ -80,7 +80,7 @@ F 3 "~" H 3600 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky D9
+L remram-rescue:D_Schottky-Device D9
 U 1 1 5B17198C
 P 2000 4350
 F 0 "D9" V 1954 4429 50  0000 L CNN
@@ -91,7 +91,7 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 2000 4350 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R24
+L remram-rescue:R-Device R24
 U 1 1 5B1719A1
 P 2600 4600
 F 0 "R24" V 2393 4600 50  0000 C CNN
@@ -102,7 +102,7 @@ F 3 "~" H 2600 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R23
+L remram-rescue:R-Device R23
 U 1 1 5B1719A8
 P 3050 4350
 F 0 "R23" H 3120 4396 50  0000 L CNN
@@ -146,7 +146,7 @@ Connection ~ 2000 4100
 Wire Wire Line
 	3050 4600 3050 4500
 $Comp
-L Connector_Generic:Conn_01x02 J18
+L remram-rescue:Conn_01x02-Connector_Generic J18
 U 1 1 5B1719C1
 P 4150 4600
 F 0 "J18" H 4229 4592 50  0000 L CNN
@@ -176,7 +176,7 @@ Connection ~ 3400 4600
 Wire Wire Line
 	3400 4600 3050 4600
 $Comp
-L Device:C C42
+L remram-rescue:C-Device C42
 U 1 1 5B1719D4
 P 1250 4750
 F 0 "C42" H 1365 4796 50  0000 L CNN
@@ -203,7 +203,7 @@ $EndComp
 Text HLabel 1000 5800 0    50   Output ~ 0
 THERM_2
 $Comp
-L Connector_Specialized:Test_Point TP21
+L remram-rescue:Test_Point-Connector_Specialized TP21
 U 1 1 5B1719E6
 P 3400 5650
 F 0 "TP21" H 3458 5770 50  0000 L CNN
@@ -214,7 +214,7 @@ F 3 "~" H 3600 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R26
+L remram-rescue:R-Device R26
 U 1 1 5B171A02
 P 2600 5800
 F 0 "R26" V 2393 5800 50  0000 C CNN
@@ -225,7 +225,7 @@ F 3 "~" H 2600 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R25
+L remram-rescue:R-Device R25
 U 1 1 5B171A09
 P 3050 5550
 F 0 "R25" H 3120 5596 50  0000 L CNN
@@ -267,7 +267,7 @@ Connection ~ 2000 5300
 Wire Wire Line
 	3050 5800 3050 5700
 $Comp
-L Connector_Generic:Conn_01x02 J19
+L remram-rescue:Conn_01x02-Connector_Generic J19
 U 1 1 5B171A22
 P 4150 5800
 F 0 "J19" H 4229 5792 50  0000 L CNN
@@ -297,7 +297,7 @@ Connection ~ 3400 5800
 Wire Wire Line
 	3400 5800 3050 5800
 $Comp
-L Device:C C43
+L remram-rescue:C-Device C43
 U 1 1 5B171A35
 P 1250 5950
 F 0 "C43" H 1365 5996 50  0000 L CNN
@@ -324,7 +324,7 @@ $EndComp
 Text HLabel 1000 7000 0    50   Output ~ 0
 THERM_3
 $Comp
-L Connector_Specialized:Test_Point TP22
+L remram-rescue:Test_Point-Connector_Specialized TP22
 U 1 1 5B171A47
 P 3400 6850
 F 0 "TP22" H 3458 6970 50  0000 L CNN
@@ -335,7 +335,7 @@ F 3 "~" H 3600 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R28
+L remram-rescue:R-Device R28
 U 1 1 5B171A63
 P 2600 7000
 F 0 "R28" V 2393 7000 50  0000 C CNN
@@ -346,7 +346,7 @@ F 3 "~" H 2600 7000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R27
+L remram-rescue:R-Device R27
 U 1 1 5B171A6A
 P 3050 6750
 F 0 "R27" H 3120 6796 50  0000 L CNN
@@ -388,7 +388,7 @@ Connection ~ 2000 6500
 Wire Wire Line
 	3050 7000 3050 6900
 $Comp
-L Connector_Generic:Conn_01x02 J20
+L remram-rescue:Conn_01x02-Connector_Generic J20
 U 1 1 5B171A83
 P 4150 7000
 F 0 "J20" H 4229 6992 50  0000 L CNN
@@ -418,7 +418,7 @@ Connection ~ 3400 7000
 Wire Wire Line
 	3400 7000 3050 7000
 $Comp
-L Device:C C44
+L remram-rescue:C-Device C44
 U 1 1 5B171A96
 P 1250 7150
 F 0 "C44" H 1365 7196 50  0000 L CNN
@@ -470,7 +470,7 @@ VDD3V3
 Wire Notes Line
 	5150 750  7650 750 
 $Comp
-L Connector_Generic:Conn_01x03 J4
+L remram-rescue:Conn_01x03-Connector_Generic J4
 U 1 1 5B171AB8
 P 5750 950
 F 0 "J4" H 5829 992 50  0000 L CNN
@@ -494,7 +494,7 @@ $EndComp
 Text GLabel 6750 1050 0    50   Input ~ 0
 VDD3V3
 $Comp
-L Connector_Generic:Conn_01x03 J5
+L remram-rescue:Conn_01x03-Connector_Generic J5
 U 1 1 5B171AC6
 P 6950 950
 F 0 "J5" H 7029 992 50  0000 L CNN
@@ -518,7 +518,7 @@ $EndComp
 Text GLabel 5550 1450 0    50   Input ~ 0
 VDD3V3
 $Comp
-L Connector_Generic:Conn_01x03 J10
+L remram-rescue:Conn_01x03-Connector_Generic J10
 U 1 1 5B171AD6
 P 5750 1350
 F 0 "J10" H 5829 1392 50  0000 L CNN
@@ -542,7 +542,7 @@ $EndComp
 Text GLabel 6750 1450 0    50   Input ~ 0
 VDD3V3
 $Comp
-L Connector_Generic:Conn_01x03 J11
+L remram-rescue:Conn_01x03-Connector_Generic J11
 U 1 1 5B171AE4
 P 6950 1350
 F 0 "J11" H 7029 1392 50  0000 L CNN
@@ -566,7 +566,7 @@ $EndComp
 Text GLabel 5550 1850 0    50   Input ~ 0
 VDD3V3
 $Comp
-L Connector_Generic:Conn_01x03 J14
+L remram-rescue:Conn_01x03-Connector_Generic J14
 U 1 1 5B171AF4
 P 5750 1750
 F 0 "J14" H 5829 1792 50  0000 L CNN
@@ -590,7 +590,7 @@ $EndComp
 Text GLabel 6750 1850 0    50   Input ~ 0
 VDD3V3
 $Comp
-L Connector_Generic:Conn_01x03 J15
+L remram-rescue:Conn_01x03-Connector_Generic J15
 U 1 1 5B171B02
 P 6950 1750
 F 0 "J15" H 7029 1792 50  0000 L CNN
@@ -603,7 +603,7 @@ $EndComp
 Wire Notes Line
 	7650 2100 5150 2100
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J17
+L remram-rescue:Conn_02x05_Odd_Even-Connector_Generic J17
 U 1 1 5B17C4BC
 P 1200 2750
 F 0 "J17" H 1250 3200 50  0000 C CNN
@@ -809,7 +809,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 7000 2000 7000
 $Comp
-L Device:D_Schottky D10
+L remram-rescue:D_Schottky-Device D10
 U 1 1 5AFA7311
 P 2000 4850
 F 0 "D10" V 1954 4929 50  0000 L CNN
@@ -820,7 +820,7 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 2000 4850 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D11
+L remram-rescue:D_Schottky-Device D11
 U 1 1 5AFA961C
 P 2000 5550
 F 0 "D11" V 1954 5629 50  0000 L CNN
@@ -831,7 +831,7 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 2000 5550 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D12
+L remram-rescue:D_Schottky-Device D12
 U 1 1 5AFAB94C
 P 2000 6000
 F 0 "D12" V 1954 6079 50  0000 L CNN
@@ -842,7 +842,7 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 2000 6000 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D13
+L remram-rescue:D_Schottky-Device D13
 U 1 1 5AFADC4D
 P 2000 6750
 F 0 "D13" V 1954 6829 50  0000 L CNN
@@ -853,7 +853,7 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 2000 6750 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D14
+L remram-rescue:D_Schottky-Device D14
 U 1 1 5AFAFF57
 P 2000 7200
 F 0 "D14" V 1954 7279 50  0000 L CNN
@@ -864,7 +864,7 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 2000 7200 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J6
+L remram-rescue:Conn_01x02-Connector_Generic J6
 U 1 1 5AFC19C7
 P 10300 1050
 F 0 "J6" H 10379 1042 50  0000 L CNN
@@ -881,7 +881,7 @@ FAN1_OUT
 Text GLabel 9850 1050 0    50   Input ~ 0
 VDD_PWR
 $Comp
-L Connector_Generic:Conn_01x02 J13
+L remram-rescue:Conn_01x02-Connector_Generic J13
 U 1 1 5AFDD4E7
 P 10300 1700
 F 0 "J13" H 10379 1692 50  0000 L CNN
@@ -900,7 +900,7 @@ Wire Notes Line
 Wire Notes Line
 	9400 750  10900 750 
 $Comp
-L Connector_Specialized:Test_Point TP16
+L remram-rescue:Test_Point-Connector_Specialized TP16
 U 1 1 5AFF4AC9
 P 9750 950
 F 0 "TP16" H 9808 1070 50  0000 L CNN
@@ -911,7 +911,7 @@ F 3 "~" H 9950 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point TP18
+L remram-rescue:Test_Point-Connector_Specialized TP18
 U 1 1 5AFFF980
 P 9750 1550
 F 0 "TP18" H 9808 1670 50  0000 L CNN
@@ -930,7 +930,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 1800 10050 1800
 $Comp
-L Connector_Specialized:Test_Point TP19
+L remram-rescue:Test_Point-Connector_Specialized TP19
 U 1 1 5B00F821
 P 10150 1550
 F 0 "TP19" H 10208 1670 50  0000 L CNN
@@ -969,7 +969,7 @@ Connection ~ 10050 1800
 Wire Wire Line
 	10050 1800 10100 1800
 $Comp
-L Connector_Specialized:Test_Point TP17
+L remram-rescue:Test_Point-Connector_Specialized TP17
 U 1 1 5B068C7B
 P 10150 950
 F 0 "TP17" H 10208 1070 50  0000 L CNN
@@ -1001,7 +1001,7 @@ Wire Notes Line
 Text Notes 2650 2200 0    50   ~ 0
 Z-Axis second connector
 $Comp
-L Connector_Generic:Conn_01x04 J16
+L remram-rescue:Conn_01x04-Connector_Generic J16
 U 1 1 5AFD917C
 P 3500 2650
 F 0 "J16" H 3579 2642 50  0000 L CNN

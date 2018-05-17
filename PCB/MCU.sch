@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R R15
+L remram-rescue:R-Device R15
 U 1 1 5AD0B119
 P 5550 750
 F 0 "R15" V 5450 700 50  0000 L CNN
@@ -26,7 +26,7 @@ F 3 "~" H 5550 750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R16
+L remram-rescue:R-Device R16
 U 1 1 5AD0B198
 P 6300 750
 F 0 "R16" V 6400 650 50  0000 L CNN
@@ -43,7 +43,7 @@ VDD3V3
 Text GLabel 4900 3450 0    50   Input ~ 0
 VDD3V3
 $Comp
-L Device:C C32
+L remram-rescue:C-Device C32
 U 1 1 5AD085F7
 P 3450 4600
 F 0 "C32" H 3565 4646 50  0000 L CNN
@@ -54,7 +54,7 @@ F 3 "~" H 3450 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C33
+L remram-rescue:C-Device C33
 U 1 1 5AD086E9
 P 3850 4600
 F 0 "C33" H 3965 4646 50  0000 L CNN
@@ -69,7 +69,7 @@ Wire Wire Line
 Text GLabel 2600 4350 0    50   Input ~ 0
 VDD3V3
 $Comp
-L Device:C C30
+L remram-rescue:C-Device C30
 U 1 1 5AD08A76
 P 3450 4200
 F 0 "C30" H 3565 4246 50  0000 L CNN
@@ -80,7 +80,7 @@ F 3 "~" H 3450 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C31
+L remram-rescue:C-Device C31
 U 1 1 5AD08A7D
 P 3850 4200
 F 0 "C31" H 3965 4246 50  0000 L CNN
@@ -95,7 +95,7 @@ Wire Wire Line
 Text GLabel 950  7150 0    50   Input ~ 0
 VDD3V3
 $Comp
-L Device:C C35
+L remram-rescue:C-Device C35
 U 1 1 5AD093F4
 P 1200 7300
 F 0 "C35" H 1315 7346 50  0000 L CNN
@@ -106,7 +106,7 @@ F 3 "~" H 1200 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C36
+L remram-rescue:C-Device C36
 U 1 1 5AD0945E
 P 1650 7300
 F 0 "C36" H 1765 7346 50  0000 L CNN
@@ -117,7 +117,7 @@ F 3 "~" H 1650 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C37
+L remram-rescue:C-Device C37
 U 1 1 5AD09C8C
 P 2100 7300
 F 0 "C37" H 2215 7346 50  0000 L CNN
@@ -128,7 +128,7 @@ F 3 "~" H 2100 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C38
+L remram-rescue:C-Device C38
 U 1 1 5AD09D94
 P 2550 7300
 F 0 "C38" H 2665 7346 50  0000 L CNN
@@ -139,7 +139,7 @@ F 3 "~" H 2550 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C39
+L remram-rescue:C-Device C39
 U 1 1 5AD09D9B
 P 3000 7300
 F 0 "C39" H 3115 7346 50  0000 L CNN
@@ -150,7 +150,7 @@ F 3 "~" H 3000 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C40
+L remram-rescue:C-Device C40
 U 1 1 5AD09E94
 P 3450 7300
 F 0 "C40" H 3565 7346 50  0000 L CNN
@@ -205,7 +205,7 @@ VDD3V3
 Text GLabel 5300 1750 1    50   Input ~ 0
 VDD3V3
 $Comp
-L Device:C C34
+L remram-rescue:C-Device C34
 U 1 1 5AD0FCE6
 P 7650 5800
 F 0 "C34" V 7800 5800 50  0000 L CNN
@@ -216,7 +216,7 @@ F 3 "~" H 7650 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C26
+L remram-rescue:C-Device C26
 U 1 1 5AD117D1
 P 8750 2500
 F 0 "C26" H 8550 2450 50  0000 L CNN
@@ -233,7 +233,7 @@ Connection ~ 3450 7150
 Wire Wire Line
 	3450 7150 3900 7150
 $Comp
-L Device:C C41
+L remram-rescue:C-Device C41
 U 1 1 5AD09E9B
 P 3900 7300
 F 0 "C41" H 4015 7346 50  0000 L CNN
@@ -354,7 +354,7 @@ F 3 "" H 7950 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Crystal Y1
+L remram-rescue:Crystal-Device Y1
 U 1 1 5AF57301
 P 3200 2950
 F 0 "Y1" H 3200 3218 50  0000 C CNN
@@ -365,7 +365,7 @@ F 3 "https://www5.epsondevice.com/en/products/crystal_unit/tsx3225.html" H 3200 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C27
+L remram-rescue:C-Device C27
 U 1 1 5AF5755A
 P 2850 2950
 F 0 "C27" V 2700 2950 50  0000 C CNN
@@ -376,7 +376,7 @@ F 3 "~" H 2850 2950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C28
+L remram-rescue:C-Device C28
 U 1 1 5AF58CDB
 P 3550 2950
 F 0 "C28" V 3400 2950 50  0000 C CNN
@@ -445,7 +445,7 @@ $EndComp
 Wire Wire Line
 	1150 3750 1400 3750
 $Comp
-L Device:C C29
+L remram-rescue:C-Device C29
 U 1 1 5AF62329
 P 1600 4100
 F 0 "C29" V 1852 4100 50  0000 C CNN
@@ -475,7 +475,7 @@ $EndComp
 Wire Wire Line
 	7500 5250 7500 5800
 $Comp
-L Device:Ferrite_Bead_Small FB1
+L remram-rescue:Ferrite_Bead_Small-Device FB1
 U 1 1 5AF6D789
 P 2900 4350
 F 0 "FB1" V 2663 4350 50  0000 C CNN
@@ -486,7 +486,7 @@ F 3 "https://www.mouser.de/datasheet/2/400/eads_commercial_power_mpz1608_en-9236
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB2
+L remram-rescue:Ferrite_Bead_Small-Device FB2
 U 1 1 5AF6DF9B
 P 3000 4450
 F 0 "FB2" V 3150 4400 50  0000 C CNN
@@ -581,7 +581,7 @@ Wire Wire Line
 	750  1650 1350 1650
 Connection ~ 3000 900 
 $Comp
-L Device:C C24
+L remram-rescue:C-Device C24
 U 1 1 5AFAB97B
 P 3000 1050
 F 0 "C24" H 2885 1004 50  0000 R CNN
@@ -597,7 +597,7 @@ Wire Wire Line
 	2200 750  2450 750 
 Connection ~ 2450 750 
 $Comp
-L Device:C C23
+L remram-rescue:C-Device C23
 U 1 1 5AF92848
 P 2450 900
 F 0 "C23" H 2565 946 50  0000 L CNN
@@ -613,7 +613,7 @@ Wire Wire Line
 	950  750  1100 750 
 Connection ~ 1100 750 
 $Comp
-L Device:C C22
+L remram-rescue:C-Device C22
 U 1 1 5AF88ED8
 P 1100 900
 F 0 "C22" H 1215 946 50  0000 L CNN
@@ -642,7 +642,7 @@ Connection ~ 750  1650
 Wire Wire Line
 	750  1150 750  1650
 $Comp
-L Device:C C25
+L remram-rescue:C-Device C25
 U 1 1 5AF7B28D
 P 1200 2250
 F 0 "C25" V 948 2250 50  0000 C CNN
@@ -653,7 +653,7 @@ F 3 "~" H 1200 2250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R22
+L remram-rescue:R-Device R22
 U 1 1 5AF72C01
 P 2500 1550
 F 0 "R22" V 2400 1650 50  0000 C CNN
@@ -664,7 +664,7 @@ F 3 "~" H 2500 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R20
+L remram-rescue:R-Device R20
 U 1 1 5AF72BFA
 P 2500 1450
 F 0 "R20" V 2400 1350 50  0000 C CNN
@@ -675,7 +675,7 @@ F 3 "~" H 2500 1450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R21
+L remram-rescue:R-Device R21
 U 1 1 5AF724F0
 P 1200 1550
 F 0 "R21" V 1050 1650 50  0000 C CNN
@@ -686,7 +686,7 @@ F 3 "~" H 1200 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R19
+L remram-rescue:R-Device R19
 U 1 1 5AF72236
 P 1200 1450
 F 0 "R19" V 1100 1350 50  0000 C CNN
@@ -741,7 +741,7 @@ DD+
 Text HLabel 950  750  0    50   Input ~ 0
 VBUS
 $Comp
-L Interface_USB:ADUM4160 U4
+L remram-rescue:ADUM4160-Interface_USB U4
 U 1 1 5AF5F784
 P 1850 1550
 F 0 "U4" H 1850 2350 50  0000 C CNN
@@ -773,11 +773,11 @@ Text HLabel 7600 2050 1    50   Output ~ 0
 X_STEP
 Text HLabel 6400 2050 1    50   Output ~ 0
 Y_STEP
-Text HLabel 6600 2050 1    50   Output ~ 0
+Text HLabel 6700 2050 1    50   Output ~ 0
 Y_EN
-Text HLabel 6500 2050 1    50   Output ~ 0
+Text HLabel 6600 2050 1    50   Output ~ 0
 Y_DIR
-Text HLabel 6700 2050 1    50   Input ~ 0
+Text HLabel 6800 2050 1    50   Input ~ 0
 Y_DIAG
 Text HLabel 7200 5250 3    50   Output ~ 0
 Z_EN
@@ -822,7 +822,7 @@ Wire Wire Line
 Connection ~ 3850 4450
 Connection ~ 3850 4350
 $Comp
-L Connector_Specialized:Test_Point TP15
+L remram-rescue:Test_Point-Connector_Specialized TP15
 U 1 1 5B134698
 P 8850 3250
 F 0 "TP15" H 8908 3370 50  0000 L CNN
@@ -841,7 +841,7 @@ VDD3V3
 Wire Wire Line
 	2350 1250 2650 1250
 $Comp
-L Device:R R18
+L remram-rescue:R-Device R18
 U 1 1 5AFBD0C4
 P 7350 1150
 F 0 "R18" H 7420 1196 50  0000 L CNN
@@ -890,31 +890,27 @@ Text HLabel 5900 5250 3    50   Output ~ 0
 SS_E
 Text HLabel 6300 5250 3    50   Output ~ 0
 SS_SD
-Text HLabel 6500 5250 3    50   BiDi ~ 0
+Text HLabel 4900 2850 0    50   BiDi ~ 0
 KILL_PIN
-Text HLabel 6400 5250 3    50   BiDi ~ 0
+Text HLabel 4900 3050 0    50   BiDi ~ 0
 SD_CARD_DET
 Text HLabel 8100 3650 2    50   BiDi ~ 0
 LCD_D6
 Text HLabel 8100 3750 2    50   BiDi ~ 0
 LCD_D7
-Text HLabel 8100 3350 2    50   Input ~ 0
-EXT_D1
-Text HLabel 8100 3150 2    50   Input ~ 0
-EXT_D2
 Text HLabel 8100 3550 2    50   BiDi ~ 0
 LCD_D5
 Text HLabel 8100 3450 2    50   BiDi ~ 0
 LCD_D4
-Text HLabel 7000 2050 1    50   BiDi ~ 0
-LCD_RS
 Text HLabel 7100 2050 1    50   BiDi ~ 0
+LCD_RS
+Text HLabel 7200 2050 1    50   BiDi ~ 0
 LCD_EN
-Text HLabel 8100 4250 2    50   BiDi ~ 0
+Text HLabel 4900 3150 0    50   BiDi ~ 0
 BTN_EN2
-Text HLabel 6800 2050 1    50   BiDi ~ 0
+Text HLabel 6900 2050 1    50   BiDi ~ 0
 BTN_ENC
-Text HLabel 8100 4150 2    50   BiDi ~ 0
+Text HLabel 4900 3250 0    50   BiDi ~ 0
 BTN_EN1
 Wire Wire Line
 	8100 3250 8850 3250
@@ -936,27 +932,14 @@ Text HLabel 4900 4850 0    50   Output ~ 0
 PWM_HEAT
 Wire Wire Line
 	3400 3550 4900 3550
-NoConn ~ 4900 2450
-NoConn ~ 4900 2550
-NoConn ~ 4900 2650
-NoConn ~ 4900 2750
-NoConn ~ 4900 2850
-NoConn ~ 4900 3050
-NoConn ~ 4900 3150
-NoConn ~ 4900 3250
+NoConn ~ 8100 3150
+NoConn ~ 8100 3350
 NoConn ~ 4900 4150
 NoConn ~ 5500 5250
-NoConn ~ 7200 2050
 NoConn ~ 8100 3950
 NoConn ~ 8100 3850
 NoConn ~ 6600 5250
 NoConn ~ 8100 4050
-NoConn ~ 6300 2050
-NoConn ~ 6200 2050
-NoConn ~ 5800 2050
-NoConn ~ 5700 2050
-NoConn ~ 5600 2050
-NoConn ~ 5500 2050
 Text HLabel 1950 3250 0    50   Input ~ 0
 nRESET
 Wire Wire Line
@@ -1027,7 +1010,7 @@ Wire Wire Line
 	7350 1000 7350 750 
 Connection ~ 7350 750 
 $Comp
-L Device:R R17
+L remram-rescue:R-Device R17
 U 1 1 5AFBD0BD
 P 7000 1150
 F 0 "R17" H 7070 1196 50  0000 L CNN
@@ -1047,7 +1030,33 @@ Wire Wire Line
 	7000 750  7350 750 
 Wire Wire Line
 	7000 1500 7500 1500
-Text HLabel 6900 2050 1    50   BiDi ~ 0
+Text HLabel 7000 2050 1    50   BiDi ~ 0
 LCD_BEEPER
 NoConn ~ 8100 3050
+Text HLabel 4900 2650 0    50   Input ~ 0
+EXT_D2
+Text HLabel 4900 2550 0    50   Input ~ 0
+EXT_D3
+Text HLabel 4900 2450 0    50   Input ~ 0
+EXT_D4
+Text HLabel 5800 2050 1    50   Input ~ 0
+EXT_D6
+Text HLabel 5700 2050 1    50   Input ~ 0
+EXT_D5
+Text HLabel 6500 2050 1    50   Input ~ 0
+EXT_D8
+Text HLabel 5500 2050 1    50   Input ~ 0
+UART_TX
+Text HLabel 5600 2050 1    50   Input ~ 0
+UART_RX
+Text HLabel 6200 2050 1    50   Input ~ 0
+EXT_PWM1
+Text HLabel 6300 2050 1    50   Input ~ 0
+EXT_PWM2
+Text HLabel 4900 2750 0    50   Input ~ 0
+EXT_D1
+NoConn ~ 6500 5250
+NoConn ~ 6400 5250
+NoConn ~ 8100 4150
+NoConn ~ 8100 4250
 $EndSCHEMATC

@@ -28,7 +28,7 @@ AR Path="/5B03041B/5AF8CE9A" Ref="#PWR040"  Part="1"
 AR Path="/5AFC22B0/5AF8CE9A" Ref="#PWR092"  Part="1" 
 AR Path="/5AFC9D86/5AF8CE9A" Ref="#PWR0105"  Part="1" 
 AR Path="/5AFD185C/5AF8CE9A" Ref="#PWR0118"  Part="1" 
-F 0 "#PWR092" H 3550 3300 50  0001 C CNN
+F 0 "#PWR0118" H 3550 3300 50  0001 C CNN
 F 1 "GNDA" H 3555 3377 50  0000 C CNN
 F 2 "" H 3550 3550 50  0001 C CNN
 F 3 "" H 3550 3550 50  0001 C CNN
@@ -51,7 +51,7 @@ AR Path="/5B03041B/5B0399AA" Ref="#PWR035"  Part="1"
 AR Path="/5AFC22B0/5B0399AA" Ref="#PWR087"  Part="1" 
 AR Path="/5AFC9D86/5B0399AA" Ref="#PWR0100"  Part="1" 
 AR Path="/5AFD185C/5B0399AA" Ref="#PWR0113"  Part="1" 
-F 0 "#PWR087" H 1750 1900 50  0001 C CNN
+F 0 "#PWR0113" H 1750 1900 50  0001 C CNN
 F 1 "GNDA" V 1755 2023 50  0000 R CNN
 F 2 "" H 1750 2150 50  0001 C CNN
 F 3 "" H 1750 2150 50  0001 C CNN
@@ -59,7 +59,7 @@ F 3 "" H 1750 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R13
+L remram-rescue:R-Device R13
 U 1 1 5AF8CE9D
 P 4750 2750
 AR Path="/5B03041B/5AF8CE9D" Ref="R13"  Part="1" 
@@ -92,7 +92,7 @@ AR Path="/5B03041B/5AF8CE9F" Ref="#PWR039"  Part="1"
 AR Path="/5AFC22B0/5AF8CE9F" Ref="#PWR091"  Part="1" 
 AR Path="/5AFC9D86/5AF8CE9F" Ref="#PWR0104"  Part="1" 
 AR Path="/5AFD185C/5AF8CE9F" Ref="#PWR0117"  Part="1" 
-F 0 "#PWR091" H 2450 3300 50  0001 C CNN
+F 0 "#PWR0117" H 2450 3300 50  0001 C CNN
 F 1 "GNDA" H 2455 3377 50  0000 C CNN
 F 2 "" H 2450 3550 50  0001 C CNN
 F 3 "" H 2450 3550 50  0001 C CNN
@@ -100,7 +100,7 @@ F 3 "" H 2450 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C14
+L remram-rescue:C-Device C14
 U 1 1 5AF8CEA1
 P 3450 1600
 AR Path="/5B03041B/5AF8CEA1" Ref="C14"  Part="1" 
@@ -115,7 +115,7 @@ F 3 "~" H 3450 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C15
+L remram-rescue:C-Device C15
 U 1 1 5AF8CEA3
 P 3950 1700
 AR Path="/5B03041B/5AF8CEA3" Ref="C15"  Part="1" 
@@ -138,7 +138,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 1700 4300 2150
 $Comp
-L Device:C C13
+L remram-rescue:C-Device C13
 U 1 1 5B03C54C
 P 3650 1100
 AR Path="/5B03041B/5B03C54C" Ref="C13"  Part="1" 
@@ -171,7 +171,7 @@ AR Path="/5B03041B/5B03CBB9" Ref="#PWR031"  Part="1"
 AR Path="/5AFC22B0/5B03CBB9" Ref="#PWR083"  Part="1" 
 AR Path="/5AFC9D86/5B03CBB9" Ref="#PWR096"  Part="1" 
 AR Path="/5AFD185C/5B03CBB9" Ref="#PWR0109"  Part="1" 
-F 0 "#PWR083" H 3650 1000 50  0001 C CNN
+F 0 "#PWR0109" H 3650 1000 50  0001 C CNN
 F 1 "GNDA" H 3655 1077 50  0000 C CNN
 F 2 "" H 3650 1250 50  0001 C CNN
 F 3 "" H 3650 1250 50  0001 C CNN
@@ -179,7 +179,7 @@ F 3 "" H 3650 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C16
+L remram-rescue:C-Device C16
 U 1 1 5B03D7F6
 P 4500 2100
 AR Path="/5B03041B/5B03D7F6" Ref="C16"  Part="1" 
@@ -201,7 +201,7 @@ AR Path="/5B03041B/5AF8CEA9" Ref="#PWR033"  Part="1"
 AR Path="/5AFC22B0/5AF8CEA9" Ref="#PWR085"  Part="1" 
 AR Path="/5AFC9D86/5AF8CEA9" Ref="#PWR098"  Part="1" 
 AR Path="/5AFD185C/5AF8CEA9" Ref="#PWR0111"  Part="1" 
-F 0 "#PWR085" H 4500 1700 50  0001 C CNN
+F 0 "#PWR0111" H 4500 1700 50  0001 C CNN
 F 1 "GNDA" H 4505 1777 50  0000 C CNN
 F 2 "" H 4500 1950 50  0001 C CNN
 F 3 "" H 4500 1950 50  0001 C CNN
@@ -209,7 +209,7 @@ F 3 "" H 4500 1950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C18
+L remram-rescue:C-Device C18
 U 1 1 5AF8CEAA
 P 1250 3100
 AR Path="/5B03041B/5AF8CEAA" Ref="C18"  Part="1" 
@@ -231,7 +231,7 @@ AR Path="/5B03041B/5B03E652" Ref="#PWR038"  Part="1"
 AR Path="/5AFC22B0/5B03E652" Ref="#PWR090"  Part="1" 
 AR Path="/5AFC9D86/5B03E652" Ref="#PWR0103"  Part="1" 
 AR Path="/5AFD185C/5B03E652" Ref="#PWR0116"  Part="1" 
-F 0 "#PWR090" H 1250 3000 50  0001 C CNN
+F 0 "#PWR0116" H 1250 3000 50  0001 C CNN
 F 1 "GNDA" H 1255 3077 50  0000 C CNN
 F 2 "" H 1250 3250 50  0001 C CNN
 F 3 "" H 1250 3250 50  0001 C CNN
@@ -255,7 +255,7 @@ AR Path="/5B03041B/5B043BF7" Ref="#PWR037"  Part="1"
 AR Path="/5AFC22B0/5B043BF7" Ref="#PWR089"  Part="1" 
 AR Path="/5AFC9D86/5B043BF7" Ref="#PWR0102"  Part="1" 
 AR Path="/5AFD185C/5B043BF7" Ref="#PWR0115"  Part="1" 
-F 0 "#PWR089" H 4150 2200 50  0001 C CNN
+F 0 "#PWR0115" H 4150 2200 50  0001 C CNN
 F 1 "GNDA" V 4155 2322 50  0000 R CNN
 F 2 "" H 4150 2450 50  0001 C CNN
 F 3 "" H 4150 2450 50  0001 C CNN
@@ -263,7 +263,7 @@ F 3 "" H 4150 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C17
+L remram-rescue:C-Device C17
 U 1 1 5AF8CEAE
 P 5450 2350
 AR Path="/5B03041B/5AF8CEAE" Ref="C17"  Part="1" 
@@ -285,7 +285,7 @@ AR Path="/5B03041B/5AF8CEAF" Ref="#PWR036"  Part="1"
 AR Path="/5AFC22B0/5AF8CEAF" Ref="#PWR088"  Part="1" 
 AR Path="/5AFC9D86/5AF8CEAF" Ref="#PWR0101"  Part="1" 
 AR Path="/5AFD185C/5AF8CEAF" Ref="#PWR0114"  Part="1" 
-F 0 "#PWR088" H 5600 2100 50  0001 C CNN
+F 0 "#PWR0114" H 5600 2100 50  0001 C CNN
 F 1 "GNDA" H 5605 2177 50  0000 C CNN
 F 2 "" H 5600 2350 50  0001 C CNN
 F 3 "" H 5600 2350 50  0001 C CNN
@@ -301,7 +301,7 @@ NoConn ~ 1750 3050
 NoConn ~ 1750 3150
 NoConn ~ 3450 3550
 $Comp
-L Device:R R14
+L remram-rescue:R-Device R14
 U 1 1 5AF8CEB0
 P 2850 4100
 AR Path="/5B03041B/5AF8CEB0" Ref="R14"  Part="1" 
@@ -324,7 +324,7 @@ AR Path="/5B03041B/5AF8CEB4" Ref="#PWR041"  Part="1"
 AR Path="/5AFC22B0/5AF8CEB4" Ref="#PWR093"  Part="1" 
 AR Path="/5AFC9D86/5AF8CEB4" Ref="#PWR0106"  Part="1" 
 AR Path="/5AFD185C/5AF8CEB4" Ref="#PWR0119"  Part="1" 
-F 0 "#PWR093" H 2850 4000 50  0001 C CNN
+F 0 "#PWR0119" H 2850 4000 50  0001 C CNN
 F 1 "GNDA" H 2855 4077 50  0000 C CNN
 F 2 "" H 2850 4250 50  0001 C CNN
 F 3 "" H 2850 4250 50  0001 C CNN
@@ -334,7 +334,7 @@ $EndComp
 Wire Wire Line
 	2850 3950 2850 3550
 $Comp
-L Connector_Generic:Conn_01x04 J3
+L remram-rescue:Conn_01x04-Connector_Generic J3
 U 1 1 5B09FBAD
 P 7450 1300
 AR Path="/5B03041B/5B09FBAD" Ref="J3"  Part="1" 
@@ -349,7 +349,7 @@ F 3 "https://www.mouser.de/ProductDetail/Molex/70543-0003?qs=sGAEpiMZZMs%252bGHl
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point TP12
+L remram-rescue:Test_Point-Connector_Specialized TP12
 U 1 1 5B09FBB4
 P 7000 1100
 AR Path="/5B03041B/5B09FBB4" Ref="TP12"  Part="1" 
@@ -364,7 +364,7 @@ F 3 "~" H 7200 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point TP11
+L remram-rescue:Test_Point-Connector_Specialized TP11
 U 1 1 5AF8CEB7
 P 6650 1100
 AR Path="/5B03041B/5AF8CEB7" Ref="TP11"  Part="1" 
@@ -379,7 +379,7 @@ F 3 "~" H 6850 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point TP13
+L remram-rescue:Test_Point-Connector_Specialized TP13
 U 1 1 5AF8CEB9
 P 6850 1600
 AR Path="/5B03041B/5AF8CEB9" Ref="TP13"  Part="1" 
@@ -394,7 +394,7 @@ F 3 "~" H 7050 1600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point TP14
+L remram-rescue:Test_Point-Connector_Specialized TP14
 U 1 1 5B09FBC9
 P 7200 1600
 AR Path="/5B03041B/5B09FBC9" Ref="TP14"  Part="1" 
@@ -416,7 +416,7 @@ AR Path="/5B03041B/5AF8CEBE" Ref="#PWR030"  Part="1"
 AR Path="/5AFC22B0/5AF8CEBE" Ref="#PWR082"  Part="1" 
 AR Path="/5AFC9D86/5AF8CEBE" Ref="#PWR095"  Part="1" 
 AR Path="/5AFD185C/5AF8CEBE" Ref="#PWR0108"  Part="1" 
-F 0 "#PWR082" H 2850 800 50  0001 C CNN
+F 0 "#PWR0108" H 2850 800 50  0001 C CNN
 F 1 "GNDA" H 2855 877 50  0000 C CNN
 F 2 "" H 2850 1050 50  0001 C CNN
 F 3 "" H 2850 1050 50  0001 C CNN
@@ -454,7 +454,7 @@ NoConn ~ 4150 2050
 Text Notes 1200 4500 2    50   ~ 0
 Max RMS 1.64A
 $Comp
-L Device:C C20
+L remram-rescue:C-Device C20
 U 1 1 5AF8CED0
 P 5200 4150
 AR Path="/5B03041B/5AF8CED0" Ref="C20"  Part="1" 
@@ -469,7 +469,7 @@ F 3 "~" H 5200 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C21
+L remram-rescue:C-Device C21
 U 1 1 5AF8CED2
 P 5650 4150
 AR Path="/5B03041B/5AF8CED2" Ref="C21"  Part="1" 
@@ -491,7 +491,7 @@ AR Path="/5B03041B/5B0D4996" Ref="#PWR042"  Part="1"
 AR Path="/5AFC22B0/5B0D4996" Ref="#PWR094"  Part="1" 
 AR Path="/5AFC9D86/5B0D4996" Ref="#PWR0107"  Part="1" 
 AR Path="/5AFD185C/5B0D4996" Ref="#PWR0120"  Part="1" 
-F 0 "#PWR094" H 4600 4050 50  0001 C CNN
+F 0 "#PWR0120" H 4600 4050 50  0001 C CNN
 F 1 "GNDA" V 4605 4173 50  0000 R CNN
 F 2 "" H 4600 4300 50  0001 C CNN
 F 3 "" H 4600 4300 50  0001 C CNN
@@ -509,7 +509,7 @@ VDD_PWR
 Text GLabel 3250 1750 1    50   Input ~ 0
 VDD_PWR
 $Comp
-L Device:CP C19
+L remram-rescue:CP-Device C19
 U 1 1 5B0E8E43
 P 4750 4150
 AR Path="/5B03041B/5B0E8E43" Ref="C19"  Part="1" 
@@ -530,7 +530,7 @@ Wire Wire Line
 Connection ~ 4750 4000
 Connection ~ 4750 4300
 $Comp
-L Device:R R12
+L remram-rescue:R-Device R12
 U 1 1 5AF83011
 P 2850 1200
 AR Path="/5B03041B/5AF83011" Ref="R12"  Part="1" 
@@ -564,7 +564,7 @@ AR Path="/5B03041B/5AF8CE97" Ref="#PWR032"  Part="1"
 AR Path="/5AFC22B0/5AF8CE97" Ref="#PWR084"  Part="1" 
 AR Path="/5AFC9D86/5AF8CE97" Ref="#PWR097"  Part="1" 
 AR Path="/5AFD185C/5AF8CE97" Ref="#PWR0110"  Part="1" 
-F 0 "#PWR084" H 2350 1300 50  0001 C CNN
+F 0 "#PWR0110" H 2350 1300 50  0001 C CNN
 F 1 "GNDA" H 2355 1377 50  0000 C CNN
 F 2 "" H 2350 1550 50  0001 C CNN
 F 3 "" H 2350 1550 50  0001 C CNN
@@ -643,7 +643,7 @@ AR Path="/5B03041B/5AFD58A6" Ref="#PWR034"  Part="1"
 AR Path="/5AFC22B0/5AFD58A6" Ref="#PWR086"  Part="1" 
 AR Path="/5AFC9D86/5AFD58A6" Ref="#PWR099"  Part="1" 
 AR Path="/5AFD185C/5AFD58A6" Ref="#PWR0112"  Part="1" 
-F 0 "#PWR086" H 1750 1800 50  0001 C CNN
+F 0 "#PWR0112" H 1750 1800 50  0001 C CNN
 F 1 "GNDA" V 1755 1923 50  0000 R CNN
 F 2 "" H 1750 2050 50  0001 C CNN
 F 3 "" H 1750 2050 50  0001 C CNN

@@ -26,7 +26,7 @@ Connection ~ 1700 2750
 Wire Wire Line
 	1700 2750 1800 2750
 $Comp
-L Device:C C6
+L remram-rescue:C-Device C6
 U 1 1 5AD0C5B0
 P 1350 2900
 F 0 "C6" H 1465 2946 50  0000 L CNN
@@ -37,7 +37,7 @@ F 3 "~" H 1350 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L remram-rescue:C-Device C7
 U 1 1 5AD0C639
 P 2700 2900
 F 0 "C7" H 2815 2946 50  0000 L CNN
@@ -66,7 +66,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tps54308.pdf" H 3250 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L remram-rescue:C-Device C3
 U 1 1 5AF61095
 P 2050 1150
 F 0 "C3" H 2165 1196 50  0000 L CNN
@@ -78,7 +78,7 @@ F 3 "~" H 2050 1150 50  0001 C CNN
 $EndComp
 Connection ~ 2050 1000
 $Comp
-L Device:C C1
+L remram-rescue:C-Device C1
 U 1 1 5AF6112E
 P 3950 1000
 F 0 "C1" V 4202 1000 50  0000 C CNN
@@ -89,7 +89,7 @@ F 3 "~" H 3950 1000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C4
+L remram-rescue:C-Device C4
 U 1 1 5AF611D6
 P 5200 1300
 F 0 "C4" H 5315 1346 50  0000 L CNN
@@ -100,7 +100,7 @@ F 3 "~" H 5200 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C5
+L remram-rescue:C-Device C5
 U 1 1 5AF6122A
 P 5600 1300
 F 0 "C5" H 5715 1346 50  0000 L CNN
@@ -111,7 +111,7 @@ F 3 "~" H 5600 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L_Core_Iron L1
+L remram-rescue:L_Core_Iron-Device L1
 U 1 1 5AF61471
 P 4600 1150
 F 0 "L1" V 4825 1150 50  0000 C CNN
@@ -137,7 +137,7 @@ Wire Wire Line
 	5200 1150 5600 1150
 Connection ~ 5200 1150
 $Comp
-L Device:R R1
+L remram-rescue:R-Device R1
 U 1 1 5AF622B8
 P 6350 1550
 F 0 "R1" H 6420 1596 50  0000 L CNN
@@ -148,7 +148,7 @@ F 3 "~" H 6350 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L remram-rescue:R-Device R2
 U 1 1 5AF62345
 P 6350 1850
 F 0 "R2" H 6420 1896 50  0000 L CNN
@@ -174,7 +174,7 @@ Connection ~ 6350 1150
 Wire Wire Line
 	2050 1000 2700 1000
 $Comp
-L Device:LED D1
+L remram-rescue:LED-Device D1
 U 1 1 5AF67AB2
 P 3550 3200
 F 0 "D1" V 3588 3082 50  0000 R CNN
@@ -203,7 +203,7 @@ $EndComp
 Text Notes 3350 1500 0    50   ~ 0
 max. 3 A
 $Comp
-L Connector_Generic:Conn_01x06 J1
+L remram-rescue:Conn_01x06-Connector_Generic J1
 U 1 1 5AF719E7
 P 1000 4550
 F 0 "J1" H 920 4967 50  0000 C CNN
@@ -214,7 +214,7 @@ F 3 "~" H 1000 4550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point TP4
+L remram-rescue:Test_Point-Connector_Specialized TP4
 U 1 1 5AF719F4
 P 1900 4400
 F 0 "TP4" H 1958 4520 50  0000 L CNN
@@ -228,7 +228,7 @@ Connection ~ 1900 4450
 Wire Wire Line
 	1900 4450 1900 4400
 $Comp
-L Connector_Specialized:Test_Point TP3
+L remram-rescue:Test_Point-Connector_Specialized TP3
 U 1 1 5AF719FF
 P 1900 4100
 F 0 "TP3" H 1958 4220 50  0000 L CNN
@@ -241,7 +241,7 @@ $EndComp
 Wire Wire Line
 	1900 4100 1900 4150
 $Comp
-L Connector_Specialized:Test_Point TP6
+L remram-rescue:Test_Point-Connector_Specialized TP6
 U 1 1 5AF71A0F
 P 1900 5000
 F 0 "TP6" H 1958 5120 50  0000 L CNN
@@ -255,7 +255,7 @@ Connection ~ 1900 5050
 Wire Wire Line
 	1900 5050 1900 5000
 $Comp
-L Connector_Specialized:Test_Point TP5
+L remram-rescue:Test_Point-Connector_Specialized TP5
 U 1 1 5AF71A1A
 P 1900 4700
 F 0 "TP5" H 1958 4820 50  0000 L CNN
@@ -271,7 +271,7 @@ Wire Wire Line
 	1900 4700 1900 4750
 Connection ~ 1900 4750
 $Comp
-L Connector_Specialized:Test_Point TP10
+L remram-rescue:Test_Point-Connector_Specialized TP10
 U 1 1 5AF71A25
 P 1650 6400
 F 0 "TP10" H 1708 6520 50  0000 L CNN
@@ -284,7 +284,7 @@ $EndComp
 Wire Wire Line
 	1900 5650 1900 5600
 $Comp
-L Connector_Specialized:Test_Point TP7
+L remram-rescue:Test_Point-Connector_Specialized TP7
 U 1 1 5AF71A2E
 P 1900 5300
 F 0 "TP7" H 1958 5420 50  0000 L CNN
@@ -327,7 +327,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 5650 1900 5650
 $Comp
-L Connector_Specialized:Test_Point TP1
+L remram-rescue:Test_Point-Connector_Specialized TP1
 U 1 1 5B12B288
 P 6650 1150
 F 0 "TP1" H 6750 1300 50  0000 L CNN
@@ -343,7 +343,7 @@ Connection ~ 6650 1150
 Wire Wire Line
 	3850 2750 3550 2750
 $Comp
-L Connector_Specialized:Test_Point TP2
+L remram-rescue:Test_Point-Connector_Specialized TP2
 U 1 1 5B12E486
 P 3850 2750
 F 0 "TP2" H 3950 2900 50  0000 L CNN
@@ -357,7 +357,7 @@ Wire Wire Line
 	4500 2750 3850 2750
 Connection ~ 3850 2750
 $Comp
-L Device:Fuse F1
+L remram-rescue:Fuse-Device F1
 U 1 1 5AF82AAA
 P 4000 4150
 F 0 "F1" V 3803 4150 50  0000 C CNN
@@ -368,7 +368,7 @@ F 3 "https://www.mouser.de/datasheet/2/215/557-2-744839.pdf" H 4000 4150 50  000
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Fuse F2
+L remram-rescue:Fuse-Device F2
 U 1 1 5AF6A259
 P 4000 4700
 F 0 "F2" V 3803 4700 50  0000 C CNN
@@ -379,7 +379,7 @@ F 3 "https://www.mouser.de/datasheet/2/215/557-2-744839.pdf" H 4000 4700 50  000
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Fuse F3
+L remram-rescue:Fuse-Device F3
 U 1 1 5AF6B243
 P 4000 5300
 F 0 "F3" V 3803 5300 50  0000 C CNN
@@ -546,7 +546,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 1150 2700 1150
 $Comp
-L Device:D D2
+L remram-rescue:D-Device D2
 U 1 1 5AFA3F16
 P 4350 4300
 F 0 "D2" V 4304 4379 50  0000 L CNN
@@ -557,7 +557,7 @@ F 3 "https://www.mouser.de/datasheet/2/240/Littelfuse_TVS_Diode_SMAJ_Datasheet.p
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:CP C9
+L remram-rescue:CP-Device C9
 U 1 1 5AFA5D98
 P 5000 4850
 F 0 "C9" H 5118 4896 50  0000 L CNN
@@ -568,7 +568,7 @@ F 3 "https://eu.mouser.com/datasheet/2/293/e-uvz-1219460.pdf" H 5000 4850 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D3
+L remram-rescue:D-Device D3
 U 1 1 5AFAB14E
 P 4350 4850
 F 0 "D3" V 4304 4929 50  0000 L CNN
@@ -639,7 +639,7 @@ F 3 "" H 5450 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C12
+L remram-rescue:C-Device C12
 U 1 1 5AFBE17F
 P 5450 5450
 F 0 "C12" H 5565 5496 50  0000 L CNN
@@ -650,7 +650,7 @@ F 3 "" H 5450 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D4
+L remram-rescue:D-Device D4
 U 1 1 5AFBE18D
 P 4350 5450
 F 0 "D4" V 4304 5529 50  0000 L CNN
@@ -697,7 +697,7 @@ F 3 "" H 5450 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
+L remram-rescue:C-Device C10
 U 1 1 5AFCAA09
 P 5450 4850
 F 0 "C10" H 5565 4896 50  0000 L CNN
@@ -708,7 +708,7 @@ F 3 "" H 5450 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C8
+L remram-rescue:C-Device C8
 U 1 1 5AFCC3AE
 P 5450 4300
 F 0 "C8" H 5565 4346 50  0000 L CNN
@@ -733,7 +733,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 5300 4350 5300
 $Comp
-L Device:CP C11
+L remram-rescue:CP-Device C11
 U 1 1 5AFD173F
 P 5000 5450
 F 0 "C11" H 5118 5496 50  0000 L CNN
@@ -800,7 +800,7 @@ VDD_BED
 Text HLabel 2500 5650 2    50   Output ~ 0
 BED_OUT
 $Comp
-L Connector_Specialized:Conn_01x02_Male J2
+L remram-rescue:Conn_01x02_Male-Connector_Specialized J2
 U 1 1 5B1B2A8C
 P 1000 6100
 F 0 "J2" H 1106 6278 50  0000 C CNN
@@ -815,7 +815,7 @@ VDD_HEAT
 Text HLabel 2100 6450 2    50   Output ~ 0
 HEAT_OUT
 $Comp
-L Connector_Specialized:Test_Point TP9
+L remram-rescue:Test_Point-Connector_Specialized TP9
 U 1 1 5B1B93AE
 P 1650 6100
 F 0 "TP9" H 1708 6220 50  0000 L CNN
@@ -826,7 +826,7 @@ F 3 "~" H 1850 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point TP8
+L remram-rescue:Test_Point-Connector_Specialized TP8
 U 1 1 5B1BD224
 P 1900 5600
 F 0 "TP8" H 1958 5720 50  0000 L CNN
@@ -939,7 +939,7 @@ $EndComp
 Wire Wire Line
 	1250 1000 1550 1000
 $Comp
-L Device:CP C2
+L remram-rescue:CP-Device C2
 U 1 1 5AFA3BBA
 P 1550 1150
 F 0 "C2" H 1668 1196 50  0000 L CNN
@@ -1010,7 +1010,7 @@ Connection ~ 2700 2750
 Wire Wire Line
 	2700 2750 3550 2750
 $Comp
-L Device:R R3
+L remram-rescue:R-Device R3
 U 1 1 5AF56C08
 P 3550 2900
 F 0 "R3" H 3620 2946 50  0000 L CNN
