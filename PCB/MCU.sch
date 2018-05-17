@@ -773,11 +773,11 @@ Text HLabel 7600 2050 1    50   Output ~ 0
 X_STEP
 Text HLabel 6400 2050 1    50   Output ~ 0
 Y_STEP
-Text HLabel 6700 2050 1    50   Output ~ 0
+Text HLabel 6800 2050 1    50   Output ~ 0
 Y_EN
 Text HLabel 6600 2050 1    50   Output ~ 0
 Y_DIR
-Text HLabel 6800 2050 1    50   Input ~ 0
+Text HLabel 6700 2050 1    50   Input ~ 0
 Y_DIAG
 Text HLabel 7200 5250 3    50   Output ~ 0
 Z_EN
@@ -894,13 +894,13 @@ Text HLabel 4900 2850 0    50   BiDi ~ 0
 KILL_PIN
 Text HLabel 4900 3050 0    50   BiDi ~ 0
 SD_CARD_DET
-Text HLabel 8100 3650 2    50   BiDi ~ 0
+Text HLabel 8100 4150 2    50   BiDi ~ 0
 LCD_D6
-Text HLabel 8100 3750 2    50   BiDi ~ 0
+Text HLabel 8100 4250 2    50   BiDi ~ 0
 LCD_D7
-Text HLabel 8100 3550 2    50   BiDi ~ 0
+Text HLabel 8100 4050 2    50   BiDi ~ 0
 LCD_D5
-Text HLabel 8100 3450 2    50   BiDi ~ 0
+Text HLabel 8100 3950 2    50   BiDi ~ 0
 LCD_D4
 Text HLabel 7100 2050 1    50   BiDi ~ 0
 LCD_RS
@@ -936,10 +936,10 @@ NoConn ~ 8100 3150
 NoConn ~ 8100 3350
 NoConn ~ 4900 4150
 NoConn ~ 5500 5250
-NoConn ~ 8100 3950
+NoConn ~ 8100 3450
 NoConn ~ 8100 3850
 NoConn ~ 6600 5250
-NoConn ~ 8100 4050
+NoConn ~ 8100 3550
 Text HLabel 1950 3250 0    50   Input ~ 0
 nRESET
 Wire Wire Line
@@ -1057,6 +1057,6 @@ Text HLabel 4900 2750 0    50   Input ~ 0
 EXT_D1
 NoConn ~ 6500 5250
 NoConn ~ 6400 5250
-NoConn ~ 8100 4150
-NoConn ~ 8100 4250
+NoConn ~ 8100 3650
+NoConn ~ 8100 3750
 $EndSCHEMATC
