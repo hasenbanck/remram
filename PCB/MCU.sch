@@ -911,7 +911,6 @@ Wire Wire Line
 NoConn ~ 6900 2050
 NoConn ~ 7000 2050
 NoConn ~ 7100 2050
-NoConn ~ 7200 2050
 NoConn ~ 6600 5250
 Text HLabel 1950 3250 0    50   Input ~ 0
 nRESET
@@ -1044,7 +1043,6 @@ PWM_EXT3
 Text HLabel 8100 3350 2    50   Input ~ 0
 PWM_EXT4
 NoConn ~ 5600 2050
-NoConn ~ 5500 2050
 Text HLabel 4900 4150 0    50   Input ~ 0
 FAN_SPEED1
 Text HLabel 5500 5250 3    50   Input ~ 0
@@ -1058,4 +1056,46 @@ Wire Wire Line
 	3200 3150 3700 3150
 Wire Wire Line
 	3700 3150 3700 2950
+Text Label 7200 2050 1    50   ~ 0
+STATUS_LED
+$Comp
+L remram-rescue:LED-Device D15
+U 1 1 5B007E50
+P 1700 6450
+F 0 "D15" H 1738 6332 50  0000 R CNN
+F 1 "LTST-C194KSKT" H 2000 6600 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 1700 6450 50  0001 C CNN
+F 3 "~" H 1700 6450 50  0001 C CNN
+	1    1700 6450
+	-1   0    0    1   
+$EndComp
+$Comp
+L remram-rescue:R-Device R38
+U 1 1 5B007E5D
+P 1400 6450
+F 0 "R38" V 1550 6450 50  0000 L CNN
+F 1 "1k" V 1470 6405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1330 6450 50  0001 C CNN
+F 3 "~" H 1400 6450 50  0001 C CNN
+	1    1400 6450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 5B010B0E
+P 2300 6450
+F 0 "#PWR0125" H 2300 6200 50  0001 C CNN
+F 1 "GND" H 2305 6277 50  0000 C CNN
+F 2 "" H 2300 6450 50  0001 C CNN
+F 3 "" H 2300 6450 50  0001 C CNN
+	1    2300 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 6450 2300 6450
+Text Label 750  6450 0    50   ~ 0
+STATUS_LED
+Wire Wire Line
+	750  6450 1250 6450
+NoConn ~ 5500 2050
 $EndSCHEMATC
