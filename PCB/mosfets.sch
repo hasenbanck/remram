@@ -390,7 +390,7 @@ Connection ~ 1600 3050
 Wire Wire Line
 	1600 3050 1800 3050
 Text GLabel 4250 950  0    50   Input ~ 0
-VDD_PWR
+VDD5V
 Text GLabel 4250 2600 0    50   Input ~ 0
-VDD_PWR
+VDD5V
 $EndSCHEMATC

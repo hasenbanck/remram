@@ -910,8 +910,6 @@ Wire Wire Line
 	3400 3550 4900 3550
 NoConn ~ 6900 2050
 NoConn ~ 7000 2050
-NoConn ~ 4900 4150
-NoConn ~ 5500 5250
 NoConn ~ 7100 2050
 NoConn ~ 7200 2050
 NoConn ~ 6600 5250
@@ -1047,4 +1045,8 @@ Text HLabel 8100 3350 2    50   Input ~ 0
 PWM_EXT4
 NoConn ~ 5600 2050
 NoConn ~ 5500 2050
+Text HLabel 4900 4150 0    50   Input ~ 0
+FAN_SPEED1
+Text HLabel 5500 5250 3    50   Input ~ 0
+FAN_SPEED2
 $EndSCHEMATC
