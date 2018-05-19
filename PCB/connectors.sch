@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 9
+Sheet 5 9
 Title "Connectors"
 Date ""
 Rev ""
@@ -771,9 +771,9 @@ Text HLabel 8800 1150 2    50   Input ~ 0
 EXT_D1
 Text HLabel 8300 1250 0    50   Input ~ 0
 EXT_D2
-Text HLabel 8300 1450 0    50   Input ~ 0
+Text HLabel 8800 1450 2    50   Input ~ 0
 SCL
-Text HLabel 8800 1350 2    50   BiDi ~ 0
+Text HLabel 8300 1450 0    50   BiDi ~ 0
 SDA
 Wire Notes Line
 	7650 750  7650 2100
@@ -937,19 +937,17 @@ Text HLabel 8300 1750 0    50   Input ~ 0
 USART_TX
 Text HLabel 8800 1750 2    50   Input ~ 0
 USART_RX
-Text HLabel 8800 1650 2    50   Input ~ 0
-USART_CK
-Text HLabel 8800 1450 2    50   Input ~ 0
-PWM_EXT1
 Text HLabel 8300 1550 0    50   Input ~ 0
+PWM_EXT1
+Text HLabel 8800 1550 2    50   Input ~ 0
 PWM_EXT2
 Text HLabel 8800 1250 2    50   Input ~ 0
 EXT_D3
 Text HLabel 8300 1350 0    50   Input ~ 0
 EXT_D4
-Text HLabel 8800 1550 2    50   Input ~ 0
-PWM_EXT3
 Text HLabel 8300 1650 0    50   Input ~ 0
+PWM_EXT3
+Text HLabel 8800 1650 2    50   Input ~ 0
 PWM_EXT4
 $Comp
 L remram-rescue:Conn_01x03-Connector_Generic J5
@@ -1134,4 +1132,8 @@ F 3 "" H 8300 1950 50  0001 C CNN
 	1    8300 1950
 	0    1    1    0   
 $EndComp
+Text Notes 7650 2600 0    50   ~ 0
+TODO:\n - STM32duino doesn't use CK pin of USART
+Text HLabel 8800 1350 2    50   Input ~ 0
+EXT_D5
 $EndSCHEMATC

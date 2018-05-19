@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 9
+Sheet 4 9
 Title "MCU"
 Date ""
 Rev ""
@@ -1012,7 +1012,6 @@ NoConn ~ 6500 5250
 NoConn ~ 6400 5250
 NoConn ~ 6500 2050
 NoConn ~ 5800 2050
-NoConn ~ 5700 2050
 Text HLabel 4900 2450 0    50   Input ~ 0
 EXT_D4
 Text HLabel 4900 2550 0    50   Input ~ 0
@@ -1036,8 +1035,6 @@ Text HLabel 8100 3050 2    50   Input ~ 0
 USART_RX
 Text HLabel 8100 3150 2    50   Input ~ 0
 USART_TX
-Text HLabel 8100 3250 2    50   Input ~ 0
-USART_CK
 Text HLabel 8100 3450 2    50   Input ~ 0
 PWM_EXT3
 Text HLabel 8100 3350 2    50   Input ~ 0
@@ -1097,5 +1094,8 @@ Text Label 750  6450 0    50   ~ 0
 STATUS_LED
 Wire Wire Line
 	750  6450 1250 6450
-NoConn ~ 5500 2050
+Text HLabel 5500 2050 1    50   Input ~ 0
+EXT_D5
+NoConn ~ 5700 2050
+NoConn ~ 8100 3250
 $EndSCHEMATC
