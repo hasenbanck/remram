@@ -40,7 +40,7 @@ L remram-rescue:D_Schottky-Device D5
 U 1 1 5B1A3271
 P 1750 950
 F 0 "D5" H 1750 1166 50  0000 C CNN
-F 1 "SK310A-TP" H 1750 1075 50  0000 C CNN
+F 1 "SK310A-LTP" H 1750 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA" H 1750 950 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Micro-Commercial-Components-MCC/SK310A-TP?qs=O2qRfqcg9D9SKx4%252bV6P4XQ%3D%3D" H 1750 950 50  0001 C CNN
 	1    1750 950 
@@ -109,7 +109,7 @@ L remram-rescue:D_Schottky-Device D7
 U 1 1 5B1B03B6
 P 1750 2600
 F 0 "D7" H 1750 2816 50  0000 C CNN
-F 1 "SK310A-TP" H 1750 2725 50  0000 C CNN
+F 1 "SK310A-LTP" H 1750 2725 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA" H 1750 2600 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Micro-Commercial-Components-MCC/SK310A-TP?qs=O2qRfqcg9D9SKx4%252bV6P4XQ%3D%3D" H 1750 2600 50  0001 C CNN
 	1    1750 2600
