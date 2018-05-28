@@ -30,4 +30,10 @@ $CMP TPS54308
 D 3A, variable buck converter
 $ENDCMP
 #
+$CMP VBH2032-1
+D single battery cell
+K battery cell
+F ~
+$ENDCMP
+#
 #End Doc Library
