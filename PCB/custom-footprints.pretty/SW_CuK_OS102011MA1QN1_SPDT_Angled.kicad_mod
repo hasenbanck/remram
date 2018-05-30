@@ -1,4 +1,4 @@
-(module custom-footprints:SW_CuK_OS102011MA1QN1_SPDT_Angled (layer F.Cu) (tedit 5AF859DF)
+(module custom-footprints:SW_CuK_OS102011MA1QN1_SPDT_Angled (layer F.Cu) (tedit 5B0ED23C)
   (descr "CuK miniature slide switch, OS series, SPDT, right angle, http://www.ckswitches.com/media/1428/os.pdf")
   (tags "switch SPDT")
   (fp_text reference REF** (at 1.4 -3.6) (layer F.SilkS)
@@ -24,9 +24,9 @@
   (fp_line (start 7.7 6.7) (end -3.7 6.7) (layer F.CrtYd) (width 0.05))
   (fp_line (start -3.7 6.7) (end -3.7 -2.7) (layer F.CrtYd) (width 0.05))
   (fp_line (start -3.7 -2.7) (end 7.7 -2.7) (layer F.CrtYd) (width 0.05))
-  (pad 1 thru_hole rect (at 0 0) (size 1.2 2.5) (drill 0.9) (layers *.Cu *.Mask))
-  (pad 2 thru_hole oval (at 2 0) (size 1.2 2.5) (drill 0.9) (layers *.Cu *.Mask))
-  (pad 3 thru_hole oval (at 4 0) (size 1.2 2.5) (drill 0.9) (layers *.Cu *.Mask))
+  (pad 1 thru_hole rect (at 0 0) (size 1.4 2.5) (drill 0.9) (layers *.Cu *.Mask))
+  (pad 2 thru_hole oval (at 2 0) (size 1.4 2.5) (drill 0.9) (layers *.Cu *.Mask))
+  (pad 3 thru_hole oval (at 4 0) (size 1.4 2.5) (drill 0.9) (layers *.Cu *.Mask))
   (pad "" thru_hole oval (at -2.1 0) (size 2 3.5) (drill 1.5) (layers *.Cu *.Mask))
   (pad "" thru_hole oval (at 6.1 0) (size 2 3.5) (drill 1.5) (layers *.Cu *.Mask))
   (model ${KIPRJMOD}/packages3d/OS102011MA1QN1.stp

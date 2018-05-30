@@ -597,7 +597,7 @@ U 1 1 5B17C4BC
 P 1200 2750
 F 0 "J16" H 1250 3200 50  0000 C CNN
 F 1 "62201021121" H 1250 3100 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 1200 2750 50  0001 C CNN
+F 2 "custom-footprints:PinHeader_2x05_P1.27mm_Vertical" H 1200 2750 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/445/6220xx21121-542317.pdf" H 1200 2750 50  0001 C CNN
 	1    1200 2750
 	1    0    0    -1  
