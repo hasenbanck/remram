@@ -1132,8 +1132,6 @@ F 3 "" H 8300 1950 50  0001 C CNN
 	1    8300 1950
 	0    1    1    0   
 $EndComp
-Text Notes 7650 2600 0    50   ~ 0
-TODO:\n - STM32duino doesn't use CK pin of USART
 Text HLabel 8800 1350 2    50   Input ~ 0
 EXT_D5
 $EndSCHEMATC
