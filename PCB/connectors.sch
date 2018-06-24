@@ -641,9 +641,9 @@ Wire Notes Line
 	600  3200 600  2250
 Text HLabel 1750 2950 2    50   Input ~ 0
 nRESET
-Text HLabel 1750 2650 2    50   Input ~ 0
-SWDIO
 Text HLabel 1750 2550 2    50   Input ~ 0
+SWDIO
+Text HLabel 1750 2650 2    50   Input ~ 0
 SWCLK
 Text Notes 650  2050 0    50   ~ 0
 ESD protected by USB isolator
