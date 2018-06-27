@@ -36,7 +36,7 @@ BED_OUT
 Text HLabel 1500 950  0    50   Output ~ 0
 VDD_BED
 $Comp
-L remram-rescue:D_Schottky-Device D5
+L Device:D_Schottky D5
 U 1 1 5B1A3271
 P 1750 950
 F 0 "D5" H 1750 1166 50  0000 C CNN
@@ -75,7 +75,7 @@ PWM_BED
 Text HLabel 1050 3050 0    50   Input ~ 0
 PWM_HEAT
 $Comp
-L remram-rescue:R-Device R4
+L Device:R R4
 U 1 1 5B1AEA5D
 P 1300 1400
 F 0 "R4" V 1093 1400 50  0000 C CNN
@@ -105,7 +105,7 @@ HEAT_OUT
 Text HLabel 1500 2600 0    50   Output ~ 0
 VDD_HEAT
 $Comp
-L remram-rescue:D_Schottky-Device D7
+L Device:D_Schottky D7
 U 1 1 5B1B03B6
 P 1750 2600
 F 0 "D7" H 1750 2816 50  0000 C CNN
@@ -140,7 +140,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 3500 2100 3350
 $Comp
-L remram-rescue:R-Device R8
+L Device:R R8
 U 1 1 5B1B03DE
 P 1300 3050
 F 0 "R8" V 1093 3050 50  0000 C CNN
@@ -176,7 +176,7 @@ F 3 "https://www.mouser.de/datasheet/2/916/BUK9840-55-1320170.pdf" H 4750 1400 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:R-Device R5
+L Device:R R5
 U 1 1 5B1FB287
 P 4150 1400
 F 0 "R5" V 3943 1400 50  0000 C CNN
@@ -226,7 +226,7 @@ F 3 "https://www.mouser.de/datasheet/2/916/BUK9840-55-1320170.pdf" H 4750 3050 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:R-Device R9
+L Device:R R9
 U 1 1 5B2008D0
 P 4150 3050
 F 0 "R9" V 3943 3050 50  0000 C CNN
@@ -287,7 +287,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 3050 1600 3050
 $Comp
-L remram-rescue:R-Device R6
+L Device:R R6
 U 1 1 5AF82135
 P 1750 1850
 F 0 "R6" V 1543 1850 50  0000 C CNN
@@ -306,7 +306,7 @@ Connection ~ 1600 1400
 Wire Wire Line
 	1600 1400 1800 1400
 $Comp
-L remram-rescue:R-Device R10
+L Device:R R10
 U 1 1 5AF8339E
 P 1750 3500
 F 0 "R10" V 1543 3500 50  0000 C CNN
@@ -319,7 +319,7 @@ $EndComp
 Wire Wire Line
 	2100 3500 1900 3500
 $Comp
-L remram-rescue:R-Device R7
+L Device:R R7
 U 1 1 5AF83BB4
 P 4600 1850
 F 0 "R7" V 4393 1850 50  0000 C CNN
@@ -340,7 +340,7 @@ Wire Wire Line
 	4300 1400 4350 1400
 Connection ~ 4350 1400
 $Comp
-L remram-rescue:R-Device R11
+L Device:R R11
 U 1 1 5AF880C0
 P 4650 3500
 F 0 "R11" V 4443 3500 50  0000 C CNN
@@ -363,7 +363,7 @@ Wire Wire Line
 	4850 3500 4800 3500
 Connection ~ 4850 3500
 $Comp
-L remram-rescue:D_Schottky-Device D6
+L Device:D_Schottky D6
 U 1 1 5AFB8598
 P 4500 950
 F 0 "D6" H 4450 1150 50  0000 L CNN
@@ -374,7 +374,7 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 4500 950 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:D_Schottky-Device D8
+L Device:D_Schottky D8
 U 1 1 5AFBAFD7
 P 4500 2600
 F 0 "D8" H 4450 2800 50  0000 L CNN

@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L remram-rescue:USB_B-Connector_Specialized J4
+L Connector:USB_B J4
 U 1 1 5B16E55B
 P 1150 1300
 F 0 "J4" H 1205 1767 50  0000 C CNN
@@ -34,7 +34,7 @@ EXT2
 Text Notes 1550 2200 2    50   ~ 0
 EXT3
 $Comp
-L remram-rescue:Conn_02x05_Odd_Even-Connector_Generic J5
+L Connector_Generic:Conn_02x05_Odd_Even J5
 U 1 1 5B16F6B4
 P 2700 1300
 F 0 "J5" H 2750 1717 50  0000 C CNN
@@ -45,7 +45,7 @@ F 3 "" H 2700 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:Conn_02x05_Odd_Even-Connector_Generic J6
+L Connector_Generic:Conn_02x05_Odd_Even J6
 U 1 1 5B16F736
 P 4350 1300
 F 0 "J6" H 4400 1717 50  0000 C CNN
@@ -58,7 +58,7 @@ $EndComp
 Text HLabel 1000 4600 0    50   Output ~ 0
 THERM_1
 $Comp
-L remram-rescue:Test_Point-Connector_Specialized TP17
+L Connector:Test_Point TP17
 U 1 1 5B171985
 P 2550 4450
 F 0 "TP17" H 2608 4570 50  0000 L CNN
@@ -69,7 +69,7 @@ F 3 "~" H 2750 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:D_Schottky-Device D14
+L Device:D_Schottky D14
 U 1 1 5B17198C
 P 1500 4350
 F 0 "D14" V 1454 4429 50  0000 L CNN
@@ -80,7 +80,7 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 1500 4350 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R26
+L Device:R R26
 U 1 1 5B1719A1
 P 1900 4600
 F 0 "R26" V 2000 4600 50  0000 C CNN
@@ -91,7 +91,7 @@ F 3 "~" H 1900 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R25
+L Device:R R25
 U 1 1 5B1719A8
 P 2150 4350
 F 0 "R25" H 2220 4396 50  0000 L CNN
@@ -143,7 +143,7 @@ $EndComp
 Wire Wire Line
 	2550 4450 2550 4600
 $Comp
-L remram-rescue:C-Device C36
+L Device:C C36
 U 1 1 5B1719D4
 P 1050 4750
 F 0 "C36" H 1165 4796 50  0000 L CNN
@@ -193,7 +193,7 @@ $EndComp
 Text HLabel 1000 7000 0    50   Output ~ 0
 THERM_3
 $Comp
-L remram-rescue:Test_Point-Connector_Specialized TP19
+L Connector:Test_Point TP19
 U 1 1 5B171A47
 P 2550 6850
 F 0 "TP19" H 2608 6970 50  0000 L CNN
@@ -249,7 +249,7 @@ $EndComp
 Text GLabel 5550 4800 0    50   Input ~ 0
 VDD3V3
 $Comp
-L remram-rescue:Conn_01x03-Connector_Generic J12
+L Connector_Generic:Conn_01x03 J12
 U 1 1 5B171AB8
 P 5750 4700
 F 0 "J12" H 5829 4742 50  0000 L CNN
@@ -273,7 +273,7 @@ $EndComp
 Text GLabel 5600 6050 0    50   Input ~ 0
 VDD3V3
 $Comp
-L remram-rescue:Conn_01x03-Connector_Generic J16
+L Connector_Generic:Conn_01x03 J16
 U 1 1 5B171AC6
 P 5800 5950
 F 0 "J16" H 5879 5992 50  0000 L CNN
@@ -297,7 +297,7 @@ $EndComp
 Text GLabel 7950 4800 0    50   Input ~ 0
 VDD3V3
 $Comp
-L remram-rescue:Conn_01x03-Connector_Generic J13
+L Connector_Generic:Conn_01x03 J13
 U 1 1 5B171AD6
 P 8150 4700
 F 0 "J13" H 8229 4742 50  0000 L CNN
@@ -321,7 +321,7 @@ $EndComp
 Text GLabel 7950 6050 0    50   Input ~ 0
 VDD3V3
 $Comp
-L remram-rescue:Conn_01x03-Connector_Generic J17
+L Connector_Generic:Conn_01x03 J17
 U 1 1 5B171AE4
 P 8150 5950
 F 0 "J17" H 8229 5992 50  0000 L CNN
@@ -345,7 +345,7 @@ $EndComp
 Text GLabel 10350 4800 0    50   Input ~ 0
 VDD3V3
 $Comp
-L remram-rescue:Conn_01x03-Connector_Generic J14
+L Connector_Generic:Conn_01x03 J14
 U 1 1 5B171AF4
 P 10550 4700
 F 0 "J14" H 10629 4742 50  0000 L CNN
@@ -369,7 +369,7 @@ $EndComp
 Text GLabel 10350 6050 0    50   Input ~ 0
 VDD3V3
 $Comp
-L remram-rescue:Conn_01x03-Connector_Generic J18
+L Connector_Generic:Conn_01x03 J18
 U 1 1 5B171B02
 P 10550 5950
 F 0 "J18" H 10629 5992 50  0000 L CNN
@@ -380,7 +380,7 @@ F 3 "~" H 10550 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:Conn_02x05_Odd_Even-Connector_Generic J9
+L Connector_Generic:Conn_02x05_Odd_Even J9
 U 1 1 5B17C4BC
 P 2950 2750
 F 0 "J9" H 3000 3200 50  0000 C CNN
@@ -568,7 +568,7 @@ MOSI
 Text HLabel 4150 1100 0    50   Output ~ 0
 MISO
 $Comp
-L remram-rescue:D_Schottky-Device D18
+L Device:D_Schottky D18
 U 1 1 5AFA7311
 P 1500 4850
 F 0 "D18" V 1454 4929 50  0000 L CNN
@@ -585,7 +585,7 @@ FAN1_OUT
 Text GLabel 7500 1300 0    50   Input ~ 0
 VDD5V
 $Comp
-L remram-rescue:Test_Point-Connector_Specialized TP11
+L Connector:Test_Point TP11
 U 1 1 5AFF4AC9
 P 7300 1000
 F 0 "TP11" H 7358 1120 50  0000 L CNN
@@ -596,7 +596,7 @@ F 3 "~" H 7500 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:Test_Point-Connector_Specialized TP12
+L Connector:Test_Point TP12
 U 1 1 5B068C7B
 P 7700 1000
 F 0 "TP12" H 7758 1120 50  0000 L CNN
@@ -678,7 +678,7 @@ PWM_EXT3
 Text HLabel 1700 3150 2    50   Input ~ 0
 PWM_EXT4
 $Comp
-L remram-rescue:Conn_01x03-Connector_Generic J7
+L Connector_Generic:Conn_01x03 J7
 U 1 1 5AFFA8B3
 P 8100 1300
 F 0 "J7" H 8179 1342 50  0000 L CNN
@@ -691,7 +691,7 @@ $EndComp
 Text HLabel 5750 1400 0    50   Input ~ 0
 FAN_SPEED1
 $Comp
-L remram-rescue:Test_Point-Connector_Specialized TP13
+L Connector:Test_Point TP13
 U 1 1 5B006006
 P 8050 1000
 F 0 "TP13" H 8108 1120 50  0000 L CNN
@@ -729,7 +729,7 @@ FAN2_OUT
 Text GLabel 7500 2550 0    50   Input ~ 0
 VDD5V
 $Comp
-L remram-rescue:Test_Point-Connector_Specialized TP14
+L Connector:Test_Point TP14
 U 1 1 5B01FCDE
 P 7300 2250
 F 0 "TP14" H 7358 2370 50  0000 L CNN
@@ -740,7 +740,7 @@ F 3 "~" H 7500 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:Test_Point-Connector_Specialized TP15
+L Connector:Test_Point TP15
 U 1 1 5B01FCE5
 P 7700 2250
 F 0 "TP15" H 7758 2370 50  0000 L CNN
@@ -751,7 +751,7 @@ F 3 "~" H 7900 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:Conn_01x03-Connector_Generic J8
+L Connector_Generic:Conn_01x03 J8
 U 1 1 5B01FCEC
 P 8100 2550
 F 0 "J8" H 8179 2592 50  0000 L CNN
@@ -764,7 +764,7 @@ $EndComp
 Text HLabel 5750 2650 0    50   Input ~ 0
 FAN_SPEED2
 $Comp
-L remram-rescue:Test_Point-Connector_Specialized TP16
+L Connector:Test_Point TP16
 U 1 1 5B01FCF4
 P 8050 2250
 F 0 "TP16" H 8108 2370 50  0000 L CNN
@@ -847,7 +847,7 @@ $EndComp
 Text HLabel 1700 2850 2    50   Input ~ 0
 EXT_D5
 $Comp
-L remram-rescue:D_Schottky-Device D10
+L Device:D_Schottky D10
 U 1 1 5B35126F
 P 6200 1150
 F 0 "D10" V 6150 1250 50  0000 L CNN
@@ -858,22 +858,22 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 6200 1150 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R22
+L Device:R R22
 U 1 1 5B351276
 P 6550 1400
 F 0 "R22" V 6650 1400 50  0000 C CNN
-F 1 "1k" V 6750 1400 50  0000 C CNN
+F 1 "4.7k" V 6750 1400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6480 1400 50  0001 C CNN
 F 3 "~" H 6550 1400 50  0001 C CNN
 	1    6550 1400
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R21
+L Device:R R21
 U 1 1 5B35127D
 P 6800 1150
 F 0 "R21" H 6870 1196 50  0000 L CNN
-F 1 "1k" H 6870 1105 50  0000 L CNN
+F 1 "4.7k" H 6870 1105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6730 1150 50  0001 C CNN
 F 3 "~" H 6800 1150 50  0001 C CNN
 	1    6800 1150
@@ -901,7 +901,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 1400 6200 1500
 $Comp
-L remram-rescue:C-Device C34
+L Device:C C34
 U 1 1 5B35129B
 P 5800 1550
 F 0 "C34" H 5915 1596 50  0000 L CNN
@@ -925,7 +925,7 @@ F 3 "" H 5800 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:D_Schottky-Device D11
+L Device:D_Schottky D11
 U 1 1 5B3512AB
 P 6200 1650
 F 0 "D11" V 6154 1729 50  0000 L CNN
@@ -951,7 +951,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 1400 6800 1300
 $Comp
-L remram-rescue:D_Schottky-Device D12
+L Device:D_Schottky D12
 U 1 1 5B395D12
 P 6200 2400
 F 0 "D12" V 6150 2500 50  0000 L CNN
@@ -962,22 +962,22 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 6200 2400 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R24
+L Device:R R24
 U 1 1 5B395D19
 P 6550 2650
 F 0 "R24" V 6650 2650 50  0000 C CNN
-F 1 "1k" V 6750 2650 50  0000 C CNN
+F 1 "4.7k" V 6750 2650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6480 2650 50  0001 C CNN
 F 3 "~" H 6550 2650 50  0001 C CNN
 	1    6550 2650
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R23
+L Device:R R23
 U 1 1 5B395D20
 P 6800 2400
 F 0 "R23" H 6870 2446 50  0000 L CNN
-F 1 "1k" H 6870 2355 50  0000 L CNN
+F 1 "4.7k" H 6870 2355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6730 2400 50  0001 C CNN
 F 3 "~" H 6800 2400 50  0001 C CNN
 	1    6800 2400
@@ -1005,7 +1005,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 2650 6200 2750
 $Comp
-L remram-rescue:C-Device C35
+L Device:C C35
 U 1 1 5B395D32
 P 5800 2800
 F 0 "C35" H 5915 2846 50  0000 L CNN
@@ -1029,7 +1029,7 @@ F 3 "" H 5800 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:D_Schottky-Device D13
+L Device:D_Schottky D13
 U 1 1 5B395D40
 P 6200 2900
 F 0 "D13" V 6154 2979 50  0000 L CNN
@@ -1069,7 +1069,7 @@ Wire Notes Line
 Wire Notes Line
 	5200 3350 8700 3350
 $Comp
-L remram-rescue:D_Schottky-Device D15
+L Device:D_Schottky D15
 U 1 1 5B40FD83
 P 4500 4350
 F 0 "D15" V 4450 4450 50  0000 L CNN
@@ -1080,11 +1080,11 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 4500 4350 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R27
+L Device:R R27
 U 1 1 5B40FD8A
 P 4850 4600
 F 0 "R27" V 4950 4600 50  0000 C CNN
-F 1 "1k" V 5050 4600 50  0000 C CNN
+F 1 "4.7k" V 5050 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4780 4600 50  0001 C CNN
 F 3 "~" H 4850 4600 50  0001 C CNN
 	1    4850 4600
@@ -1112,7 +1112,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 4600 4500 4700
 $Comp
-L remram-rescue:C-Device C37
+L Device:C C37
 U 1 1 5B40FD9C
 P 4100 4750
 F 0 "C37" H 4215 4796 50  0000 L CNN
@@ -1136,7 +1136,7 @@ F 3 "" H 4100 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:D_Schottky-Device D19
+L Device:D_Schottky D19
 U 1 1 5B40FDAA
 P 4500 4850
 F 0 "D19" V 4454 4929 50  0000 L CNN
@@ -1155,7 +1155,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 4600 5000 4600
 $Comp
-L remram-rescue:D_Schottky-Device D16
+L Device:D_Schottky D16
 U 1 1 5B453612
 P 6900 4350
 F 0 "D16" V 6850 4450 50  0000 L CNN
@@ -1166,11 +1166,11 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 6900 4350 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R28
+L Device:R R28
 U 1 1 5B453619
 P 7250 4600
 F 0 "R28" V 7350 4600 50  0000 C CNN
-F 1 "1k" V 7450 4600 50  0000 C CNN
+F 1 "4.7k" V 7450 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7180 4600 50  0001 C CNN
 F 3 "~" H 7250 4600 50  0001 C CNN
 	1    7250 4600
@@ -1198,7 +1198,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 4600 6900 4700
 $Comp
-L remram-rescue:C-Device C38
+L Device:C C38
 U 1 1 5B45362B
 P 6500 4750
 F 0 "C38" H 6615 4796 50  0000 L CNN
@@ -1222,7 +1222,7 @@ F 3 "" H 6500 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:D_Schottky-Device D20
+L Device:D_Schottky D20
 U 1 1 5B453639
 P 6900 4850
 F 0 "D20" V 6854 4929 50  0000 L CNN
@@ -1241,7 +1241,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 4600 7400 4600
 $Comp
-L remram-rescue:D_Schottky-Device D17
+L Device:D_Schottky D17
 U 1 1 5B457717
 P 9300 4350
 F 0 "D17" V 9250 4450 50  0000 L CNN
@@ -1252,11 +1252,11 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 9300 4350 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R29
+L Device:R R29
 U 1 1 5B45771E
 P 9650 4600
 F 0 "R29" V 9750 4600 50  0000 C CNN
-F 1 "1k" V 9850 4600 50  0000 C CNN
+F 1 "4.7k" V 9850 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9580 4600 50  0001 C CNN
 F 3 "~" H 9650 4600 50  0001 C CNN
 	1    9650 4600
@@ -1284,7 +1284,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 4600 9300 4700
 $Comp
-L remram-rescue:C-Device C39
+L Device:C C39
 U 1 1 5B457730
 P 8900 4750
 F 0 "C39" H 9015 4796 50  0000 L CNN
@@ -1308,7 +1308,7 @@ F 3 "" H 8900 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:D_Schottky-Device D21
+L Device:D_Schottky D21
 U 1 1 5B45773E
 P 9300 4850
 F 0 "D21" V 9254 4929 50  0000 L CNN
@@ -1327,7 +1327,7 @@ Wire Wire Line
 Wire Wire Line
 	10350 4600 9800 4600
 $Comp
-L remram-rescue:D_Schottky-Device D23
+L Device:D_Schottky D23
 U 1 1 5B49436B
 P 4550 5600
 F 0 "D23" V 4500 5700 50  0000 L CNN
@@ -1338,11 +1338,11 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 4550 5600 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R32
+L Device:R R32
 U 1 1 5B494372
 P 4900 5850
 F 0 "R32" V 5000 5850 50  0000 C CNN
-F 1 "1k" V 5100 5850 50  0000 C CNN
+F 1 "4.7k" V 5100 5850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4830 5850 50  0001 C CNN
 F 3 "~" H 4900 5850 50  0001 C CNN
 	1    4900 5850
@@ -1370,7 +1370,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 5850 4550 5950
 $Comp
-L remram-rescue:C-Device C41
+L Device:C C41
 U 1 1 5B494384
 P 4150 6000
 F 0 "C41" H 4265 6046 50  0000 L CNN
@@ -1394,7 +1394,7 @@ F 3 "" H 4150 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:D_Schottky-Device D27
+L Device:D_Schottky D27
 U 1 1 5B494392
 P 4550 6100
 F 0 "D27" V 4504 6179 50  0000 L CNN
@@ -1413,7 +1413,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 5850 5050 5850
 $Comp
-L remram-rescue:D_Schottky-Device D24
+L Device:D_Schottky D24
 U 1 1 5B4BEBE7
 P 6900 5600
 F 0 "D24" V 6850 5700 50  0000 L CNN
@@ -1424,11 +1424,11 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 6900 5600 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R33
+L Device:R R33
 U 1 1 5B4BEBEE
 P 7250 5850
 F 0 "R33" V 7350 5850 50  0000 C CNN
-F 1 "1k" V 7450 5850 50  0000 C CNN
+F 1 "4.7k" V 7450 5850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7180 5850 50  0001 C CNN
 F 3 "~" H 7250 5850 50  0001 C CNN
 	1    7250 5850
@@ -1456,7 +1456,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 5850 6900 5950
 $Comp
-L remram-rescue:C-Device C42
+L Device:C C42
 U 1 1 5B4BEC00
 P 6500 6000
 F 0 "C42" H 6615 6046 50  0000 L CNN
@@ -1480,7 +1480,7 @@ F 3 "" H 6500 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:D_Schottky-Device D28
+L Device:D_Schottky D28
 U 1 1 5B4BEC0E
 P 6900 6100
 F 0 "D28" V 6854 6179 50  0000 L CNN
@@ -1520,7 +1520,7 @@ Connection ~ 1500 4100
 Wire Wire Line
 	2550 5650 2550 5800
 $Comp
-L remram-rescue:Test_Point-Connector_Specialized TP18
+L Connector:Test_Point TP18
 U 1 1 5B1719E6
 P 2550 5650
 F 0 "TP18" H 2608 5770 50  0000 L CNN
@@ -1536,7 +1536,7 @@ Wire Wire Line
 	2050 4600 2150 4600
 Connection ~ 2150 4600
 $Comp
-L remram-rescue:D_Schottky-Device D22
+L Device:D_Schottky D22
 U 1 1 5B5657ED
 P 1500 5550
 F 0 "D22" V 1454 5629 50  0000 L CNN
@@ -1547,7 +1547,7 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 1500 5550 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R31
+L Device:R R31
 U 1 1 5B5657F4
 P 1900 5800
 F 0 "R31" V 2000 5800 50  0000 C CNN
@@ -1558,7 +1558,7 @@ F 3 "~" H 1900 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R30
+L Device:R R30
 U 1 1 5B5657FB
 P 2150 5550
 F 0 "R30" H 2220 5596 50  0000 L CNN
@@ -1584,7 +1584,7 @@ VDD3V3
 Wire Wire Line
 	2150 5800 2150 5700
 $Comp
-L remram-rescue:C-Device C40
+L Device:C C40
 U 1 1 5B56580A
 P 1050 5950
 F 0 "C40" H 1165 5996 50  0000 L CNN
@@ -1608,7 +1608,7 @@ F 3 "" H 1050 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:D_Schottky-Device D26
+L Device:D_Schottky D26
 U 1 1 5B565818
 P 1500 6050
 F 0 "D26" V 1454 6129 50  0000 L CNN
@@ -1638,7 +1638,7 @@ Wire Wire Line
 	2050 5800 2150 5800
 Connection ~ 2150 5800
 $Comp
-L remram-rescue:D_Schottky-Device D30
+L Device:D_Schottky D30
 U 1 1 5B57C5B3
 P 1500 6750
 F 0 "D30" V 1454 6829 50  0000 L CNN
@@ -1649,7 +1649,7 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 1500 6750 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R36
+L Device:R R36
 U 1 1 5B57C5BA
 P 1900 7000
 F 0 "R36" V 2000 7000 50  0000 C CNN
@@ -1660,7 +1660,7 @@ F 3 "~" H 1900 7000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R35
+L Device:R R35
 U 1 1 5B57C5C1
 P 2150 6750
 F 0 "R35" H 2220 6796 50  0000 L CNN
@@ -1686,7 +1686,7 @@ VDD3V3
 Wire Wire Line
 	2150 7000 2150 6900
 $Comp
-L remram-rescue:C-Device C44
+L Device:C C44
 U 1 1 5B57C5D0
 P 1050 7150
 F 0 "C44" H 1165 7196 50  0000 L CNN
@@ -1710,7 +1710,7 @@ F 3 "" H 1050 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:D_Schottky-Device D31
+L Device:D_Schottky D31
 U 1 1 5B57C5DE
 P 1500 7250
 F 0 "D31" V 1454 7329 50  0000 L CNN
@@ -1752,7 +1752,7 @@ Wire Notes Line
 Text HLabel 4050 4600 0    50   Input ~ 0
 X_MAX
 $Comp
-L remram-rescue:D_Schottky-Device D25
+L Device:D_Schottky D25
 U 1 1 5B60EF56
 P 9300 5600
 F 0 "D25" V 9250 5700 50  0000 L CNN
@@ -1763,11 +1763,11 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 9300 5600 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R34
+L Device:R R34
 U 1 1 5B60EF5D
 P 9650 5850
 F 0 "R34" V 9750 5850 50  0000 C CNN
-F 1 "1k" V 9850 5850 50  0000 C CNN
+F 1 "4.7k" V 9850 5850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9580 5850 50  0001 C CNN
 F 3 "~" H 9650 5850 50  0001 C CNN
 	1    9650 5850
@@ -1795,7 +1795,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 5850 9300 5950
 $Comp
-L remram-rescue:C-Device C43
+L Device:C C43
 U 1 1 5B60EF6F
 P 8900 6000
 F 0 "C43" H 9015 6046 50  0000 L CNN
@@ -1819,7 +1819,7 @@ F 3 "" H 8900 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:D_Schottky-Device D29
+L Device:D_Schottky D29
 U 1 1 5B60EF7D
 P 9300 6100
 F 0 "D29" V 9254 6179 50  0000 L CNN

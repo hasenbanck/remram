@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L remram-rescue:R-Device R12
+L Device:R R12
 U 1 1 5AD0B119
 P 5550 750
 F 0 "R12" V 5450 700 50  0000 L CNN
@@ -26,7 +26,7 @@ F 3 "~" H 5550 750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R13
+L Device:R R13
 U 1 1 5AD0B198
 P 6300 750
 F 0 "R13" V 6400 650 50  0000 L CNN
@@ -41,7 +41,7 @@ VDD3V3
 Text GLabel 4900 3450 0    50   Input ~ 0
 VDD3V3
 $Comp
-L remram-rescue:C-Device C25
+L Device:C C25
 U 1 1 5AD085F7
 P 3450 4600
 F 0 "C25" H 3565 4646 50  0000 L CNN
@@ -52,7 +52,7 @@ F 3 "~" H 3450 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:C-Device C26
+L Device:C C26
 U 1 1 5AD086E9
 P 3850 4600
 F 0 "C26" H 3965 4646 50  0000 L CNN
@@ -67,7 +67,7 @@ Wire Wire Line
 Text GLabel 2600 4350 0    50   Input ~ 0
 VDD3V3
 $Comp
-L remram-rescue:C-Device C23
+L Device:C C23
 U 1 1 5AD08A76
 P 3450 4200
 F 0 "C23" H 3565 4246 50  0000 L CNN
@@ -78,7 +78,7 @@ F 3 "~" H 3450 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:C-Device C24
+L Device:C C24
 U 1 1 5AD08A7D
 P 3850 4200
 F 0 "C24" H 3965 4246 50  0000 L CNN
@@ -93,7 +93,7 @@ Wire Wire Line
 Text GLabel 950  7150 0    50   Input ~ 0
 VDD3V3
 $Comp
-L remram-rescue:C-Device C28
+L Device:C C28
 U 1 1 5AD093F4
 P 1200 7300
 F 0 "C28" H 1315 7346 50  0000 L CNN
@@ -104,7 +104,7 @@ F 3 "~" H 1200 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:C-Device C29
+L Device:C C29
 U 1 1 5AD0945E
 P 1650 7300
 F 0 "C29" H 1765 7346 50  0000 L CNN
@@ -115,7 +115,7 @@ F 3 "~" H 1650 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:C-Device C30
+L Device:C C30
 U 1 1 5AD09C8C
 P 2100 7300
 F 0 "C30" H 2215 7346 50  0000 L CNN
@@ -126,7 +126,7 @@ F 3 "~" H 2100 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:C-Device C31
+L Device:C C31
 U 1 1 5AD09D94
 P 2550 7300
 F 0 "C31" H 2665 7346 50  0000 L CNN
@@ -137,7 +137,7 @@ F 3 "~" H 2550 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:C-Device C32
+L Device:C C32
 U 1 1 5AD09D9B
 P 3000 7300
 F 0 "C32" H 3115 7346 50  0000 L CNN
@@ -148,7 +148,7 @@ F 3 "~" H 3000 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:C-Device C33
+L Device:C C33
 U 1 1 5AD09E94
 P 3450 7300
 F 0 "C33" H 3565 7346 50  0000 L CNN
@@ -203,7 +203,7 @@ VDD3V3
 Text GLabel 5300 1750 1    50   Input ~ 0
 VDD3V3
 $Comp
-L remram-rescue:C-Device C27
+L Device:C C27
 U 1 1 5AD0FCE6
 P 7650 5800
 F 0 "C27" V 7800 5800 50  0000 L CNN
@@ -214,7 +214,7 @@ F 3 "~" H 7650 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:C-Device C19
+L Device:C C19
 U 1 1 5AD117D1
 P 8750 2500
 F 0 "C19" H 8550 2450 50  0000 L CNN
@@ -346,7 +346,7 @@ F 3 "https://www5.epsondevice.com/en/products/crystal_unit/tsx3225.html" H 3200 
 	1    0    0    -1  
 $EndComp
 $Comp
-L remram-rescue:C-Device C20
+L Device:C C20
 U 1 1 5AF5755A
 P 2850 2950
 F 0 "C20" V 2700 2950 50  0000 C CNN
@@ -357,7 +357,7 @@ F 3 "~" H 2850 2950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L remram-rescue:C-Device C21
+L Device:C C21
 U 1 1 5AF58CDB
 P 3550 2950
 F 0 "C21" V 3400 2950 50  0000 C CNN
@@ -426,7 +426,7 @@ $EndComp
 Wire Wire Line
 	1150 3750 1400 3750
 $Comp
-L remram-rescue:C-Device C22
+L Device:C C22
 U 1 1 5AF62329
 P 1600 4100
 F 0 "C22" V 1852 4100 50  0000 C CNN
@@ -456,7 +456,7 @@ $EndComp
 Wire Wire Line
 	7500 5250 7500 5800
 $Comp
-L remram-rescue:Ferrite_Bead_Small-Device FB1
+L Device:Ferrite_Bead_Small FB1
 U 1 1 5AF6D789
 P 2900 4350
 F 0 "FB1" V 2663 4350 50  0000 C CNN
@@ -467,7 +467,7 @@ F 3 "https://www.mouser.de/datasheet/2/400/eads_commercial_power_mpz1608_en-9236
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:Ferrite_Bead_Small-Device FB2
+L Device:Ferrite_Bead_Small FB2
 U 1 1 5AF6DF9B
 P 3000 4450
 F 0 "FB2" V 3150 4400 50  0000 C CNN
@@ -551,7 +551,7 @@ Wire Wire Line
 	750  1650 1350 1650
 Connection ~ 3000 900 
 $Comp
-L remram-rescue:C-Device C17
+L Device:C C17
 U 1 1 5AFAB97B
 P 3000 1050
 F 0 "C17" H 2885 1004 50  0000 R CNN
@@ -567,7 +567,7 @@ Wire Wire Line
 	2200 750  2450 750 
 Connection ~ 2450 750 
 $Comp
-L remram-rescue:C-Device C16
+L Device:C C16
 U 1 1 5AF92848
 P 2450 900
 F 0 "C16" H 2565 946 50  0000 L CNN
@@ -583,7 +583,7 @@ Wire Wire Line
 	950  750  1100 750 
 Connection ~ 1100 750 
 $Comp
-L remram-rescue:C-Device C15
+L Device:C C15
 U 1 1 5AF88ED8
 P 1100 900
 F 0 "C15" H 1215 946 50  0000 L CNN
@@ -612,7 +612,7 @@ Connection ~ 750  1650
 Wire Wire Line
 	750  1150 750  1650
 $Comp
-L remram-rescue:C-Device C18
+L Device:C C18
 U 1 1 5AF7B28D
 P 1200 2250
 F 0 "C18" V 948 2250 50  0000 C CNN
@@ -623,7 +623,7 @@ F 3 "~" H 1200 2250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R19
+L Device:R R19
 U 1 1 5AF72C01
 P 2500 1550
 F 0 "R19" V 2400 1650 50  0000 C CNN
@@ -634,7 +634,7 @@ F 3 "~" H 2500 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R17
+L Device:R R17
 U 1 1 5AF72BFA
 P 2500 1450
 F 0 "R17" V 2400 1350 50  0000 C CNN
@@ -645,7 +645,7 @@ F 3 "~" H 2500 1450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R18
+L Device:R R18
 U 1 1 5AF724F0
 P 1200 1550
 F 0 "R18" V 1050 1650 50  0000 C CNN
@@ -656,7 +656,7 @@ F 3 "~" H 1200 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L remram-rescue:R-Device R16
+L Device:R R16
 U 1 1 5AF72236
 P 1200 1450
 F 0 "R16" V 1100 1350 50  0000 C CNN
@@ -711,7 +711,7 @@ DD+
 Text HLabel 950  750  0    50   Input ~ 0
 VBUS
 $Comp
-L remram-rescue:ADUM4160-Interface_USB U3
+L Interface_USB:ADUM4160 U3
 U 1 1 5AF5F784
 P 1850 1550
 F 0 "U3" H 1850 2350 50  0000 C CNN
@@ -800,7 +800,7 @@ VDD3V3
 Wire Wire Line
 	2350 1250 2650 1250
 $Comp
-L remram-rescue:R-Device R15
+L Device:R R15
 U 1 1 5AFBD0C4
 P 7350 1150
 F 0 "R15" H 7420 1196 50  0000 L CNN
@@ -963,7 +963,7 @@ Wire Wire Line
 	7350 1000 7350 750 
 Connection ~ 7350 750 
 $Comp
-L remram-rescue:R-Device R14
+L Device:R R14
 U 1 1 5AFBD0BD
 P 7000 1150
 F 0 "R14" H 7070 1196 50  0000 L CNN
@@ -1037,7 +1037,7 @@ Wire Wire Line
 Text Label 7200 2050 1    50   ~ 0
 STATUS_LED
 $Comp
-L remram-rescue:LED-Device D9
+L Device:LED D9
 U 1 1 5B007E50
 P 1700 6450
 F 0 "D9" H 1738 6332 50  0000 R CNN
@@ -1048,11 +1048,11 @@ F 3 "~" H 1700 6450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L remram-rescue:R-Device R20
+L Device:R R20
 U 1 1 5B007E5D
 P 1400 6450
 F 0 "R20" V 1550 6450 50  0000 L CNN
-F 1 "1k" V 1470 6405 50  0000 L CNN
+F 1 "4.7k" V 1470 6405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1330 6450 50  0001 C CNN
 F 3 "~" H 1400 6450 50  0001 C CNN
 	1    1400 6450
@@ -1082,30 +1082,52 @@ NoConn ~ 8100 3250
 $Comp
 L power:GND #PWR037
 U 1 1 5B0EA618
-P 4150 2150
-F 0 "#PWR037" H 4150 1900 50  0001 C CNN
-F 1 "GND" H 4155 1977 50  0000 C CNN
-F 2 "" H 4150 2150 50  0001 C CNN
-F 3 "" H 4150 2150 50  0001 C CNN
-	1    4150 2150
+P 4150 1700
+F 0 "#PWR037" H 4150 1450 50  0001 C CNN
+F 1 "GND" H 4155 1527 50  0000 C CNN
+F 2 "" H 4150 1700 50  0001 C CNN
+F 3 "" H 4150 1700 50  0001 C CNN
+	1    4150 1700
 	-1   0    0    1   
 $EndComp
 $Comp
 L remram-custom:VBH2032-1 BT1
 U 1 1 5B0EA684
-P 4150 2250
-F 0 "BT1" H 4268 2346 50  0000 L CNN
-F 1 "VBH2032-1" H 4268 2255 50  0000 L CNN
-F 2 "custom-footprints:VBH2032-1" V 4150 2310 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/346/VBH2032-1_new-258024.pdf" V 4150 2310 50  0001 C CNN
-	1    4150 2250
+P 4150 1800
+F 0 "BT1" H 4268 1896 50  0000 L CNN
+F 1 "VBH2032-1" H 4268 1805 50  0000 L CNN
+F 2 "custom-footprints:VBH2032-1" V 4150 1860 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/346/VBH2032-1_new-258024.pdf" V 4150 1860 50  0001 C CNN
+	1    4150 1800
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4150 2450 4200 2450
-Wire Wire Line
-	4150 2450 4150 2950
-Wire Wire Line
 	4150 2950 4900 2950
-Connection ~ 4150 2450
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5B3AC772
+P 4050 2200
+F 0 "Q?" H 4255 2246 50  0000 L CNN
+F 1 "IRLML6401" H 4255 2155 50  0000 L CNN
+F 2 "" H 4250 2300 50  0001 C CNN
+F 3 "~" H 4050 2200 50  0001 C CNN
+	1    4050 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B3AC87D
+P 3850 2200
+F 0 "#PWR?" H 3850 1950 50  0001 C CNN
+F 1 "GND" H 3855 2027 50  0000 C CNN
+F 2 "" H 3850 2200 50  0001 C CNN
+F 3 "" H 3850 2200 50  0001 C CNN
+	1    3850 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 2000 4150 2000
+Connection ~ 4150 2000
+Wire Wire Line
+	4150 2400 4150 2950
 $EndSCHEMATC
