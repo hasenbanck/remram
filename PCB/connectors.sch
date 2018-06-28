@@ -816,32 +816,32 @@ Text GLabel 1200 3550 0    50   Input ~ 0
 VDD3V3
 Text GLabel 1700 3650 2    50   Input ~ 0
 VDD5V
-Text GLabel 1700 3350 2    50   Input ~ 0
+Text GLabel 1700 3450 2    50   Input ~ 0
 VDD_PWR
-Text GLabel 1200 3350 0    50   Input ~ 0
+Text GLabel 1200 3450 0    50   Input ~ 0
 VDD_PWR
 Text GLabel 1200 3650 0    50   Input ~ 0
 VDD5V
 $Comp
 L power:GND #PWR063
 U 1 1 5B089613
-P 1700 3450
-F 0 "#PWR063" H 1700 3200 50  0001 C CNN
-F 1 "GND" V 1705 3322 50  0000 R CNN
-F 2 "" H 1700 3450 50  0001 C CNN
-F 3 "" H 1700 3450 50  0001 C CNN
-	1    1700 3450
+P 1700 3350
+F 0 "#PWR063" H 1700 3100 50  0001 C CNN
+F 1 "GND" V 1705 3222 50  0000 R CNN
+F 2 "" H 1700 3350 50  0001 C CNN
+F 3 "" H 1700 3350 50  0001 C CNN
+	1    1700 3350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR062
 U 1 1 5B08B3F7
-P 1200 3450
-F 0 "#PWR062" H 1200 3200 50  0001 C CNN
-F 1 "GND" V 1205 3322 50  0000 R CNN
-F 2 "" H 1200 3450 50  0001 C CNN
-F 3 "" H 1200 3450 50  0001 C CNN
-	1    1200 3450
+P 1200 3350
+F 0 "#PWR062" H 1200 3100 50  0001 C CNN
+F 1 "GND" V 1205 3222 50  0000 R CNN
+F 2 "" H 1200 3350 50  0001 C CNN
+F 3 "" H 1200 3350 50  0001 C CNN
+	1    1200 3350
 	0    1    1    0   
 $EndComp
 Text HLabel 1700 2850 2    50   Input ~ 0
@@ -1499,7 +1499,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 5850 7400 5850
 Wire Wire Line
-	1500 4500 1500 4700
+	1500 4500 1500 4600
 Connection ~ 1050 4600
 Wire Wire Line
 	7900 2350 7900 2650
@@ -1507,7 +1507,7 @@ Wire Wire Line
 	7900 1100 7900 1400
 Connection ~ 2550 4600
 Wire Wire Line
-	1050 4600 1750 4600
+	1050 4600 1500 4600
 Wire Wire Line
 	2150 4100 2150 4200
 Wire Wire Line
@@ -1619,10 +1619,10 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 1500 6050 50  
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1500 5700 1500 5900
+	1500 5700 1500 5800
 Connection ~ 1050 5800
 Wire Wire Line
-	1050 5800 1750 5800
+	1050 5800 1500 5800
 Wire Wire Line
 	2150 5300 2150 5400
 Wire Wire Line
@@ -1721,10 +1721,10 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 1500 7250 50  
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1500 6900 1500 7100
+	1500 6900 1500 7000
 Connection ~ 1050 7000
 Wire Wire Line
-	1050 7000 1750 7000
+	1050 7000 1500 7000
 Wire Wire Line
 	2150 6500 2150 6600
 Wire Wire Line
@@ -1845,4 +1845,19 @@ Wire Notes Line
 	11150 6500 11150 4000
 Wire Notes Line
 	3700 4000 11150 4000
+Connection ~ 1500 4600
+Wire Wire Line
+	1500 4600 1500 4700
+Wire Wire Line
+	1500 4600 1750 4600
+Connection ~ 1500 5800
+Wire Wire Line
+	1500 5800 1500 5900
+Wire Wire Line
+	1500 5800 1750 5800
+Connection ~ 1500 7000
+Wire Wire Line
+	1500 7000 1500 7100
+Wire Wire Line
+	1500 7000 1750 7000
 $EndSCHEMATC
