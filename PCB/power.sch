@@ -210,97 +210,6 @@ F 3 "~" H 1000 4550 50  0001 C CNN
 	1    1000 4550
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Connector:Test_Point TP4
-U 1 1 5AF719F4
-P 1900 4400
-F 0 "TP4" H 1958 4520 50  0000 L CNN
-F 1 "GND_PWR" H 1958 4429 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2100 4400 50  0001 C CNN
-F 3 "~" H 2100 4400 50  0001 C CNN
-	1    1900 4400
-	1    0    0    -1  
-$EndComp
-Connection ~ 1900 4450
-Wire Wire Line
-	1900 4450 1900 4400
-$Comp
-L Connector:Test_Point TP3
-U 1 1 5AF719FF
-P 1900 4100
-F 0 "TP3" H 1958 4220 50  0000 L CNN
-F 1 "VDD_PWR" H 1958 4129 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2100 4100 50  0001 C CNN
-F 3 "~" H 2100 4100 50  0001 C CNN
-	1    1900 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 4100 1900 4150
-$Comp
-L Connector:Test_Point TP6
-U 1 1 5AF71A0F
-P 1900 5000
-F 0 "TP6" H 1958 5120 50  0000 L CNN
-F 1 "GND_BED" H 1958 5029 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2100 5000 50  0001 C CNN
-F 3 "~" H 2100 5000 50  0001 C CNN
-	1    1900 5000
-	1    0    0    -1  
-$EndComp
-Connection ~ 1900 5050
-Wire Wire Line
-	1900 5050 1900 5000
-$Comp
-L Connector:Test_Point TP5
-U 1 1 5AF71A1A
-P 1900 4700
-F 0 "TP5" H 1958 4820 50  0000 L CNN
-F 1 "VDD_BED" H 1958 4729 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2100 4700 50  0001 C CNN
-F 3 "~" H 2100 4700 50  0001 C CNN
-	1    1900 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1750 4750 1900 4750
-Wire Wire Line
-	1900 4700 1900 4750
-Connection ~ 1900 4750
-$Comp
-L Connector:Test_Point TP10
-U 1 1 5AF71A25
-P 1650 6400
-F 0 "TP10" H 1708 6520 50  0000 L CNN
-F 1 "HEATER-" H 1708 6429 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1850 6400 50  0001 C CNN
-F 3 "~" H 1850 6400 50  0001 C CNN
-	1    1650 6400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 5650 1900 5600
-$Comp
-L Connector:Test_Point TP7
-U 1 1 5AF71A2E
-P 1900 5300
-F 0 "TP7" H 1958 5420 50  0000 L CNN
-F 1 "BED+" H 1958 5329 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2100 5300 50  0001 C CNN
-F 3 "~" H 2100 5300 50  0001 C CNN
-	1    1900 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 5300 1900 5350
-Connection ~ 1900 5350
-Wire Wire Line
-	1900 5350 2500 5350
-Wire Wire Line
-	2500 5650 1900 5650
-Connection ~ 1900 5650
-Wire Wire Line
-	1200 4450 1900 4450
 Wire Wire Line
 	1200 4550 1750 4550
 Wire Wire Line
@@ -310,19 +219,13 @@ Wire Wire Line
 Wire Wire Line
 	1650 4650 1650 5050
 Wire Wire Line
-	1650 5050 1900 5050
-Wire Wire Line
 	1200 4750 1550 4750
 Wire Wire Line
 	1550 4750 1550 5350
 Wire Wire Line
-	1550 5350 1900 5350
-Wire Wire Line
 	1200 4850 1450 4850
 Wire Wire Line
 	1450 4850 1450 5650
-Wire Wire Line
-	1450 5650 1900 5650
 $Comp
 L Connector:Test_Point TP1
 U 1 1 5B12B288
@@ -397,11 +300,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 5300 3850 5300
 Wire Wire Line
-	1900 4150 3550 4150
-Wire Wire Line
 	3350 4750 3350 5300
-Wire Wire Line
-	1900 4750 3350 4750
 Wire Wire Line
 	3850 4700 3550 4700
 Wire Wire Line
@@ -420,8 +319,6 @@ F 3 "" H 2650 4400 50  0001 C CNN
 	1    2650 4450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1900 4450 2650 4450
 $Comp
 L power:GNDPWR #PWR020
 U 1 1 5AF87BAE
@@ -433,8 +330,6 @@ F 3 "" H 2650 5000 50  0001 C CNN
 	1    2650 5050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1900 5050 2650 5050
 $Comp
 L power:GNDPWR #PWR05
 U 1 1 5AF8A7B4
@@ -737,10 +632,7 @@ $EndComp
 Wire Wire Line
 	1600 4350 1600 4150
 Wire Wire Line
-	1600 4150 1900 4150
-Wire Wire Line
 	1200 4350 1600 4350
-Connection ~ 1900 4150
 $Comp
 L power:GNDPWR #PWR025
 U 1 1 5AFD7C84
@@ -805,42 +697,6 @@ Text HLabel 2100 6150 2    50   Input ~ 0
 VDD_HEAT
 Text HLabel 2100 6450 2    50   Output ~ 0
 HEAT_OUT
-$Comp
-L Connector:Test_Point TP9
-U 1 1 5B1B93AE
-P 1650 6100
-F 0 "TP9" H 1708 6220 50  0000 L CNN
-F 1 "HEATER+" H 1708 6129 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1850 6100 50  0001 C CNN
-F 3 "~" H 1850 6100 50  0001 C CNN
-	1    1650 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Test_Point TP8
-U 1 1 5B1BD224
-P 1900 5600
-F 0 "TP8" H 1958 5720 50  0000 L CNN
-F 1 "BED-" H 1958 5629 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2100 5600 50  0001 C CNN
-F 3 "~" H 2100 5600 50  0001 C CNN
-	1    1900 5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 6150 1650 6150
-Wire Wire Line
-	1650 6150 1650 6100
-Connection ~ 1650 6150
-Wire Wire Line
-	1650 6150 1450 6150
-Wire Wire Line
-	2100 6450 1650 6450
-Wire Wire Line
-	1650 6400 1650 6450
-Connection ~ 1650 6450
-Wire Wire Line
-	1650 6450 1350 6450
 Text Notes 4200 3800 2    50   ~ 0
 High Current Power Connections
 Wire Notes Line
@@ -877,7 +733,7 @@ U 1 1 5B0578B3
 P 2250 7250
 F 0 "MK1" H 2350 7301 50  0000 L CNN
 F 1 "Mounting_Hole_PAD" H 2350 7210 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5.3mm_M5_ISO14580_Pad" H 2250 7250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad" H 2250 7250 50  0001 C CNN
 F 3 "" H 2250 7250 50  0001 C CNN
 	1    2250 7250
 	1    0    0    -1  
@@ -888,7 +744,7 @@ U 1 1 5B0578BA
 P 3450 7250
 F 0 "MK2" H 3550 7301 50  0000 L CNN
 F 1 "Mounting_Hole_PAD" H 3550 7210 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5.3mm_M5_ISO14580_Pad" H 3450 7250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad" H 3450 7250 50  0001 C CNN
 F 3 "" H 3450 7250 50  0001 C CNN
 	1    3450 7250
 	1    0    0    -1  
@@ -899,7 +755,7 @@ U 1 1 5B0578C1
 P 4500 7250
 F 0 "MK3" H 4600 7301 50  0000 L CNN
 F 1 "Mounting_Hole_PAD" H 4600 7210 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5.3mm_M5_ISO14580_Pad" H 4500 7250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad" H 4500 7250 50  0001 C CNN
 F 3 "" H 4500 7250 50  0001 C CNN
 	1    4500 7250
 	1    0    0    -1  
@@ -910,7 +766,7 @@ U 1 1 5B0578C8
 P 5500 7250
 F 0 "MK4" H 5600 7301 50  0000 L CNN
 F 1 "Mounting_Hole_PAD" H 5600 7210 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5.3mm_M5_ISO14580_Pad" H 5500 7250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad" H 5500 7250 50  0001 C CNN
 F 3 "" H 5500 7250 50  0001 C CNN
 	1    5500 7250
 	1    0    0    -1  
@@ -945,28 +801,6 @@ Wire Wire Line
 Connection ~ 1200 7250
 Wire Wire Line
 	1200 7250 1300 7250
-$Comp
-L power:GNDPWR #PWR027
-U 1 1 5AFCD887
-P 4050 7350
-F 0 "#PWR027" H 4050 7150 50  0001 C CNN
-F 1 "GNDPWR" H 4054 7196 50  0000 C CNN
-F 2 "" H 4050 7300 50  0001 C CNN
-F 3 "" H 4050 7300 50  0001 C CNN
-	1    4050 7350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 7350 4500 7350
-Connection ~ 3450 7350
-Wire Wire Line
-	3450 7350 2250 7350
-Connection ~ 4050 7350
-Wire Wire Line
-	4050 7350 3450 7350
-Connection ~ 4500 7350
-Wire Wire Line
-	4500 7350 4050 7350
 Text GLabel 5550 4150 2    50   Input ~ 0
 VDD_PWR
 Text GLabel 1250 1000 0    50   Input ~ 0
@@ -1074,4 +908,20 @@ $EndComp
 Connection ~ 6000 1150
 Wire Wire Line
 	6000 1150 5600 1150
+Wire Wire Line
+	1600 4150 3550 4150
+Wire Wire Line
+	1200 4450 2650 4450
+Wire Wire Line
+	1750 4750 3350 4750
+Wire Wire Line
+	1650 5050 2650 5050
+Wire Wire Line
+	1550 5350 2500 5350
+Wire Wire Line
+	1450 5650 2500 5650
+Wire Wire Line
+	1450 6150 2100 6150
+Wire Wire Line
+	1350 6450 2100 6450
 $EndSCHEMATC

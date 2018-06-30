@@ -39,7 +39,7 @@ U 1 1 5B16F6B4
 P 2700 1300
 F 0 "J5" H 2750 1717 50  0000 C CNN
 F 1 "Conn_02x05" H 2750 1626 50  0000 C CNN
-F 2 "custom-footprints:Box_Header_2x05x2.54mm_Straight" H 2700 1300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2700 1300 50  0001 C CNN
 F 3 "" H 2700 1300 50  0001 C CNN
 	1    2700 1300
 	1    0    0    -1  
@@ -50,24 +50,13 @@ U 1 1 5B16F736
 P 4350 1300
 F 0 "J6" H 4400 1717 50  0000 C CNN
 F 1 "Conn_02x05" H 4400 1626 50  0000 C CNN
-F 2 "custom-footprints:Box_Header_2x05x2.54mm_Straight" H 4350 1300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 4350 1300 50  0001 C CNN
 F 3 "" H 4350 1300 50  0001 C CNN
 	1    4350 1300
 	1    0    0    -1  
 $EndComp
 Text HLabel 1000 4600 0    50   Output ~ 0
 THERM_1
-$Comp
-L Connector:Test_Point TP17
-U 1 1 5B171985
-P 2550 4450
-F 0 "TP17" H 2608 4570 50  0000 L CNN
-F 1 "THERM_1" H 2608 4479 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2750 4450 50  0001 C CNN
-F 3 "~" H 2750 4450 50  0001 C CNN
-	1    2550 4450
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D_Schottky D14
 U 1 1 5B17198C
@@ -127,8 +116,6 @@ F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKP
 	1    2800 4600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2600 4600 2550 4600
 $Comp
 L power:GND #PWR066
 U 1 1 5B1719CA
@@ -140,8 +127,6 @@ F 3 "" H 2600 4700 50  0001 C CNN
 	1    2600 4700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2550 4450 2550 4600
 $Comp
 L Device:C C36
 U 1 1 5B1719D4
@@ -193,17 +178,6 @@ $EndComp
 Text HLabel 1000 7000 0    50   Output ~ 0
 THERM_3
 $Comp
-L Connector:Test_Point TP19
-U 1 1 5B171A47
-P 2550 6850
-F 0 "TP19" H 2608 6970 50  0000 L CNN
-F 1 "THERM_3" H 2608 6879 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2750 6850 50  0001 C CNN
-F 3 "~" H 2750 6850 50  0001 C CNN
-	1    2550 6850
-	1    0    0    -1  
-$EndComp
-$Comp
 L remram-rescue:Conn_01x02-Connector_Generic J19
 U 1 1 5B171A83
 P 2800 7000
@@ -225,8 +199,6 @@ F 3 "" H 2600 7100 50  0001 C CNN
 	1    2600 7100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2550 6850 2550 7000
 Text Notes 1850 3950 0    50   ~ 0
 Thermistors
 Wire Notes Line
@@ -584,28 +556,6 @@ Text HLabel 7500 1200 0    50   Input ~ 0
 FAN1_OUT
 Text GLabel 7500 1300 0    50   Input ~ 0
 VDD5V
-$Comp
-L Connector:Test_Point TP11
-U 1 1 5AFF4AC9
-P 7300 1000
-F 0 "TP11" H 7358 1120 50  0000 L CNN
-F 1 "FAN1+" H 7358 1029 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7500 1000 50  0001 C CNN
-F 3 "~" H 7500 1000 50  0001 C CNN
-	1    7300 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Test_Point TP12
-U 1 1 5B068C7B
-P 7700 1000
-F 0 "TP12" H 7758 1120 50  0000 L CNN
-F 1 "FAN1-" H 7758 1029 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7900 1000 50  0001 C CNN
-F 3 "~" H 7900 1000 50  0001 C CNN
-	1    7700 1000
-	1    0    0    -1  
-$EndComp
 NoConn ~ 4650 1500
 NoConn ~ 4150 1500
 NoConn ~ 2750 2850
@@ -677,79 +627,12 @@ Text HLabel 1200 3150 0    50   Input ~ 0
 PWM_EXT3
 Text HLabel 1700 3150 2    50   Input ~ 0
 PWM_EXT4
-$Comp
-L Connector_Generic:Conn_01x03 J7
-U 1 1 5AFFA8B3
-P 8100 1300
-F 0 "J7" H 8179 1342 50  0000 L CNN
-F 1 "70543-0002" H 8179 1251 50  0000 L CNN
-F 2 "custom-footprints:70543-0002" H 8100 1300 50  0001 C CNN
-F 3 "~" H 8100 1300 50  0001 C CNN
-	1    8100 1300
-	1    0    0    -1  
-$EndComp
 Text HLabel 5750 1400 0    50   Input ~ 0
 FAN_SPEED1
-$Comp
-L Connector:Test_Point TP13
-U 1 1 5B006006
-P 8050 1000
-F 0 "TP13" H 8108 1120 50  0000 L CNN
-F 1 "FAN1S" H 8108 1029 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8250 1000 50  0001 C CNN
-F 3 "~" H 8250 1000 50  0001 C CNN
-	1    8050 1000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 1200 7600 1200
-Wire Wire Line
-	7500 1300 7700 1300
-Connection ~ 7900 1400
-Connection ~ 7700 1300
-Wire Wire Line
-	7700 1300 7900 1300
-Wire Wire Line
-	7600 1100 7600 1200
-Connection ~ 7600 1200
-Wire Wire Line
-	7600 1200 7900 1200
-Wire Wire Line
-	7300 1000 7300 1100
-Wire Wire Line
-	7300 1100 7600 1100
-Wire Wire Line
-	7700 1000 7700 1300
-Wire Wire Line
-	7900 1100 8050 1100
-Wire Wire Line
-	8050 1100 8050 1000
 Text HLabel 7500 2450 0    50   Input ~ 0
 FAN2_OUT
 Text GLabel 7500 2550 0    50   Input ~ 0
 VDD5V
-$Comp
-L Connector:Test_Point TP14
-U 1 1 5B01FCDE
-P 7300 2250
-F 0 "TP14" H 7358 2370 50  0000 L CNN
-F 1 "FAN1+" H 7358 2279 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7500 2250 50  0001 C CNN
-F 3 "~" H 7500 2250 50  0001 C CNN
-	1    7300 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Test_Point TP15
-U 1 1 5B01FCE5
-P 7700 2250
-F 0 "TP15" H 7758 2370 50  0000 L CNN
-F 1 "FAN1-" H 7758 2279 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7900 2250 50  0001 C CNN
-F 3 "~" H 7900 2250 50  0001 C CNN
-	1    7700 2250
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J8
 U 1 1 5B01FCEC
@@ -764,46 +647,12 @@ $EndComp
 Text HLabel 5750 2650 0    50   Input ~ 0
 FAN_SPEED2
 $Comp
-L Connector:Test_Point TP16
-U 1 1 5B01FCF4
-P 8050 2250
-F 0 "TP16" H 8108 2370 50  0000 L CNN
-F 1 "FAN1S" H 8108 2279 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8250 2250 50  0001 C CNN
-F 3 "~" H 8250 2250 50  0001 C CNN
-	1    8050 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 2450 7600 2450
-Wire Wire Line
-	7500 2550 7700 2550
-Connection ~ 7900 2650
-Connection ~ 7700 2550
-Wire Wire Line
-	7700 2550 7900 2550
-Wire Wire Line
-	7600 2350 7600 2450
-Connection ~ 7600 2450
-Wire Wire Line
-	7600 2450 7900 2450
-Wire Wire Line
-	7300 2250 7300 2350
-Wire Wire Line
-	7300 2350 7600 2350
-Wire Wire Line
-	7700 2250 7700 2550
-Wire Wire Line
-	7900 2350 8050 2350
-Wire Wire Line
-	8050 2350 8050 2250
-$Comp
 L Connector_Generic:Conn_02x13_Odd_Even J10
 U 1 1 5B04AEE5
 P 1400 3150
 F 0 "J10" H 1450 3967 50  0000 C CNN
 F 1 "Conn_02x13_Odd_Even" H 1450 3876 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical" H 1400 3150 50  0001 C CNN
+F 2 "custom-footprints:PinHeader_2x13_P2.54mm_Vertical" H 1400 3150 50  0001 C CNN
 F 3 "~" H 1400 3150 50  0001 C CNN
 	1    1400 3150
 	1    0    0    -1  
@@ -1502,11 +1351,6 @@ Wire Wire Line
 	1500 4500 1500 4600
 Connection ~ 1050 4600
 Wire Wire Line
-	7900 2350 7900 2650
-Wire Wire Line
-	7900 1100 7900 1400
-Connection ~ 2550 4600
-Wire Wire Line
 	1050 4600 1500 4600
 Wire Wire Line
 	2150 4100 2150 4200
@@ -1517,21 +1361,6 @@ Wire Wire Line
 Wire Wire Line
 	1500 4100 2150 4100
 Connection ~ 1500 4100
-Wire Wire Line
-	2550 5650 2550 5800
-$Comp
-L Connector:Test_Point TP18
-U 1 1 5B1719E6
-P 2550 5650
-F 0 "TP18" H 2608 5770 50  0000 L CNN
-F 1 "THERM_2" H 2608 5679 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2750 5650 50  0001 C CNN
-F 3 "~" H 2750 5650 50  0001 C CNN
-	1    2550 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2150 4600 2550 4600
 Wire Wire Line
 	2050 4600 2150 4600
 Connection ~ 2150 4600
@@ -1633,8 +1462,6 @@ Wire Wire Line
 	1500 5300 2150 5300
 Connection ~ 1500 5300
 Wire Wire Line
-	2150 5800 2550 5800
-Wire Wire Line
 	2050 5800 2150 5800
 Connection ~ 2150 5800
 $Comp
@@ -1735,16 +1562,8 @@ Wire Wire Line
 	1500 6500 2150 6500
 Connection ~ 1500 6500
 Wire Wire Line
-	2150 7000 2550 7000
-Wire Wire Line
 	2050 7000 2150 7000
 Connection ~ 2150 7000
-Wire Wire Line
-	2600 7000 2550 7000
-Connection ~ 2550 7000
-Wire Wire Line
-	2600 5800 2550 5800
-Connection ~ 2550 5800
 Wire Notes Line
 	3550 7700 600  7700
 Wire Notes Line
@@ -1860,4 +1679,29 @@ Wire Wire Line
 	1500 7000 1500 7100
 Wire Wire Line
 	1500 7000 1750 7000
+Wire Wire Line
+	7500 1200 7900 1200
+Wire Wire Line
+	7500 1300 7900 1300
+$Comp
+L Connector_Generic:Conn_01x03 J7
+U 1 1 5AFFA8B3
+P 8100 1300
+F 0 "J7" H 8179 1342 50  0000 L CNN
+F 1 "70543-0002" H 8179 1251 50  0000 L CNN
+F 2 "custom-footprints:70543-0002" H 8100 1300 50  0001 C CNN
+F 3 "~" H 8100 1300 50  0001 C CNN
+	1    8100 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2550 7900 2550
+Wire Wire Line
+	7500 2450 7900 2450
+Wire Wire Line
+	2150 4600 2600 4600
+Wire Wire Line
+	2150 5800 2600 5800
+Wire Wire Line
+	2150 7000 2600 7000
 $EndSCHEMATC
