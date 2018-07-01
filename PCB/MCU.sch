@@ -1096,7 +1096,7 @@ U 1 1 5B0EA684
 P 4150 1800
 F 0 "BT1" H 4268 1896 50  0000 L CNN
 F 1 "VBH2032-1" H 4268 1805 50  0000 L CNN
-F 2 "custom-footprints:VBH2032-1" V 4150 1860 50  0001 C CNN
+F 2 "custom-footprints:S8401-46" V 4150 1860 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/346/VBH2032-1_new-258024.pdf" V 4150 1860 50  0001 C CNN
 	1    4150 1800
 	-1   0    0    1   
