@@ -59,14 +59,14 @@ F 3 "" H 1750 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R40
+L Device:R R43
 U 1 1 5AF8CE9D
 P 4950 2650
-AR Path="/5B03041B/5AF8CE9D" Ref="R40"  Part="1" 
-AR Path="/5AFC9D86/5AF8CE9D" Ref="R44"  Part="1" 
-AR Path="/5AFD185C/5AF8CE9D" Ref="R48"  Part="1" 
-AR Path="/5AFC22B0/5AF8CE9D" Ref="R52"  Part="1" 
-F 0 "R52" H 5020 2696 50  0000 L CNN
+AR Path="/5B03041B/5AF8CE9D" Ref="R43"  Part="1" 
+AR Path="/5AFC9D86/5AF8CE9D" Ref="R47"  Part="1" 
+AR Path="/5AFD185C/5AF8CE9D" Ref="R51"  Part="1" 
+AR Path="/5AFC22B0/5AF8CE9D" Ref="R55"  Part="1" 
+F 0 "R55" H 5020 2696 50  0000 L CNN
 F 1 "10k" H 5020 2605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4880 2650 50  0001 C CNN
 F 3 "~" H 4950 2650 50  0001 C CNN
@@ -99,14 +99,14 @@ F 3 "" H 2450 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C40
+L Device:C C41
 U 1 1 5AF8CEA1
 P 3450 1600
-AR Path="/5B03041B/5AF8CEA1" Ref="C40"  Part="1" 
-AR Path="/5AFC9D86/5AF8CEA1" Ref="C49"  Part="1" 
-AR Path="/5AFD185C/5AF8CEA1" Ref="C58"  Part="1" 
-AR Path="/5AFC22B0/5AF8CEA1" Ref="C67"  Part="1" 
-F 0 "C67" H 3565 1646 50  0000 L CNN
+AR Path="/5B03041B/5AF8CEA1" Ref="C41"  Part="1" 
+AR Path="/5AFC9D86/5AF8CEA1" Ref="C50"  Part="1" 
+AR Path="/5AFD185C/5AF8CEA1" Ref="C59"  Part="1" 
+AR Path="/5AFC22B0/5AF8CEA1" Ref="C68"  Part="1" 
+F 0 "C68" H 3565 1646 50  0000 L CNN
 F 1 "100nF" H 3565 1555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3488 1450 50  0001 C CNN
 F 3 "~" H 3450 1600 50  0001 C CNN
@@ -114,14 +114,14 @@ F 3 "~" H 3450 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C41
+L Device:C C42
 U 1 1 5AF8CEA3
 P 3950 1700
-AR Path="/5B03041B/5AF8CEA3" Ref="C41"  Part="1" 
-AR Path="/5AFC9D86/5AF8CEA3" Ref="C50"  Part="1" 
-AR Path="/5AFD185C/5AF8CEA3" Ref="C59"  Part="1" 
-AR Path="/5AFC22B0/5AF8CEA3" Ref="C68"  Part="1" 
-F 0 "C68" V 3698 1700 50  0000 C CNN
+AR Path="/5B03041B/5AF8CEA3" Ref="C42"  Part="1" 
+AR Path="/5AFC9D86/5AF8CEA3" Ref="C51"  Part="1" 
+AR Path="/5AFD185C/5AF8CEA3" Ref="C60"  Part="1" 
+AR Path="/5AFC22B0/5AF8CEA3" Ref="C69"  Part="1" 
+F 0 "C69" V 3698 1700 50  0000 C CNN
 F 1 "22nF" V 3789 1700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3988 1550 50  0001 C CNN
 F 3 "~" H 3950 1700 50  0001 C CNN
@@ -137,14 +137,14 @@ Wire Wire Line
 Wire Wire Line
 	4300 1700 4300 2150
 $Comp
-L Device:C C39
+L Device:C C40
 U 1 1 5B03C54C
 P 3650 1100
-AR Path="/5B03041B/5B03C54C" Ref="C39"  Part="1" 
-AR Path="/5AFC9D86/5B03C54C" Ref="C48"  Part="1" 
-AR Path="/5AFD185C/5B03C54C" Ref="C57"  Part="1" 
-AR Path="/5AFC22B0/5B03C54C" Ref="C66"  Part="1" 
-F 0 "C66" H 3765 1146 50  0000 L CNN
+AR Path="/5B03041B/5B03C54C" Ref="C40"  Part="1" 
+AR Path="/5AFC9D86/5B03C54C" Ref="C49"  Part="1" 
+AR Path="/5AFD185C/5B03C54C" Ref="C58"  Part="1" 
+AR Path="/5AFC22B0/5B03C54C" Ref="C67"  Part="1" 
+F 0 "C67" H 3765 1146 50  0000 L CNN
 F 1 "100nF" H 3765 1055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3688 950 50  0001 C CNN
 F 3 "~" H 3650 1100 50  0001 C CNN
@@ -178,14 +178,14 @@ F 3 "" H 3650 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C42
+L Device:C C43
 U 1 1 5B03D7F6
 P 4500 2100
-AR Path="/5B03041B/5B03D7F6" Ref="C42"  Part="1" 
-AR Path="/5AFC9D86/5B03D7F6" Ref="C51"  Part="1" 
-AR Path="/5AFD185C/5B03D7F6" Ref="C60"  Part="1" 
-AR Path="/5AFC22B0/5B03D7F6" Ref="C69"  Part="1" 
-F 0 "C69" H 4385 2054 50  0000 R CNN
+AR Path="/5B03041B/5B03D7F6" Ref="C43"  Part="1" 
+AR Path="/5AFC9D86/5B03D7F6" Ref="C52"  Part="1" 
+AR Path="/5AFD185C/5B03D7F6" Ref="C61"  Part="1" 
+AR Path="/5AFC22B0/5B03D7F6" Ref="C70"  Part="1" 
+F 0 "C70" H 4385 2054 50  0000 R CNN
 F 1 "470nF" H 4385 2145 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4538 1950 50  0001 C CNN
 F 3 "~" H 4500 2100 50  0001 C CNN
@@ -208,14 +208,14 @@ F 3 "" H 4500 1950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C44
+L Device:C C45
 U 1 1 5AF8CEAA
 P 1250 3100
-AR Path="/5B03041B/5AF8CEAA" Ref="C44"  Part="1" 
-AR Path="/5AFC9D86/5AF8CEAA" Ref="C53"  Part="1" 
-AR Path="/5AFD185C/5AF8CEAA" Ref="C62"  Part="1" 
-AR Path="/5AFC22B0/5AF8CEAA" Ref="C71"  Part="1" 
-F 0 "C71" H 1365 3146 50  0000 L CNN
+AR Path="/5B03041B/5AF8CEAA" Ref="C45"  Part="1" 
+AR Path="/5AFC9D86/5AF8CEAA" Ref="C54"  Part="1" 
+AR Path="/5AFD185C/5AF8CEAA" Ref="C63"  Part="1" 
+AR Path="/5AFC22B0/5AF8CEAA" Ref="C72"  Part="1" 
+F 0 "C72" H 1365 3146 50  0000 L CNN
 F 1 "100nF" H 1365 3055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1288 2950 50  0001 C CNN
 F 3 "~" H 1250 3100 50  0001 C CNN
@@ -257,14 +257,14 @@ F 3 "" H 4150 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C43
+L Device:C C44
 U 1 1 5AF8CEAE
 P 5450 2350
-AR Path="/5B03041B/5AF8CEAE" Ref="C43"  Part="1" 
-AR Path="/5AFC9D86/5AF8CEAE" Ref="C52"  Part="1" 
-AR Path="/5AFD185C/5AF8CEAE" Ref="C61"  Part="1" 
-AR Path="/5AFC22B0/5AF8CEAE" Ref="C70"  Part="1" 
-F 0 "C70" V 5600 2350 50  0000 R CNN
+AR Path="/5B03041B/5AF8CEAE" Ref="C44"  Part="1" 
+AR Path="/5AFC9D86/5AF8CEAE" Ref="C53"  Part="1" 
+AR Path="/5AFD185C/5AF8CEAE" Ref="C62"  Part="1" 
+AR Path="/5AFC22B0/5AF8CEAE" Ref="C71"  Part="1" 
+F 0 "C71" V 5600 2350 50  0000 R CNN
 F 1 "10uF" V 5700 2450 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5488 2200 50  0001 C CNN
 F 3 "~" H 5450 2350 50  0001 C CNN
@@ -295,14 +295,14 @@ NoConn ~ 1750 3050
 NoConn ~ 1750 3150
 NoConn ~ 3450 3550
 $Comp
-L Device:R R41
+L Device:R R44
 U 1 1 5AF8CEB0
 P 2850 4100
-AR Path="/5B03041B/5AF8CEB0" Ref="R41"  Part="1" 
-AR Path="/5AFC9D86/5AF8CEB0" Ref="R45"  Part="1" 
-AR Path="/5AFD185C/5AF8CEB0" Ref="R49"  Part="1" 
-AR Path="/5AFC22B0/5AF8CEB0" Ref="R53"  Part="1" 
-F 0 "R53" H 3100 4050 50  0000 R CNN
+AR Path="/5B03041B/5AF8CEB0" Ref="R44"  Part="1" 
+AR Path="/5AFC9D86/5AF8CEB0" Ref="R48"  Part="1" 
+AR Path="/5AFD185C/5AF8CEB0" Ref="R52"  Part="1" 
+AR Path="/5AFC22B0/5AF8CEB0" Ref="R56"  Part="1" 
+F 0 "R56" H 3100 4050 50  0000 R CNN
 F 1 "0.12" H 3100 4150 50  0000 R CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 2780 4100 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/IRC-TT-Electronics/LRC-LR1206LF-01-R120-F?qs=%2fha2pyFaduhMiEzF3pykME0a%252bEfKY5uZi8C5VQS4dpubveSQanNiBP0ONjUJvVuZ" H 2850 4100 50  0001 C CNN
@@ -384,14 +384,14 @@ NoConn ~ 4150 2050
 Text Notes 1200 4500 2    50   ~ 0
 Max RMS 1.64A
 $Comp
-L Device:C C46
+L Device:C C47
 U 1 1 5AF8CED0
 P 5200 4150
-AR Path="/5B03041B/5AF8CED0" Ref="C46"  Part="1" 
-AR Path="/5AFC9D86/5AF8CED0" Ref="C55"  Part="1" 
-AR Path="/5AFD185C/5AF8CED0" Ref="C64"  Part="1" 
-AR Path="/5AFC22B0/5AF8CED0" Ref="C73"  Part="1" 
-F 0 "C73" H 5315 4196 50  0000 L CNN
+AR Path="/5B03041B/5AF8CED0" Ref="C47"  Part="1" 
+AR Path="/5AFC9D86/5AF8CED0" Ref="C56"  Part="1" 
+AR Path="/5AFD185C/5AF8CED0" Ref="C65"  Part="1" 
+AR Path="/5AFC22B0/5AF8CED0" Ref="C74"  Part="1" 
+F 0 "C74" H 5315 4196 50  0000 L CNN
 F 1 "100nF" H 5315 4105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5238 4000 50  0001 C CNN
 F 3 "~" H 5200 4150 50  0001 C CNN
@@ -399,14 +399,14 @@ F 3 "~" H 5200 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C47
+L Device:C C48
 U 1 1 5AF8CED2
 P 5650 4150
-AR Path="/5B03041B/5AF8CED2" Ref="C47"  Part="1" 
-AR Path="/5AFC9D86/5AF8CED2" Ref="C56"  Part="1" 
-AR Path="/5AFD185C/5AF8CED2" Ref="C65"  Part="1" 
-AR Path="/5AFC22B0/5AF8CED2" Ref="C74"  Part="1" 
-F 0 "C74" H 5765 4196 50  0000 L CNN
+AR Path="/5B03041B/5AF8CED2" Ref="C48"  Part="1" 
+AR Path="/5AFC9D86/5AF8CED2" Ref="C57"  Part="1" 
+AR Path="/5AFD185C/5AF8CED2" Ref="C66"  Part="1" 
+AR Path="/5AFC22B0/5AF8CED2" Ref="C75"  Part="1" 
+F 0 "C75" H 5765 4196 50  0000 L CNN
 F 1 "100nF" H 5765 4105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5688 4000 50  0001 C CNN
 F 3 "~" H 5650 4150 50  0001 C CNN
@@ -439,14 +439,14 @@ VDD_PWR
 Text GLabel 3250 1750 1    50   Input ~ 0
 VDD_PWR
 $Comp
-L Device:CP C45
+L Device:CP C46
 U 1 1 5B0E8E43
 P 4750 4150
-AR Path="/5B03041B/5B0E8E43" Ref="C45"  Part="1" 
-AR Path="/5AFC9D86/5B0E8E43" Ref="C54"  Part="1" 
-AR Path="/5AFD185C/5B0E8E43" Ref="C63"  Part="1" 
-AR Path="/5AFC22B0/5B0E8E43" Ref="C72"  Part="1" 
-F 0 "C72" H 4868 4196 50  0000 L CNN
+AR Path="/5B03041B/5B0E8E43" Ref="C46"  Part="1" 
+AR Path="/5AFC9D86/5B0E8E43" Ref="C55"  Part="1" 
+AR Path="/5AFD185C/5B0E8E43" Ref="C64"  Part="1" 
+AR Path="/5AFC22B0/5B0E8E43" Ref="C73"  Part="1" 
+F 0 "C73" H 4868 4196 50  0000 L CNN
 F 1 "100uF" H 4868 4105 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 4788 4000 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/293/e-uvz-1219460.pdf" H 4750 4150 50  0001 C CNN
@@ -460,14 +460,14 @@ Wire Wire Line
 Connection ~ 4750 4000
 Connection ~ 4750 4300
 $Comp
-L Device:R R38
+L Device:R R41
 U 1 1 5AF83011
 P 2850 1200
-AR Path="/5B03041B/5AF83011" Ref="R38"  Part="1" 
-AR Path="/5AFC9D86/5AF83011" Ref="R42"  Part="1" 
-AR Path="/5AFD185C/5AF83011" Ref="R46"  Part="1" 
-AR Path="/5AFC22B0/5AF83011" Ref="R50"  Part="1" 
-F 0 "R50" H 2750 1150 50  0000 R CNN
+AR Path="/5B03041B/5AF83011" Ref="R41"  Part="1" 
+AR Path="/5AFC9D86/5AF83011" Ref="R45"  Part="1" 
+AR Path="/5AFD185C/5AF83011" Ref="R49"  Part="1" 
+AR Path="/5AFC22B0/5AF83011" Ref="R53"  Part="1" 
+F 0 "R53" H 2750 1150 50  0000 R CNN
 F 1 "0.12" H 2750 1250 50  0000 R CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 2780 1200 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/IRC-TT-Electronics/LRC-LR1206LF-01-R120-F?qs=%2fha2pyFaduhMiEzF3pykME0a%252bEfKY5uZi8C5VQS4dpubveSQanNiBP0ONjUJvVuZ" H 2850 1200 50  0001 C CNN
@@ -570,14 +570,14 @@ OB1
 Text HLabel 3050 3550 3    50   Input ~ 0
 OB2
 $Comp
-L Device:R R39
+L Device:R R42
 U 1 1 5B3524BD
 P 4600 2650
-AR Path="/5B03041B/5B3524BD" Ref="R39"  Part="1" 
-AR Path="/5AFC9D86/5B3524BD" Ref="R43"  Part="1" 
-AR Path="/5AFD185C/5B3524BD" Ref="R47"  Part="1" 
-AR Path="/5AFC22B0/5B3524BD" Ref="R51"  Part="1" 
-F 0 "R51" H 4670 2696 50  0000 L CNN
+AR Path="/5B03041B/5B3524BD" Ref="R42"  Part="1" 
+AR Path="/5AFC9D86/5B3524BD" Ref="R46"  Part="1" 
+AR Path="/5AFD185C/5B3524BD" Ref="R50"  Part="1" 
+AR Path="/5AFC22B0/5B3524BD" Ref="R54"  Part="1" 
+F 0 "R54" H 4670 2696 50  0000 L CNN
 F 1 "10k" H 4670 2605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4530 2650 50  0001 C CNN
 F 3 "~" H 4600 2650 50  0001 C CNN
@@ -606,14 +606,14 @@ Wire Wire Line
 Wire Wire Line
 	4600 2450 4600 2500
 $Comp
-L Device:D_Schottky D36
+L Device:D_Schottky D35
 U 1 1 5B35D53F
 P 8400 1050
-AR Path="/5B03041B/5B35D53F" Ref="D36"  Part="1" 
-AR Path="/5AFC9D86/5B35D53F" Ref="D45"  Part="1" 
-AR Path="/5AFD185C/5B35D53F" Ref="D54"  Part="1" 
-AR Path="/5AFC22B0/5B35D53F" Ref="D63"  Part="1" 
-F 0 "D63" V 8354 1129 50  0000 L CNN
+AR Path="/5B03041B/5B35D53F" Ref="D35"  Part="1" 
+AR Path="/5AFC9D86/5B35D53F" Ref="D44"  Part="1" 
+AR Path="/5AFD185C/5B35D53F" Ref="D53"  Part="1" 
+AR Path="/5AFC22B0/5B35D53F" Ref="D62"  Part="1" 
+F 0 "D62" V 8354 1129 50  0000 L CNN
 F 1 "S310FA" V 8445 1129 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 8400 1050 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/149/S310FA-888043.pdf" H 8400 1050 50  0001 C CNN
@@ -621,14 +621,14 @@ F 3 "https://www.mouser.com/ds/2/149/S310FA-888043.pdf" H 8400 1050 50  0001 C C
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D33
+L Device:D_Schottky D32
 U 1 1 5B35EF5E
 P 7050 1050
-AR Path="/5B03041B/5B35EF5E" Ref="D33"  Part="1" 
-AR Path="/5AFC9D86/5B35EF5E" Ref="D42"  Part="1" 
-AR Path="/5AFD185C/5B35EF5E" Ref="D51"  Part="1" 
-AR Path="/5AFC22B0/5B35EF5E" Ref="D60"  Part="1" 
-F 0 "D60" V 7004 1129 50  0000 L CNN
+AR Path="/5B03041B/5B35EF5E" Ref="D32"  Part="1" 
+AR Path="/5AFC9D86/5B35EF5E" Ref="D41"  Part="1" 
+AR Path="/5AFD185C/5B35EF5E" Ref="D50"  Part="1" 
+AR Path="/5AFC22B0/5B35EF5E" Ref="D59"  Part="1" 
+F 0 "D59" V 7004 1129 50  0000 L CNN
 F 1 "S310FA" V 7095 1129 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 7050 1050 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/149/S310FA-888043.pdf" H 7050 1050 50  0001 C CNN
@@ -636,14 +636,14 @@ F 3 "https://www.mouser.com/ds/2/149/S310FA-888043.pdf" H 7050 1050 50  0001 C C
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D34
+L Device:D_Schottky D33
 U 1 1 5B35FA44
 P 7500 1050
-AR Path="/5B03041B/5B35FA44" Ref="D34"  Part="1" 
-AR Path="/5AFC9D86/5B35FA44" Ref="D43"  Part="1" 
-AR Path="/5AFD185C/5B35FA44" Ref="D52"  Part="1" 
-AR Path="/5AFC22B0/5B35FA44" Ref="D61"  Part="1" 
-F 0 "D61" V 7454 1129 50  0000 L CNN
+AR Path="/5B03041B/5B35FA44" Ref="D33"  Part="1" 
+AR Path="/5AFC9D86/5B35FA44" Ref="D42"  Part="1" 
+AR Path="/5AFD185C/5B35FA44" Ref="D51"  Part="1" 
+AR Path="/5AFC22B0/5B35FA44" Ref="D60"  Part="1" 
+F 0 "D60" V 7454 1129 50  0000 L CNN
 F 1 "S310FA" V 7545 1129 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 7500 1050 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/149/S310FA-888043.pdf" H 7500 1050 50  0001 C CNN
@@ -651,14 +651,14 @@ F 3 "https://www.mouser.com/ds/2/149/S310FA-888043.pdf" H 7500 1050 50  0001 C C
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D35
+L Device:D_Schottky D34
 U 1 1 5B360533
 P 7950 1050
-AR Path="/5B03041B/5B360533" Ref="D35"  Part="1" 
-AR Path="/5AFC9D86/5B360533" Ref="D44"  Part="1" 
-AR Path="/5AFD185C/5B360533" Ref="D53"  Part="1" 
-AR Path="/5AFC22B0/5B360533" Ref="D62"  Part="1" 
-F 0 "D62" V 7904 1129 50  0000 L CNN
+AR Path="/5B03041B/5B360533" Ref="D34"  Part="1" 
+AR Path="/5AFC9D86/5B360533" Ref="D43"  Part="1" 
+AR Path="/5AFD185C/5B360533" Ref="D52"  Part="1" 
+AR Path="/5AFC22B0/5B360533" Ref="D61"  Part="1" 
+F 0 "D61" V 7904 1129 50  0000 L CNN
 F 1 "S310FA" V 7995 1129 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 7950 1050 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/149/S310FA-888043.pdf" H 7950 1050 50  0001 C CNN
@@ -666,14 +666,14 @@ F 3 "https://www.mouser.com/ds/2/149/S310FA-888043.pdf" H 7950 1050 50  0001 C C
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D40
+L Device:D_Schottky D39
 U 1 1 5B365384
 P 8400 1950
-AR Path="/5B03041B/5B365384" Ref="D40"  Part="1" 
-AR Path="/5AFC9D86/5B365384" Ref="D49"  Part="1" 
-AR Path="/5AFD185C/5B365384" Ref="D58"  Part="1" 
-AR Path="/5AFC22B0/5B365384" Ref="D67"  Part="1" 
-F 0 "D67" V 8354 2029 50  0000 L CNN
+AR Path="/5B03041B/5B365384" Ref="D39"  Part="1" 
+AR Path="/5AFC9D86/5B365384" Ref="D48"  Part="1" 
+AR Path="/5AFD185C/5B365384" Ref="D57"  Part="1" 
+AR Path="/5AFC22B0/5B365384" Ref="D66"  Part="1" 
+F 0 "D66" V 8354 2029 50  0000 L CNN
 F 1 "S310FA" V 8445 2029 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 8400 1950 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/149/S310FA-888043.pdf" H 8400 1950 50  0001 C CNN
@@ -681,14 +681,14 @@ F 3 "https://www.mouser.com/ds/2/149/S310FA-888043.pdf" H 8400 1950 50  0001 C C
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D37
+L Device:D_Schottky D36
 U 1 1 5B36538B
 P 7050 1950
-AR Path="/5B03041B/5B36538B" Ref="D37"  Part="1" 
-AR Path="/5AFC9D86/5B36538B" Ref="D46"  Part="1" 
-AR Path="/5AFD185C/5B36538B" Ref="D55"  Part="1" 
-AR Path="/5AFC22B0/5B36538B" Ref="D64"  Part="1" 
-F 0 "D64" V 7004 2029 50  0000 L CNN
+AR Path="/5B03041B/5B36538B" Ref="D36"  Part="1" 
+AR Path="/5AFC9D86/5B36538B" Ref="D45"  Part="1" 
+AR Path="/5AFD185C/5B36538B" Ref="D54"  Part="1" 
+AR Path="/5AFC22B0/5B36538B" Ref="D63"  Part="1" 
+F 0 "D63" V 7004 2029 50  0000 L CNN
 F 1 "S310FA" V 7095 2029 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 7050 1950 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/149/S310FA-888043.pdf" H 7050 1950 50  0001 C CNN
@@ -696,14 +696,14 @@ F 3 "https://www.mouser.com/ds/2/149/S310FA-888043.pdf" H 7050 1950 50  0001 C C
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D38
+L Device:D_Schottky D37
 U 1 1 5B365392
 P 7500 1950
-AR Path="/5B03041B/5B365392" Ref="D38"  Part="1" 
-AR Path="/5AFC9D86/5B365392" Ref="D47"  Part="1" 
-AR Path="/5AFD185C/5B365392" Ref="D56"  Part="1" 
-AR Path="/5AFC22B0/5B365392" Ref="D65"  Part="1" 
-F 0 "D65" V 7454 2029 50  0000 L CNN
+AR Path="/5B03041B/5B365392" Ref="D37"  Part="1" 
+AR Path="/5AFC9D86/5B365392" Ref="D46"  Part="1" 
+AR Path="/5AFD185C/5B365392" Ref="D55"  Part="1" 
+AR Path="/5AFC22B0/5B365392" Ref="D64"  Part="1" 
+F 0 "D64" V 7454 2029 50  0000 L CNN
 F 1 "S310FA" V 7545 2029 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 7500 1950 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/149/S310FA-888043.pdf" H 7500 1950 50  0001 C CNN
@@ -711,14 +711,14 @@ F 3 "https://www.mouser.com/ds/2/149/S310FA-888043.pdf" H 7500 1950 50  0001 C C
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D39
+L Device:D_Schottky D38
 U 1 1 5B365399
 P 7950 1950
-AR Path="/5B03041B/5B365399" Ref="D39"  Part="1" 
-AR Path="/5AFC9D86/5B365399" Ref="D48"  Part="1" 
-AR Path="/5AFD185C/5B365399" Ref="D57"  Part="1" 
-AR Path="/5AFC22B0/5B365399" Ref="D66"  Part="1" 
-F 0 "D66" V 7904 2029 50  0000 L CNN
+AR Path="/5B03041B/5B365399" Ref="D38"  Part="1" 
+AR Path="/5AFC9D86/5B365399" Ref="D47"  Part="1" 
+AR Path="/5AFD185C/5B365399" Ref="D56"  Part="1" 
+AR Path="/5AFC22B0/5B365399" Ref="D65"  Part="1" 
+F 0 "D65" V 7904 2029 50  0000 L CNN
 F 1 "S310FA" V 7995 2029 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 7950 1950 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/149/S310FA-888043.pdf" H 7950 1950 50  0001 C CNN
@@ -811,14 +811,14 @@ VDD_PWR
 Wire Wire Line
 	950  2950 1250 2950
 $Comp
-L Device:D_Schottky D41
+L Device:D_Schottky D40
 U 1 1 5B3AF587
 P 1250 2750
-AR Path="/5B03041B/5B3AF587" Ref="D41"  Part="1" 
-AR Path="/5AFC9D86/5B3AF587" Ref="D50"  Part="1" 
-AR Path="/5AFD185C/5B3AF587" Ref="D59"  Part="1" 
-AR Path="/5AFC22B0/5B3AF587" Ref="D68"  Part="1" 
-F 0 "D68" V 1200 2400 50  0000 L CNN
+AR Path="/5B03041B/5B3AF587" Ref="D40"  Part="1" 
+AR Path="/5AFC9D86/5B3AF587" Ref="D49"  Part="1" 
+AR Path="/5AFD185C/5B3AF587" Ref="D58"  Part="1" 
+AR Path="/5AFC22B0/5B3AF587" Ref="D67"  Part="1" 
+F 0 "D67" V 1200 2400 50  0000 L CNN
 F 1 "S310FA" V 1300 2400 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 1250 2750 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/149/S310FA-888043.pdf" H 1250 2750 50  0001 C CNN
