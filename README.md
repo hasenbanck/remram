@@ -3,6 +3,10 @@
 ## PCB design
 Software used KiCad 5.0
 
+### Alternative Parts
+
+You can substitute the TPS5408 with a TPS5402. In this case you also need to replace R4 with a Zero Ohm resistor.
+
 ## How to flash a firmware
 Supported:
 
