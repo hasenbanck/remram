@@ -1,4 +1,4 @@
-# RemRam - 3d printer controller
+# RemRam - 3D printer controller
 
 ## PCB design
 Software used KiCad 5.0

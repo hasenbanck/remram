@@ -739,8 +739,6 @@ F 3 "" H 6200 1800 50  0001 C CNN
 	1    6200 1800
 	1    0    0    -1  
 $EndComp
-Text GLabel 6150 900  0    50   Input ~ 0
-VDD3V3
 Wire Wire Line
 	6150 900  6200 900 
 Wire Wire Line
@@ -843,8 +841,6 @@ F 3 "" H 6200 3050 50  0001 C CNN
 	1    6200 3050
 	1    0    0    -1  
 $EndComp
-Text GLabel 6150 2150 0    50   Input ~ 0
-VDD3V3
 Wire Wire Line
 	6150 2150 6200 2150
 Wire Wire Line
@@ -1554,4 +1550,8 @@ Wire Wire Line
 	8850 4600 9300 4600
 Wire Wire Line
 	6450 4600 6900 4600
+Text GLabel 6150 2150 0    50   Input ~ 0
+VDD5V
+Text GLabel 6150 900  0    50   Input ~ 0
+VDD5V
 $EndSCHEMATC

@@ -1021,10 +1021,6 @@ PWM_EXT3
 Text HLabel 8100 3350 2    50   Input ~ 0
 PWM_EXT4
 NoConn ~ 5600 2050
-Text HLabel 4900 4150 0    50   Input ~ 0
-FAN_SPEED1
-Text HLabel 5500 5250 3    50   Input ~ 0
-FAN_SPEED2
 Wire Wire Line
 	3700 2950 3700 2750
 Wire Wire Line
@@ -1130,4 +1126,101 @@ Wire Wire Line
 Connection ~ 4150 2000
 Wire Wire Line
 	4150 2400 4150 2950
+$Comp
+L 74xGxx:74LVC2G17 U9
+U 1 1 5B5A26DE
+P 1450 5350
+F 0 "U9" H 1350 5600 50  0000 C CNN
+F 1 "SN74LVC2G17DCKR" H 1300 5500 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 1450 5350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1450 5350 50  0001 C CNN
+	1    1450 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74LVC2G17 U9
+U 2 1 5B5A2844
+P 1450 5800
+F 0 "U9" H 1350 6050 50  0000 C CNN
+F 1 "SN74LVC2G17DCKR" H 1300 5950 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 1450 5800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1450 5800 50  0001 C CNN
+	2    1450 5800
+	1    0    0    -1  
+$EndComp
+Text HLabel 1150 5350 0    50   Input ~ 0
+FAN_SPEED1
+Text HLabel 1150 5800 0    50   Input ~ 0
+FAN_SPEED2
+$Comp
+L Device:R R57
+U 1 1 5B5CF6F2
+P 1850 5350
+F 0 "R57" V 2000 5300 50  0000 L CNN
+F 1 "1k" V 1920 5305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1780 5350 50  0001 C CNN
+F 3 "~" H 1850 5350 50  0001 C CNN
+	1    1850 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R58
+U 1 1 5B5D2861
+P 1850 5800
+F 0 "R58" V 2000 5750 50  0000 L CNN
+F 1 "1k" V 1920 5755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1780 5800 50  0001 C CNN
+F 3 "~" H 1850 5800 50  0001 C CNN
+	1    1850 5800
+	0    -1   -1   0   
+$EndComp
+Text Label 2000 5350 0    50   ~ 0
+FAN_SPEED_1
+Text Label 2000 5800 0    50   ~ 0
+FAN_SPEED_2
+Text Label 4900 4150 2    50   ~ 0
+FAN_SPEED_1
+Text Label 5500 5650 3    50   ~ 0
+FAN_SPEED_2
+Wire Wire Line
+	5500 5250 5500 5650
+Text Notes 1000 6050 0    50   ~ 0
+Needed for better noise margin.
+$Comp
+L power:VCC #PWR0143
+U 1 1 5B5ABC4A
+P 4300 7150
+F 0 "#PWR0143" H 4300 7000 50  0001 C CNN
+F 1 "VCC" H 4317 7323 50  0000 C CNN
+F 2 "" H 4300 7150 50  0001 C CNN
+F 3 "" H 4300 7150 50  0001 C CNN
+	1    4300 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0144
+U 1 1 5B5ABD29
+P 4300 7450
+F 0 "#PWR0144" H 4300 7200 50  0001 C CNN
+F 1 "GND" H 4305 7277 50  0000 C CNN
+F 2 "" H 4300 7450 50  0001 C CNN
+F 3 "" H 4300 7450 50  0001 C CNN
+	1    4300 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C76
+U 1 1 5B5B20E4
+P 4300 7300
+F 0 "C76" H 4415 7346 50  0000 L CNN
+F 1 "100nF" H 4415 7255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4338 7150 50  0001 C CNN
+F 3 "~" H 4300 7300 50  0001 C CNN
+	1    4300 7300
+	1    0    0    -1  
+$EndComp
+Text GLabel 4300 7150 0    50   Input ~ 0
+VDD5V
+Text Notes 3700 7750 0    50   ~ 0
+Schmitt trigger bypass capacitor
 $EndSCHEMATC
