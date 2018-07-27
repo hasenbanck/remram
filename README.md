@@ -1,6 +1,10 @@
 # RemRam - 3D printer controller
 
+[Join us on Discord!](https://discord.gg/f4dmGsn)
+
 THIS PROJECT RIGHT NOW IS STILL UNDER HEAVY DEVELOPMENT. ONLY DEVELOPER AND VERY, VERY EAGER USERS SHOULD BUILD / USE THIS BOARD.
+
+![RemRam v1.0](images/remram-v1-1-front.jpg?raw=true)
 
 ## PCB design
 
