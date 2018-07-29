@@ -865,11 +865,11 @@ Text HLabel 8100 3750 2    50   BiDi ~ 0
 LCD_RS
 Text HLabel 8100 3850 2    50   BiDi ~ 0
 LCD_EN
-Text HLabel 4900 3150 0    50   BiDi ~ 0
+Text HLabel 4900 3250 0    50   BiDi ~ 0
 BTN_EN2
 Text HLabel 8100 3550 2    50   BiDi ~ 0
 BTN_ENC
-Text HLabel 4900 3250 0    50   BiDi ~ 0
+Text HLabel 4900 3150 0    50   BiDi ~ 0
 BTN_EN1
 Text HLabel 8100 4850 2    50   Input ~ 0
 X_MIN

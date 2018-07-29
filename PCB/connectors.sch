@@ -462,13 +462,13 @@ Text HLabel 3000 1200 2    50   BiDi ~ 0
 LCD_RS
 Text HLabel 2500 1200 0    50   BiDi ~ 0
 LCD_EN
-Text HLabel 4150 1300 0    50   BiDi ~ 0
+Text HLabel 4150 1200 0    50   BiDi ~ 0
 BTN_EN2
 Text HLabel 3000 1100 2    50   BiDi ~ 0
 BTN_ENC
 Text HLabel 2500 1100 0    50   BiDi ~ 0
 LCD_BEEPER
-Text HLabel 4150 1200 0    50   BiDi ~ 0
+Text HLabel 4150 1300 0    50   BiDi ~ 0
 BTN_EN1
 Text HLabel 4650 1400 2    50   BiDi ~ 0
 KILL_PIN
