@@ -849,8 +849,6 @@ Text HLabel 5900 5250 3    50   Output ~ 0
 SS_E
 Text HLabel 6300 5250 3    50   Output ~ 0
 SS_SD
-Text HLabel 4900 2850 0    50   BiDi ~ 0
-KILL_PIN
 Text HLabel 4900 3050 0    50   BiDi ~ 0
 SD_CARD_DET
 Text HLabel 8100 4150 2    50   BiDi ~ 0
@@ -1223,4 +1221,5 @@ Text GLabel 4300 7150 0    50   Input ~ 0
 VDD5V
 Text Notes 3700 7750 0    50   ~ 0
 Schmitt trigger bypass capacitor
+NoConn ~ 4900 2850
 $EndSCHEMATC

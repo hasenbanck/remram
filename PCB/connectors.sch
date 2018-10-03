@@ -356,9 +356,9 @@ L Connector_Generic:Conn_02x05_Odd_Even J9
 U 1 1 5B17C4BC
 P 2950 2750
 F 0 "J9" H 3000 3200 50  0000 C CNN
-F 1 "62201021121" H 3000 3100 50  0000 C CNN
-F 2 "custom-footprints:PinHeader_2x05_P1.27mm_Vertical" H 2950 2750 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/445/6220xx21121-542317.pdf" H 2950 2750 50  0001 C CNN
+F 1 "20021121-00010C4LF" H 3000 3100 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 2950 2750 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/18/20021121-1362884.pdf" H 2950 2750 50  0001 C CNN
 	1    2950 2750
 	1    0    0    -1  
 $EndComp
@@ -470,8 +470,6 @@ Text HLabel 2500 1100 0    50   BiDi ~ 0
 LCD_BEEPER
 Text HLabel 4350 1200 0    50   BiDi ~ 0
 BTN_EN2
-Text HLabel 5150 1400 2    50   BiDi ~ 0
-KILL_PIN
 Text HLabel 4350 1400 0    50   BiDi ~ 0
 SD_CARD_DET
 Text HLabel 8850 4600 0    50   Input ~ 0
@@ -1590,11 +1588,13 @@ Wire Wire Line
 Wire Wire Line
 	5150 1000 5250 1000
 Wire Wire Line
-	4850 1400 5150 1400
-Wire Wire Line
 	5150 1300 5250 1300
 Wire Notes Line
 	3550 750  5600 750 
 Wire Notes Line
 	3550 2100 5600 2100
+Text HLabel 5250 1400 2    50   Input ~ 0
+nRESET
+Wire Wire Line
+	4850 1400 5250 1400
 $EndSCHEMATC

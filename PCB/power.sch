@@ -215,35 +215,8 @@ Wire Wire Line
 	1200 4850 1450 4850
 Wire Wire Line
 	1450 4850 1450 5650
-$Comp
-L Connector:Test_Point TP1
-U 1 1 5B12B288
-P 8500 1150
-F 0 "TP1" H 8600 1300 50  0000 L CNN
-F 1 "VDD5V" H 8600 1200 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8700 1150 50  0001 C CNN
-F 3 "~" H 8700 1150 50  0001 C CNN
-	1    8500 1150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8950 1150 8500 1150
-Wire Wire Line
-	3850 2750 3550 2750
-$Comp
-L Connector:Test_Point TP2
-U 1 1 5B12E486
-P 3850 2750
-F 0 "TP2" H 3950 2900 50  0000 L CNN
-F 1 "VDD3V3" H 3950 2800 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4050 2750 50  0001 C CNN
-F 3 "~" H 4050 2750 50  0001 C CNN
-	1    3850 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4500 2750 3850 2750
-Connection ~ 3850 2750
 $Comp
 L Device:Fuse F1
 U 1 1 5AF82AAA
@@ -1001,4 +974,6 @@ Wire Notes Line
 	700  650  700  2250
 Wire Notes Line
 	9350 650  9350 2250
+Wire Wire Line
+	3550 2750 4500 2750
 $EndSCHEMATC
