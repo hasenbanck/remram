@@ -36,7 +36,7 @@ Software used KiCad 5.0
 
 You can substitute the TPS5408 with a TPS5402. In this case you also need to replace R4 with a Zero Ohm resistor.
 
-## How to flash a firmware
+## How to flash the firmware
 
 Supported:
 
@@ -48,10 +48,13 @@ Supported:
 
 You can use the Cortex Debug Header to program the STM32 firmware and do step-by-step debugging.
 
-The debug header is a 2x05 pin (1.27/0.05”).
-
 This board only support SWD. SWO is not routed to the header, since we had to use the
 pin for a PWM output.
+
+I personally use the SEGGER J-Link Edu Mini. But any 2€ Ebay flasher should work ("ST Link V2").
+Please make sure that you have a adapter for the debug header!
+
+The debug header is a 2x05 pin (1.27/0.05”).
 
 ### DFU (USB)
 
@@ -65,4 +68,4 @@ https://www.st.com/en/development-tools/flasher-stm32.html
 
 CERN OHL version 1.2
 
-The files under PCB/packaegs3d are excluded from this license and are provided under fair use terms for this non-commercial project.
+The files under PCB/packages3d are excluded from this license and are provided under fair use terms for this open-source project.
