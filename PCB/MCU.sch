@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 9
+Sheet 4 10
 Title "MCU"
 Date ""
 Rev ""
@@ -19,7 +19,7 @@ L Device:R R16
 U 1 1 5AD0B119
 P 5550 750
 F 0 "R16" V 5450 700 50  0000 L CNN
-F 1 "10k" V 5350 700 50  0000 L CNN
+F 1 "47k" V 5350 700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5480 750 50  0001 C CNN
 F 3 "~" H 5550 750 50  0001 C CNN
 	1    5550 750 
@@ -30,7 +30,7 @@ L Device:R R17
 U 1 1 5AD0B198
 P 6300 750
 F 0 "R17" V 6400 650 50  0000 L CNN
-F 1 "10k" V 6500 650 50  0000 L CNN
+F 1 "47k" V 6500 650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 750 50  0001 C CNN
 F 3 "~" H 6300 750 50  0001 C CNN
 	1    6300 750 
@@ -848,7 +848,7 @@ SS_Z
 Text HLabel 5900 5250 3    50   Output ~ 0
 SS_E
 Text HLabel 6300 5250 3    50   Output ~ 0
-SS_SD
+SS_SDLCD
 Text HLabel 4900 3050 0    50   BiDi ~ 0
 SD_CARD_DET
 Text HLabel 8100 4150 2    50   BiDi ~ 0
@@ -988,7 +988,6 @@ EXT_D2
 Text HLabel 4900 2750 0    50   Input ~ 0
 EXT_D1
 NoConn ~ 6500 5250
-NoConn ~ 6400 5250
 NoConn ~ 6500 2050
 NoConn ~ 5800 2050
 Text HLabel 4900 2450 0    50   Input ~ 0
@@ -1222,4 +1221,6 @@ VDD5V
 Text Notes 3700 7750 0    50   ~ 0
 Schmitt trigger bypass capacitor
 NoConn ~ 4900 2850
+Text HLabel 6400 5250 3    50   Output ~ 0
+SS_SD
 $EndSCHEMATC

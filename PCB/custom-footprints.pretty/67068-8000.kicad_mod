@@ -1,4 +1,4 @@
-(module custom-footprints:67068-8000 (layer F.Cu) (tedit 5AF85713)
+(module 67068-8000 (layer F.Cu) (tedit 5BB5DBD2)
   (descr "Conn USB Type B RCP 4 POS 2.5mm Solder RA Thru-Hole 4 Terminal 1 Port Tray")
   (fp_text reference 67068-8000 (at 0.3 -7.7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.1)))

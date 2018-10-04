@@ -2,9 +2,31 @@
 
 [Join us on Discord!](https://discord.gg/f4dmGsn)
 
-THIS PROJECT RIGHT NOW IS STILL UNDER HEAVY DEVELOPMENT. ONLY DEVELOPER AND VERY, VERY EAGER USERS SHOULD BUILD / USE THIS BOARD.
+![RemRam v1.3](images/remram-v1-3-front.jpg?raw=true)
 
-![RemRam v1.0](images/remram-v1-1-front.jpg?raw=true)
+## Features
+
+ * 32bit STM32F765VI
+   * 216 MHz
+   * 512 KBytes RAM
+   * 2 MBytes flash
+ * 4x TMC2130 stepper driver
+   * stealthChop
+   * spreadCycle
+   * coolStep
+   * stallGuard
+ * 24V main power rail
+   * heatbed output (15A)
+   * heater output (5A)
+   * stepper driver and logic (5A)
+ * 5V secondary power rail (3A)
+   * FAN1 and FAN2
+ * 2x 3.3V tertiary power rail (2x 0.5A)
+   * MCU power (IO)
+   * SD card power
+ * Robust connectors
+ * Quality, high powered MOSFET
+ * 4 layer board with single side component placement
 
 ## PCB design
 
@@ -19,19 +41,28 @@ You can substitute the TPS5408 with a TPS5402. In this case you also need to rep
 Supported:
 
  * Using the Cortex Debug Header (SWD)
+ * Using DFU over USB
  * Using UART on EXT-3 PIN 15 (TX) and PIN 16 (RX)
 
 ### Cortex Debug Header
 
 You can use the Cortex Debug Header to program the STM32 firmware and do step-by-step debugging.
 
-This board only support SWD debugging. SWO is not routed to the header, since we had to use the
+The debug header is a 2x05 pin (1.27/0.05”).
+
+This board only support SWD. SWO is not routed to the header, since we had to use the
 pin for a PWM output.
+
+### DFU (USB)
+
+https://www.st.com/en/development-tools/stsw-stm32080.html
 
 ### UART
 
-https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-programmers/flasher-stm32.html#getsoftware-scroll
+https://www.st.com/en/development-tools/flasher-stm32.html
 
 ## LICENSE
 
 CERN OHL version 1.2
+
+The files under PCB/packaegs3d are excluded from this license and are provided under fair use terms for this non-commercial project.

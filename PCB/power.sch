@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 2 10
 Title "Power"
 Date ""
 Rev ""
@@ -677,7 +677,7 @@ Wire Notes Line
 Wire Notes Line
 	700  2400 4950 2400
 Text Notes 3200 2350 2    50   ~ 0
-3V3 Power Supply
+MCU 3V3 Power Supply
 $Comp
 L Mechanical:Mounting_Hole_PAD MK1
 U 1 1 5B0578B3
@@ -976,4 +976,104 @@ Wire Notes Line
 	9350 650  9350 2250
 Wire Wire Line
 	3550 2750 4500 2750
+Text GLabel 5600 2750 0    50   Input ~ 0
+VDD5V
+Wire Wire Line
+	5600 2750 5750 2750
+Wire Wire Line
+	6100 2750 6100 3050
+Wire Wire Line
+	6100 3050 6200 3050
+Connection ~ 6100 2750
+Wire Wire Line
+	6100 2750 6200 2750
+$Comp
+L Device:C C77
+U 1 1 5BB8A1E0
+P 5750 2900
+F 0 "C77" H 5865 2946 50  0000 L CNN
+F 1 "10uF" H 5865 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5788 2750 50  0001 C CNN
+F 3 "~" H 5750 2900 50  0001 C CNN
+	1    5750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C78
+U 1 1 5BB8A1E7
+P 7100 2900
+F 0 "C78" H 7215 2946 50  0000 L CNN
+F 1 "10uF" H 7215 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7138 2750 50  0001 C CNN
+F 3 "~" H 7100 2900 50  0001 C CNN
+	1    7100 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 5750 2750
+Wire Wire Line
+	5750 2750 6100 2750
+Text GLabel 8700 2750 2    50   Input ~ 0
+VDD3V3-SD
+Text Notes 6800 3350 0    50   ~ 0
+min. 600 mA
+$Comp
+L power:GNDPWR #PWR0147
+U 1 1 5BB8A206
+P 7100 3050
+F 0 "#PWR0147" H 7100 2850 50  0001 C CNN
+F 1 "GNDPWR" H 7100 2900 50  0000 C CNN
+F 2 "" H 7100 3000 50  0001 C CNN
+F 3 "" H 7100 3000 50  0001 C CNN
+	1    7100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR0146
+U 1 1 5BB8A20C
+P 6550 3250
+F 0 "#PWR0146" H 6550 3050 50  0001 C CNN
+F 1 "GNDPWR" H 6550 3100 50  0000 C CNN
+F 2 "" H 6550 3200 50  0001 C CNN
+F 3 "" H 6550 3200 50  0001 C CNN
+	1    6550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR0145
+U 1 1 5BB8A212
+P 5750 3050
+F 0 "#PWR0145" H 5750 2850 50  0001 C CNN
+F 1 "GNDPWR" H 5750 2900 50  0000 C CNN
+F 2 "" H 5750 3000 50  0001 C CNN
+F 3 "" H 5750 3000 50  0001 C CNN
+	1    5750 3050
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	9350 2400 9350 3600
+Wire Notes Line
+	9350 3600 5100 3600
+Wire Notes Line
+	5100 3600 5100 2400
+Wire Notes Line
+	5100 2400 9350 2400
+Text Notes 7600 2350 2    50   ~ 0
+SDCARD 3V3 Power Supply
+$Comp
+L remram-custom:AP2112K-3.3TRG1 U10
+U 1 1 5BB8A21D
+P 6550 2850
+F 0 "U10" H 6550 3215 50  0000 C CNN
+F 1 "AP2112K-3.3TRG1" H 6550 3124 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6550 2850 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/115/AP2112-271550.pdf" H 6550 2850 50  0001 C CNN
+	1    6550 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 2750 7100 2750
+Connection ~ 7100 2750
+NoConn ~ 6900 3050
+Wire Wire Line
+	7100 2750 8700 2750
 $EndSCHEMATC

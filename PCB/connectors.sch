@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 9
+Sheet 5 10
 Title "Connectors"
 Date ""
 Rev ""
@@ -452,8 +452,8 @@ F 3 "" H 2500 1500 50  0001 C CNN
 	1    2500 1500
 	0    1    1    0   
 $EndComp
-Text HLabel 5250 1200 2    50   Output ~ 0
-SS_SD
+Text HLabel 5150 1200 2    50   Output ~ 0
+SS_SDLCD
 Text HLabel 3000 1300 2    50   BiDi ~ 0
 LCD_D5
 Text HLabel 2500 1300 0    50   BiDi ~ 0
@@ -1582,8 +1582,6 @@ F 3 "~" H 5000 1300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5250 1200 4850 1200
-Wire Wire Line
 	4850 1100 4850 1000
 Wire Wire Line
 	5150 1000 5250 1000
@@ -1597,4 +1595,6 @@ Text HLabel 5250 1400 2    50   Input ~ 0
 nRESET
 Wire Wire Line
 	4850 1400 5250 1400
+Wire Wire Line
+	5150 1200 4850 1200
 $EndSCHEMATC
