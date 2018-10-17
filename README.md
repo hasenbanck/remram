@@ -36,6 +36,14 @@ Software used KiCad 5.0
 
 You can substitute the TPS5408 with a TPS5402. In this case you also need to replace R4 with a Zero Ohm resistor.
 
+## Compiling the firmware
+
+ 1. [Install Arduino](https://www.arduino.cc/en/Main/Software)
+ 2. [Install the STM32 Core](https://github.com/stm32duino/wiki/wiki/Getting-Started)
+ 3. [Update the STM32 Core using the git repository](https://github.com/stm32duino/wiki/wiki/Using-git-repository)
+ 4. [Download the current git branch of Marlin 2.0](https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x)
+ 5. Open the Marlin project, select the "RemRam V1" board from the Marlin menue, edit the Marlin configuration file and build the project. You need to find the HEX or BIN file that Arduino creates and flash the firmware onto the board (See: "How to flash the firmware").
+
 ## How to flash the firmware
 
 Supported:
