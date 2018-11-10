@@ -679,7 +679,7 @@ Wire Notes Line
 Text Notes 3200 2350 2    50   ~ 0
 MCU 3V3 Power Supply
 $Comp
-L Mechanical:Mounting_Hole_PAD MK1
+L remram-rescue:Mounting_Hole_PAD-Mechanical MK1
 U 1 1 5B0578B3
 P 2250 7250
 F 0 "MK1" H 2350 7301 50  0000 L CNN
@@ -690,7 +690,7 @@ F 3 "" H 2250 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole_PAD MK2
+L remram-rescue:Mounting_Hole_PAD-Mechanical MK2
 U 1 1 5B0578BA
 P 3450 7250
 F 0 "MK2" H 3550 7301 50  0000 L CNN
@@ -701,7 +701,7 @@ F 3 "" H 3450 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole_PAD MK3
+L remram-rescue:Mounting_Hole_PAD-Mechanical MK3
 U 1 1 5B0578C1
 P 4500 7250
 F 0 "MK3" H 4600 7301 50  0000 L CNN
@@ -712,7 +712,7 @@ F 3 "" H 4500 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole_PAD MK4
+L remram-rescue:Mounting_Hole_PAD-Mechanical MK4
 U 1 1 5B0578C8
 P 5500 7250
 F 0 "MK4" H 5600 7301 50  0000 L CNN
@@ -768,9 +768,9 @@ L remram-custom:AP2112K-3.3TRG1 U1
 U 1 1 5B072E31
 P 2150 2850
 F 0 "U1" H 2150 3215 50  0000 C CNN
-F 1 "AP2112K-3.3TRG1" H 2150 3124 50  0000 C CNN
+F 1 "AP7365-33WG-7" H 2150 3124 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2150 2850 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/115/AP2112-271550.pdf" H 2150 2850 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/115/AP7365-86154.pdf" H 2150 2850 50  0001 C CNN
 	1    2150 2850
 	1    0    0    -1  
 $EndComp
@@ -1064,9 +1064,9 @@ L remram-custom:AP2112K-3.3TRG1 U3
 U 1 1 5BB8A21D
 P 6550 2850
 F 0 "U3" H 6550 3215 50  0000 C CNN
-F 1 "AP2112K-3.3TRG1" H 6550 3124 50  0000 C CNN
+F 1 "AP7365-33WG-7" H 6550 3124 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6550 2850 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/115/AP2112-271550.pdf" H 6550 2850 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/115/AP7365-86154.pdf" H 6550 2850 50  0001 C CNN
 	1    6550 2850
 	1    0    0    -1  
 $EndComp

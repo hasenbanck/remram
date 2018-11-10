@@ -2,7 +2,7 @@
 
 [Join us on Discord!](https://discord.gg/f4dmGsn)
 
-![RemRam v1.3](images/remram-v1-3-front.jpg?raw=true)
+![RemRam v1.4](images/remram-v1-4-front.jpg?raw=true)
 
 ## Features
 
