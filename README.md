@@ -40,30 +40,11 @@ You can substitute the TPS5408 with a TPS5402. In this case you also need to rep
 
  1. [Install Arduino](https://www.arduino.cc/en/Main/Software)
  2. [Install the STM32 Core](https://github.com/stm32duino/wiki/wiki/Getting-Started)
- 3. Optional: [Update the STM32 Core using the git repository](https://github.com/stm32duino/wiki/wiki/Using-git-repository)
+ 3. Optional for Serial over USB support: [Update the STM32 Core using the git repository](https://github.com/stm32duino/wiki/wiki/Using-git-repository)
  4. [Download the current git branch of Marlin 2.0](https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x)
  5. Open the Marlin project, select the "RemRam V1" board from the Marlin menue, edit the Marlin configuration file and build the project. You need to find the HEX or BIN file that Arduino creates and flash the firmware onto the board (See: "How to flash the firmware").
 
 ## Configure Marlin
-
-Following change is needed, until a bug is fixed:
-
-```Marlin/src/HAL/HAL_STM32/HAL_timers_STM32.h```:
-```C
-#elif defined STM32F7xx
-
-  #define HAL_TIMER_RATE (F_CPU/2) // frequency of timer peripherals
-
-  #ifndef STEP_TIMER
-    #define STEP_TIMER 2 // <- Was originally "5"
-  #endif
-
-  #ifndef TEMP_TIMER
-    #define TEMP_TIMER 7
-  #endif
-
-#endif
-```
 
 These are the board specific ```Configuration.h``` changes:
 ```C
@@ -71,7 +52,9 @@ These are the board specific ```Configuration.h``` changes:
                       // -1 = Serial over USB (see: Virtual COM Port Support (Serial over USB))
                       // You can also configure SERIAL_PORT_2
 
-#define BAUDRATE 115200
+#define BAUDRATE 115200 // 115200 for UART on EXT3
+                        // 1000000 for Serial over USB
+
 #define MOTHERBOARD BOARD_REMRAM_V1
 
 #define X_DRIVER_TYPE  TMC2130
@@ -136,7 +119,7 @@ These are the board specific ```Configuration_adv.h``` changes:
 
 ```src/pins/pins_REMRAM_V1.h```
 ```C
-// Use only one or the other
+// Use only one or the other (you could damage the hardware otherwise!)
 #define SDSS               57   // Onboard SD card reader
 //#define SDSS              9   // LCD SD card reader
 ```
@@ -146,11 +129,9 @@ Of course you need to aditionally change the configuration files based on your p
 
 ## Virtual COM Port Support (Serial over USB)
 
-Virtual COM Port (also known as VCOM or CDC) support will land in the "official" STM32 arduino core with version 1.5.0. If you want to use VCOM feature earlier, you can use the the ["remram-cdc" branch](https://github.com/hasenbanck/Arduino_Core_STM32).
+Virtual COM Port (also known as VCOM or CDC) support will land in the "official" STM32 arduino core with version 1.5.0. If you want to use VCOM feature earlier, you can use the the [master branch of the offical core](https://github.com/stm32duino/Arduino_Core_STM32).
 
 Have a look at the "[Update the STM32 Core using the git repository](https://github.com/stm32duino/wiki/wiki/Using-git-repository)" on how to update the STM32 arduino core with a custom git branch.
-
-The CDC support in that branch is not battle proven. So you should expect errors until the CDC support lands in the next stable release of the STM32 arduino core.
 
 ## External SD card reader
 
