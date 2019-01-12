@@ -19,7 +19,7 @@ L Connector:Micro_SD_Card_Det_Hirose_DM3AT J24
 U 1 1 5BB94989
 P 6050 3400
 F 0 "J24" H 6000 4217 50  0000 C CNN
-F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 6000 4126 50  0000 C CNN
+F 1 "Hirose DM3D" H 6000 4126 50  0000 C CNN
 F 2 "custom-footprints:microSD_HC_Hirose_DM3D-SF" H 8100 4100 50  0001 C CNN
 F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 6050 3500 50  0001 C CNN
 	1    6050 3400
