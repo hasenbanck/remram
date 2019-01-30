@@ -131,7 +131,7 @@ Of course you need to aditionally change the configuration files based on your p
 
 Virtual COM Port (also known as VCOM or CDC) support will land in the "official" STM32 arduino core with version 1.5.0. If you want to use VCOM feature earlier, you can use the the [master branch of the offical core](https://github.com/stm32duino/Arduino_Core_STM32).
 
-Have a look at the "[Update the STM32 Core using the git repository](https://github.com/stm32duino/wiki/wiki/Using-git-repository)" on how to update the STM32 arduino core with a custom git branch.
+Have a look at the "[Update the STM32 Core using the git repository](https://github.com/stm32duino/wiki/wiki/Using-git-repository)" on how to update the STM32 arduino core with a custom git branch. You also have to select "CDC Full Speed" as USB interface inside Arduino to enable the CDC interface.
 
 ## External SD card reader
 
@@ -162,6 +162,10 @@ The debug header is a 2x05 pin (1.27/0.05”).
 ### DFU (USB)
 
 https://www.st.com/en/development-tools/stsw-stm32080.html
+
+Please pay attention that you don't just flash the HEX/BIN file, but the special DFU image file (*.dfu) you need to create with the "DFU file manager" tool. DfuSe will let you happily flash a HEX/BIN file, but the board won't boot without a propper DFU file.
+
+Please read the "UM0412" user manual you can find at the above link.
 
 ### UART
 
