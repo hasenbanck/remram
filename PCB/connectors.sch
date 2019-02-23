@@ -357,7 +357,7 @@ U 1 1 5B17C4BC
 P 2950 2750
 F 0 "J9" H 3000 3200 50  0000 C CNN
 F 1 "20021121-00010C4LF" H 3000 3100 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 2950 2750 50  0001 C CNN
+F 2 "custom-footprints:PinHeader_2x05_P1.27mm_Vertical_SMD" H 2950 2750 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/18/20021121-1362884.pdf" H 2950 2750 50  0001 C CNN
 	1    2950 2750
 	1    0    0    -1  
