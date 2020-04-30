@@ -1,7 +1,5 @@
 # RemRam - 3D printer controller
 
-[Join us on Discord!](https://discord.gg/f4dmGsn)
-
 ![RemRam v1.5](images/remram-v1-5-front.jpg?raw=true)
 
 ## Features
